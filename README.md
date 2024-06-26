@@ -18,8 +18,8 @@ and verify that
 
 a) all possible cases are covered, 
 
-b) all curvature calculations are as stated
-.
+b) all curvature calculations are as stated.
+
 The interested reader is, therefore, offered two choices 
 
 1) read the original paper and check by hand that all 
