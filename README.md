@@ -5,14 +5,15 @@ Fibonacci groups in the family {f(7,5),f(8,5)} have aspherical presentations.
 In the paper 'The infinite Fibonacci groups and relative asphericity' 
 Trans. London Math. Soc. (2017) 4(1) 148–218, 
 
-accessible, online at
+accessible online at
 
 https://londmathsoc.onlinelibrary.wiley.com/doi/pdf/10.1112/tlm3.12007
 
 Martin Edjvet and Arye Juhász determine various enumerations of 
 possible cases and curvature calculations to show that presentations of the 
-Fibonacci group family defined by {f(7,5),  f(8,5)} are aspherical
+Fibonacci group family defined by {f(7,5), f(8,5)} are aspherical
  and so define infinite groups. 
+
 The python code f75.py aims to follow each step of this  paper
 and verify that 
 
