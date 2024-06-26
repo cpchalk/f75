@@ -1,0 +1,361 @@
+#Proposition 7.4
+# 7.7 cases
+############
+#1 YXYXY Alxyxzb (vertex disp = +4)
+############
+
+#3 vertices of degree >= 4
+YXYXY*Alxyxzb[9,3]{amX|bzx}
+
+#1 vertex degree 4 
+#du3,du8=3
++YXYXY*Alxyxzb[11(7|12),1]
+#du3>=4 or du8>=4
+7;12
+# 2 vertices degree >= 4
+#du3,du7=3
+X[10(7|11),2]
+#du8=3
+X[10(12),2]
+#du8,du3>=4; du8,du7>=4
+12|8;12|11{bzx}
+
+############
+#2 xyxyx bmYXYZA (vertex disp = +4)
+############
+
+#3 vertices of degree >= 4
++xyxyx*bmYXYZA[9,3]{bmY|azy}
+#0 vertices of degree >=4
+X[12]
+#1 vertex of degree >=4
+#du2,du7=3
+X[11(6|11),1]
+#du2>=4,du7>=4
+6;11
+#2 vertices of degree 1
+#du2=3
+X[10(6),2]
+#du3,du7=3
+X[10(7|11),2]
+#du2,du3>=4;du2,dy7>=4
+6|8;6|11
+
+
+############
+#3 xyx bmmYABA (vertex disp = +2)
+############
+
+#4 vertices of degree >= 4
++xyxbmmYABA[6,4]{bmm|bay|baX}
+#0 vertices of degree >=3
+X[10]
+#1 vertex of degree >=4
+#du7=3
+X[9(9),1]{bmm}
+#du7>=4
+9
+#2 vertices of degree >= 4
+#du7=3
+X[8(9),2]{bmm}
+#du2,du8=3
+X[8(4|10),2]{baX}
+#du7,du2>=4,du7,du8>=4
+9|4;9|10
+#3 vertices of degree >= 4
+#du2=3
+X[7(4),3]
+#du7=3
+X[7(9),3]
+#du3=3,du8=3
+X[7(5|10),3]{baX}
+#du2,du7,du3 >=4, du2,du7,du8 >=4
+4|9|5;4|9|10
+
+############
+#4 YXY Allxbab (vertex disp = +2)
+############
+
+#4 vertices of degree >= 4
++YXYAllxbab[6,4]{llx|abx|baX|abY}
+#0 vertices of degree >=3
+X[10]
+#1 vertex of degree >=4
+#du4,du6 and du8=3
+X[9(6|8|10),1]
+#d4>=4,du6>=4 or du8>=4
+6;8;10
+#2 vertices of degree >=4
+#du2=3 and du6=3
+X[8(3|4|8),2]{llx|abY}
+#du4=3 and du8=3
+X[8(6|10),2]
+#du2,du4>=4 or du2,du8>=4 or du6,du4>=4 or du6,du8>=4 (du=4,du>4)
+4|6;4|10;8|6{llx|abx};8|10{abx|abY|u4E};8|10{abx|abY|u5E}
+# 3 vertices of degree >=4
+#du4,du6 or du8 = 3
+X[7(3|6),3]{abx|abY};X[7(3|8),3]{abY};X[7(3|10),3]{abx}
+#du4,du6 and du8>=4
+4|6|8
+
+############
+#5 yxyxy BZZXmma (vertex disp = +4)
+############
+
+#3 vertices of degree >= 4
++yxyxyBZZXmma[9,3]{bzz|llx}
+#0 vertices of degree >=3
+X[12]
+#1 vertex of degree >=4
+#du2,du6=3
+X[11(6|10),1]
+#du2>=4 or du6>=4
+6;10
+#2 vertices of degree 1
+#du2=3
+X[10(6),2]
+#du2>=4 and dun >=4 (n=3,4,5,6,7,8)
+6|7;6|8;6|9;6|10;6|11;6|12
+
+############
+#6 XYXYX azzyllB (vertex disp = +4)
+############
+
+#3 vertices of degree >= 3
++XYXYXazzyllB[9,3]{yzz|bmm}
+#0 vertices of degree >=3
+X[12]
+#1 vertex of degree >=4
+#du4,du8=3
+X[11(8|12),1]
+#du4>=4,du8>=4
+8;12
+#2 vertices of degree 1
+#du8=3
+X[10(12),2]
+#du2,du4=3
+X[10(5|6|8),2]{bmm}
+#du8,du2>=4;du8,dy4>=4
+12|6;12|8
+
+############
+#7 XYX mayxylB (vertex disp = +2)
+############
+
+#3 vertices of degree >= 3
++XYX*mayxylB[7,3]{amX|bmY}
+#0 vertices of degree >=3
+X[10]
+#1 vertex of degree >=4
+#du2,du8=3
+X[9(4|10),1]
+#du2>=4,du8>=4
+4;10
+#2 vertices of degree 1
+#du8=3
+X[8(10),2]
+#du2,du7=3
+X[8(4|9),2]
+#du8,du2>=4 and du8,du7>=4
+10|4;10|9{bmY}
+
+############
+#8 YXY Alxyxbm(vertex disp = +2)
+############
+
+#3 vertices of degree >= 4
++YXY*Alxyxbm[7,3]{amX|bmY}
+#0 vertices of degree >=3
+X[10]
+#1 vertex of degree >=4
+#du3,du7=3
+X[9(5|9),1]
+#du3>=4,du7>=4
+5;9
+#2 vertices of degree 1
+#du7=3
+X[8(9),2]{amX}
+#du2,du3=3
+X[8(3|4|5),2]{bmY}
+#du7,du2>=4d and du7,dy3>=4
+9|4;9|5
+
+############
+#9 xyx babYZZA (vertex disp = +2)
+############
+
+#4 vertices of degree >= 3
++xyxbabYZZA[6,4]{abx|abY|yzz}
+#0 vertices of degree >=3
+X[10]
+#1 vertex of degree >=4
+#du2,du4=3
+X[9(4|6),1]
+#du2>=4,du3>=4
+4;6
+#2 vertices of degree >=4
+#du2=3 and du4=3
+X[8(4|6),2]
+#du2=3 and du8=3
+X[8(1|3|4|10),2]{yzz|abY}
+#du2,du4>=4, du2,du8>=4 or du4,du8>=4
+4|6{abx|abY|u4F};4|10;6|10
+#3 vertices of degree >=4
+#du2=3 or du4=3
+X[7(1|3|4),3]{abY};X[7(1|3|6),3]{yzz}
+#du6 =3 and du8=3
+X[7(1|3|8|10),3]{abx}
+#du2,du4 and du6>=4 or du2,du4 and du8>=4
+4|6|8{abx|abY|azz};4|6|10
+
+############
+#10 xyx zbmYZZA(vertex disp = +2)
+############
+
+#3 vertices of degree >= 4
++xyxzbmYZZA[7,3]{bzx|bmY|yzz}
+# 0 vertices >=4
+X[10]
+#1 vertex >=4
+du3=3,du6=3
+X[9(5|8),1]
+5;8
+X[8(5|8),2]
+5|3;5|4;5|6;5|7;5|8;5|9;5|10
+8|3;8|4;8|6;8|7;8|9;8|10
+
+#3 vertices of degree >= 4
++xyxzbmYZZA[7,3]{bzx|bmY|yzz}
+
+############
+#11 YXY ZAlxzzb (vertex disp = +2)
+############
+
+#4 vertices of degree >= 3
++YXYZAlxzzb[6,4]{azy|amX|bzz}
+#0 vertices of degree >=3
+X[10]
+#1 vertex of degree >=4
+#du2,du4 and du8=3
+X[9(1|2|3|4|6|10),1]
+#du2,du4 or du8 >= 4
+4;6;10
+#2 vertices of degree >= 4
+#du2 and du4 = 3
+X[8(1|2|3|4|6),2]{bzz}
+#du2 and du8 = 3
+X[8(1|2|3|4|10),2]
+#du2,du4>=4,du2,du8>=4 or du4,du8>=4
+4|6;4|10;6|10
+# 3 vertices of degree >=4
+#du2,du4,du7 or du8=3
+X[7(1|2|3|4),3]{amX|bzz};X[7(1|2|3|6),3]{azy|bzz}
+X[7(1|2|3|9),3]{azy|amX};X[7(1|2|3|10),3]{azy|amX}
+
+############
+#12 YXY ABAxzzb(vertex disp = +2)
+############
+
+#4 vertices of degree >= 4
++YXYABAxzzb[6,4]{bay|baX|bzz}
+#0 vertices of degree >=3
+X[10]
+#1 vertex of degree >=4
+#du3=3
+X[9(1|2|3|5|10),1]
+#du3 >= 4
+5;
+#2 vertices of degree >= 4
+#du7 and du8 = 3
+X[8(1|2|3|9|10),2]{bay|baX}
+#du3,du7>=4 or du3,du8>=4
+5|9;5|10
+# 3 vertices of degree >=4
+#du5 and du6=3 or du8=3
+X[7(1|2|3|7|8),3]{bay|baX};X[7(1|2|3|10),3]{bay|baX}
+#du3,du8 and du5>=4  or du3,du8 and du6>=4
+5|10|7;5|10|8
+
+############
+#13 xyx zbYXYZA (vertex disp = +2)
+############
+
+#3 vertices of degree >= 3
++xyx*zbYXYZA[7,3]{bzx|azy}
+#0 vertices of degree >=3
+X[10]
+#1 vertex of degree >=4
+#du2,du3 and du8=3
+X[9(1|2|3|4|5|10),1]
+#du2,du3 or du8 >= 4
+4;5;10
+#2 vertices of degree >= 4
+#du2 = 3 or du3 = 3
+X[8(1|2|3|4),2]{azy};X[8(1|2|3|5),2]{azy}
+#du2 and du3>=4
+4|5{bzx}
+
+############
+#14 YXY ZAxyxzb(vertex disp = +2)
+############
+
+#3 vertices of degree >= 4
++YXY*ZAxyxzb[7,3]{azy|bzx}
+#0 vertices of degree >=3
+X[10]
+#1 vertex of degree >=4
+#du2 and du8=3
+X[9(1|2|3|4|10),1]
+#du2 or du8 >= 4
+4;10
+#2 vertices of degree >= 4
+#du8 = 3 or du6 = 3 and du6 and du7=3
+X[8(1|2|3|10),2]{azy};X[8(1|2|3|8|9),2]{azy}
+#du8 and du6>=4 or du8 and du7>=4 
+10|8;10|9{bzx}
+
+############
+#15 xyx bmmYZAl (vertex disp = +2)
+############
+
+#4 vertices of degree >= 4
++xyxbmmYZAl[6,4]{bmm|azy}
+#0 vertices of degree >=3
+X[10]
+#1 vertex of degree >=4
+#du2 and du6=3
+X[9(1|2|3|4|8),1]{amX}
+#du2 or du6 >= 4
+4;8
+#2 vertices of degree >= 4
+#du2 = 3 or  du6 and du8=3
+X[8(1|2|3|4),2]{azy|amX};X[8(1|2|3|8|10),2]{bmm}
+#du2 and du6>=4 or du2 and du8>=4 
+4|8;4|10
+# 3 vertices of degree >=4
+#du2 or du6=3 or du8=3
+X[7(1|2|3|4),3];X[7(1|2|3|8),3]{bmm|amX};X[7(1|2|3|10),3]{bmm|azy}
+#du2,du6 and du8>=4
+4|8|10
+
+############
+#16 YXY Allxzbm(vertex disp = +2)
+############
+
+#3 vertices of degree >= 4
++YXYAllxzbm[7,3]{llx|bzx|bmY}
+#0 vertices of degree >=3
+X[10]
+#1 vertex of degree >=4
+#du4 and du8=3
+X[9(1|2|3|6|10),1]
+#du4 or du8 >= 4
+6;10
+#2 vertices of degree >= 4
+#du8 = 3 or du6 = 3 or du4 = 3
+X[8(1|2|3|10),2]{llx|bzx};X[8(1|2|3|8),2]{llx|bmY};X[8(1|2|3|6),2]{bmY}
+
+
+
+
+ 

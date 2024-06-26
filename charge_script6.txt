@@ -1,0 +1,53 @@
+####Proposition 7.5 calculations
+#  
+#i) part 1
+#in 3,3,3/4 case
+# or du>=5 and XY sequence length>=2
+#(deficit increased by 6)
+deficit<12 YAlx|XYA
+#i) part 2
+# in 3,3,3 case
+# du>5 and XY sequence length = 1
+#deficit increased by 3 but matches with 7.1xi
+deficit<9  YAlx|XYA
+#ii)
+deficit<12 ylBX|lBX
+#iii)
+# in 3,3,3 case
+# du>=4
+#deficit increased by 6
+deficit<12 Xazy|YXa
+#iv)
+deficit<12 yBZX|yBZ
+#v)
+deficit<6 Xmmay
+#vi)
+deficit<6 yllBX
+#vii)
+deficit<6 YAlxy
+#viii)
+deficit<6 ylBXY
+#ix)
+deficit<6 Xmayx
+#x)
+deficit<9 xbmYX
+#xi)
+deficit<6 YXazy
+#xii)
+deficit<6 xyBZX
+#xiii)
+deficit<6 Xabay|aba
+#xiv)
+deficit<6 yBABX|xyBABXY
+#xv) 
+deficit<6 Xmazy|YXmazyx
+#xvi)
+deficit<6 ylBZX
+#xvii)
+deficit<6 yBZXY
+#xviii)
+deficit<6 Xazyx
+#xix)
+deficit<6 Xazzy
+#xx)
+deficit<6 yBZZX

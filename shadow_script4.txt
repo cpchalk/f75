@@ -1,0 +1,113 @@
+# Shapes with B segments
+# digits and letters>=p are members of B segment
+# letters >=p need not exist 
+# letters <p are not in a B segment
+# Rules regarding  B segment vertices 
+# R1  a B segment vertex must go somewhere with an odd number of edges
+#     if such a vertex cant go anywhere, without breaking a rule its said
+#     to be 'cut off'
+# R2  2 vertices of the same B segment cannot join
+# R3  3 vertices of the same B segment cannot join to the same vertex
+# R3'   2 vertices of the same B segment and an adjacent vertex not
+# cannot join to the same vertex
+# n2 <=8, 2 B-segments  - case 4,4
+# 2-edge : shadow edge which skips 1 vertex only and so joins the
+#          end points of 2 adjacent boundary edges
+# nX :  indicates that a shadow edge starting at vertex n cant be placed
+# # choice level 1, ## choice level 2, ### choice level 3 etc
+# #, ## or ## returning to next choice at level 1,2 or 3 respectively 
+# forces xy : when shadow edge xz or zy is a 2 edge it has length 6, therefore
+# a shadow edge must join either x with y where zy or zx is a boundary edge
+# obliges ny : when number n starts an even number of shadow edges it must start
+#              another shadow edge in order to start an odd number of shadow edges.
+# by symmetry : imagine the diagram flipped horizonally or vertically and
+#  the vertices relabelled to give an identical diagram
+# if choice is only 1 then the choice is simply added as an edge
+# 
+show
+*a,b,c,1,2,f,e,d,3,4
+# # 0 2-edges
+# ## 1a,1f,1e,1d
+1a
+# ###  2a,2d
+1a,2a
+
+# #### 4d,4e,4f
+1a,2a,4d,3X
+1a,2a,4e,3X
+1a,2a,4f,3f,ch1
+# ###
+1a,2d,4d,3X
+# ##
+1f,2X
+1e,2X
+1d,2d,4d,3X
+# # >=1 2-edges
+# ## 2-edge joins letters only - assume by symmetry ac
+ac
+# ## forces 1a or 4c  by symmetry assume 1a
+ac,1a
+# ### 2a, 2d
+ac,1a,2a,ch2
+ac,1a,2d,4d,3X
+# ## there is   2-edge joining a letter and number -
+#    assume by symmetry its 1b
+1b
+# ### forces 1a, bx or b2 
+1b,1a
+# #### obliges 1f,1e,or 1d
+1b,1a,1f,2X
+1b,1a,1e,2e
+# forces ex
+*a,b,c,1,x,2,f,e,d,3,4
+1b,1a,1e,2e,ex,ch2
+1b,1a,1d,4d,3X
+# ###
+1b,bx
+# #### 2b,2a,2e,2d
+1b,bx,2b,ch2
+1b,bx,2a
+# ##### 4d,4e,4f
+1b,bx,2a,4d,3X
+
+1b,bx,2a,4e,3e
+# ###### forces ey or no y
+*a,b,c,1,x,2,f,e,d,3,y,4
+1b,bx,2a,4e,3e,ey,ch2
+*a,b,c,1,x,2,f,e,d,3,4
+1b,bx,2a,4e,3e,ch1
+# ###### ea,af
+1b,bx,2a,4e,3e,ea,ch2
+1b,bx,2a,4e,3e,af,ch1
+1b,bx,2a,4f
+# ###### 3f,3e
++3f,ch1
+-,3e,ch1
+# ####
+*a,b,c,1,x,2,f,e,d,3,4
+1b,bx,2e
+# ##### forces 2d or ex
+1b,bx,2e,2d
+# ###### obliges 2a (case covered) or 2b
+1b,bx,2e,2d,2b,ch2
+# #####
+1b,bx,2e,ex
+# 6# obliges xa or xd
+1b,bx,2e,ex,xa,4e,3e,ch1
+1b,bx,2e,ex,xa,xd,4d,3X
+# ####
+1b,bx,2d,4d,3X
+# ###
+*a,b,c,1,2,f,e,d,3,4
+1b,b2
+# ##### 4b,4e,4f
+1b,b2,4b
+# ###### 3b,3e,3f
+1b,b2,4b,3b,ch1
+1b,b2,4b,3e,ch1
+1b,b2,4e,3e,ch1
+diag
+1b,b2,4e,3e,af,ch1,ch2
+
+
+

@@ -1,0 +1,110 @@
+#Proposition 7.4
+# 7.6 cases
+############
+#1 XYX azy xy BZ
+############
+
+#1 vertex degree 4 du6
++XYXazyxyBZ[9,1(6)]
+#2 vertices degree >=4
+4|6;5|6;9|6;10|6
+#3 vertices degree >=4
+#du5=3
++XYXazyxyBZ[7(1|2|3|7|8|5),3(6)]{m2|f12}
+#du10=3
++XYXazyxyBZ[7(1|2|3|7|8|10),3(6)]{m2|f12}
+# du6,du5,du10 >=4
+5|6|10
+#4 vertices of degree >=4
++XYXazyxyBZ[6(1|2|3|7|8),4(6)]{m2|f12}
+
+############
+#2 yxy BZX YX az
+############
+
+#1 vertex degree 4 du6
++yxyBZXYXaz[9,1(6)]
+#2 vertices degree >=4
+4|6;5|6;9|6;10|6
+#3 vertices degree >=4
+#du10=3
++yxyBZXYXaz[7(1|2|3|7|8|10),3(6)]
+6|10|4;6|10|5;6|10|9
+#4 vertices of degree >=4
++yxyBZXYXaz[6(1|2|3|7|8),4(6)]{f12}
+
+
+############
+#3 xy xzbY XY ZA
+############
+
+# 3 vertices degree>=4
++xyxzbYXYZA[7(1|2|7|8),3(3|6)]
+# 2 vertices of degree 4 - must be 3 and 6
+3|6
+
+############
+#4 YX YZax yx zb
+############
+
+# 3 vertices degree>=4
++YXYZaxyxzb[7(1|2|7|8),3(3|6)]
+# 2 vertices of degree 4 - must be 3 and 6
+3|6
+
+############
+#5 YXY ZZA xyx zzb
+############
+# no vertices of degree >=4
++YXYZZAxyxzzb[12]
+# one vertex of degree >=4
+4;5;6;10;11;12
+
+# 2 vertices of degree >=4
+#du4,du5=3
++YXYZZAxyxzzb[10(1|2|3|4|5|7|8|9),2]{m6}
+#du10,du11=3
++YXYZZAxyxzzb[10(1|2|3|7|8|9|10|11),2]
+#du12=3
++YXYZZAxyxzzb[10(1|2|3|7|8|9|12),2]
+
+# 3 vertices of degree >=4
++YXYZZAxyxzzb[9(1|2|3|7|8|9),3]{m6}
+
+############
+#6 YX YZA xy xzb
+############
+# 3 vertices of degree >=4
++YXYZAxyxzb[7(1|2|3|7|8|9),3]{m2}
+# 2 vertices of degree >=4
+3|8
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                         
+                         
+                         
+

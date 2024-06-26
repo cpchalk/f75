@@ -1,0 +1,247 @@
+
+# 8 gons - charges for A-type *, B-type +
+#*llllBAll
+#*yllBXmma
+#*AlxzbmYZ
+#*AlxbabYZ
+#*BAxzbmYA
+#*BAxbabYA
+#*ZAxbmayB
+#*xbYXayBA
+#*XazzyBZZ
+#*zbYXYAlx
+#*ZAxyxbmY
+#*llllBAlll
+
+#Proposition 6.3 8-gons with no B regions have non-positive curvature
+############
+#1. llllBAll uses fact 4 and fact 6
+############
+# fact 4 implies that ll has max average degree <=2.4 ((4+0+4+0+4)/5)
+# NB if llllll is 6 0 6 0 6 then there are 3 > deg 4 vertices each giving
+# a surplus of -3 to each 6 reducing it to 3 0 3 0 3
+# so we treat average as 2 as add 2 on at the end
+# fact 6 says max charge for bam is 8,4
+#3 vertices of degree >=4
+*llllBAll[5,3]{f4|f6|+2}
+#no vertices of degree >= 4
+*llllBAll[8]{f4|+2}
+# 1 vertex of degree >=4
+#du5=3
+*llllBAll[7(5),1]{f4|+2}
+#du5=4
+*llllBAll[7(4|6),1(5)]{f4|f6|+2}
+# 2 vertices of degree u5 and one of 1,2,3,7,8
+*llllBAll[6(4|6),2(5)]{f4|f6|+2}
+#du4 and du5>=4, du5 and du6 >=4
+4|5{f4|f6|+2};5|6{f4|f6|+2}
+
+############
+#2. yllBXmma 
+############
+#3 vertices of degree >=4
+*yllBXmma[5,3]{f7}
+#no vertices of degree >= 4
+*yllBXmma[8]
+# 1 vertex of degree >= 4
+1;2;3;4;5;6;7;8
+#2 vertices of degree >=4
+#du3,du4,du5=3
+*yllBXmma[6(3|4|5),2]
+#du4,du5,du6=3
+*yllBXmma[6(4|5|6),2]
+# leaves 14 cases to consider
+1|4;1|5;2|4;2|5;3|4;3|5;3|6;4|5;4|6;4|7;4|8;5|6;5|7;5|8
+
+############
+#3. AlxzbmYZ 
+############
+
+#2 vertices of degree >=4
+*AlxzbmYZ[6,2]{f8|f9|f10}
+#0 vertices of degree >=4
+*AlxzbmYZ[8]
+#1 vertices of degree >=4
+1;2;3;4;5;6;7;8
+
+############
+#4.AlxbabYZ using max charges m1,m2,m3,m4 derived from 5.8/9/10
+############
+
+#4 vertices of degree >=4
+*AlxbabYZ[4,4]{m1|m2|m3|m4}
+#0 vertices of degree >=4
+*AlxbabYZ[8]
+#1 vertex of degree >=4
+1;2;3;4{m3};5;6{m4};7;8
+#2 vertices of degree >=4
+#du4=3
+*AlxbabYZ[6(4),2]{m4|m2|m1}
+#du6=3
+*AlxbabYZ[6(6),2]{m1|m2|m3}
+#du4>3,du6>3
+# cases ab charge is 9, 7 or 8 - need that max charge abx and abY is 9
+# (for simplicity charges for ba and ab are assumed to be the same)
+# the mustbe423x fact needs a bit of explaining!!!
+4|6{abx90|abY90}
+4|6{not47xii|not47xiii|bab77}
+4|6{mustbe423x1|mustbe423x2|bab88}
+
+# 3 vertices of degree > 3
+#du2=3, du8=3
+*AlxbabYZ[5(2|8),3]{m4|m3}
+#du4=3
+*AlxbabYZ[5(4),3]{m1|m2}
+#du6=3
+*AlxbabYZ[5(6),3]{m1|m2}
+# i,j,k must be 2,4,6 or 8,4,6
+2|4|6{m3|m4};4|6|8|*{m3|m4};4|6|8{m3|m4|-6}
+
+############
+#5. BAxzbmYA
+############
+
+#3 vertices of degree >=4
+*BAxzbmYA[5,3]{f14|f12|f11}
+#0 vertices of degree >=4
+*BAxzbmYA[8]
+#1 vertices of degree >=4
+1;2;3;4;5;6;7;8
+#2 vertices of degree >=4
+#du1=3
+*BAxzbmYA[6(1),2]{f12|f11}
+#du5=3
+*BAxzbmYA[6(5),2]{f14}
+#du1>3,du5>3
+1|5{f14|f12}
+
+############
+#6.BAxbabYA
+############
+
+#4 vertices of degree >=4
+*BAxbabYA[4,4]{f14|m3|m4}
+#0 vertices of degree >=4
+*BAxbabYA[8]
+#1 vertex of degree >=4
+1;2;3;4;5;6;7;8
+#2 vertices of degree >=4
+#du1=3
+*BAxbabYA[6(1),2]{m3|m4}
+1|2;1|3{f14};1|4{f14|m3}{;1|5;1|6{f14|m4};1|7{f14};1|8
+#3 vertices of degree >=4
+#du1=3
+*BAxbabYA[5(1),3]{m3|m4}
+#du4=3
+*BAxbabYA[5(4),3]{m4}
+#du6=3
+*BAxbabYA[5(6),3]{m3}
+#du1>3,du4>3,du6>3
+1|4|6|*{m3|m4|notbothabpos};1|4|6{f14|m3|m4|-6}
+
+############
+#7.ZAxbmayB
+############
+
+#2 vertices of degree >=4
+*ZAxbmayB[6,2]{f15|f16}
+#0 vertices of degree >=4
+*ZAxbmayB[8]
+#1 vertices of degree >=4
+1;2;3;4;5;6;7;8
+
+############
+#8.xbYXayBA
+############
+
+#3 vertices of degree >=4
+*xbYXayBA[5,3]
+#0 vertices of degree >=4
+*xbYXayBA[8]
+#1 vertices of degree >=4
+1;2;3;4;5;6;7;8
+#2 vertices of degree >=4
+#du2=3
+*xbYXayBA[6(2),2]
+#du7=3
+*xbYXayBA[6(7),2]
+#du2>3,du7>3
+2|7
+
+############
+#9.XazzyBZZ
+############
+
+#3 vertices of degree >=4
+*XazzyBZZ[5,3]{m5|m6}
+#0 vertices of degree >=4
+*XazzyBZZ[8]
+#1 vertex of degree >=4
+1;2;3;4;5;6;7;8
+#2 vertices of degree >=4
+#du4/5/6=3
+*XazzyBZZ[6(4|5|6),2]
+#du5/6/7=3
+*XazzyBZZ[6(5|6|7),2]
+1|5;1|6;2|5;2|6;3|5;3|6;4|5;4|6;4|7;5|6;5|7;5|8;6|7;6|8
+
+############
+#10. zbYXYAlx
+############
+
+#3 vertices of degree >=4
+*zbYXYAlx[5,3]{f8|f12}
+#0 vertices of degree >=4
+*zbYXYAlx[8]
+#1 vertices of degree >=4
+1;2;3;4;5;6;7;8
+#2 vertices of degree >=4
+#du1=3
+*zbYXYAlx[6(1),2]{f8}
+#du2=3
+*zbYXYAlx[6(2),2]{f8|f12}
+#du1>3,du2>3
+1|2{f8|f12}
+
+############
+#11. ZAxyxbmY 
+############
+
+#3 vertices of degree >=4
+*ZAxyxbmY[5,3]{f9|f11}
+#0 vertices of degree >=4
+*ZAxyxbmY[8]
+#1 vertices of degree >=4
+1;2;3;4;5;6;7;8
+#2 vertices of degree >=4
+#du6=3
+*ZAxyxbmY[6(6),2]{f9}
+#du7=3
+*ZAxyxbmY[6(7),2]{f9}
+#du6>3,du7>3
+6|7{f9|f11}
+
+############
+#12. llllBAlll uses fact 4 and fact 6  (length 9 case)
+############
+# fact 4 implies that ll has max average degree <=2 ((4+0+4+0+4+0)/6)
+# NB if llllll is 6 0 6 0 6 0 then there are 3 > deg 4 vertices each giving
+# a surplus of -3 to each 6 reducing it to 3 0 3 0 3 0
+# so we treat average as 2 
+# fact 6 says max charge for bam is 8,4
+#3 vertices of degree >=4
+*llllBAlll[6,3]{f4|f6}
+#no vertices of degree >= 4
+*llllBAlll[9]{f4}
+# 1 vertex of degree >=4
+#du5=3
+*llllBAlll[8(5),1]{f4}
+#du5=4
+*llllBAlll[8(4|6),1(5)]{f4|f6}
+# 2 vertices of degree >= 4,  u5 and one of 1,2,3,7,8,9
+*llllBAlll[7(4|6),2(5)]{f4|f6}
+# degrees of u4 and u5 >= 4, u5 and u6 >=4
+*llllBAlll[7,2(4|5)]{f4|f6}
+*llllBAlll[7,2(5|6)]{f4|f6}
+
+

@@ -1,0 +1,76 @@
+=aba,3,4,3,7,7,7.5,5.10
+=YXmazyx,3,3,3,3,3,3,3,9,0,6,6,0,9,7.5,ConfigC/D see p58
+=xyBABXY,3,3,4,3,4,3,3,10,4,6,6,4,10,7.5,ConfigA/B see p59
+=ayx,3,3,3,0,4,u4E,4.30ii
+=XYA,3,3,3,7,0,xx,4.30ii
+=XYA,3,3,3,4,0,xx,4.30ii
+=yxy,3,3,3,7,7,u5E,4.30ii
+=aXY,3,3,3,0,4,u4F,4.30iii
+=YXa,3,3,3,4,0,u4F,4.30iii
+=xyx,3,3,3,7,7,u5F,4.30iii
+=yBZ,3,4,4,0,7,f1,fact1  (charges 4 7 not possible)
+=lBX,4,4,3,7,0,f2,fact2 (charges 7 4 not possible)
+=abY,3,4,3,7,4,f3,fact3 (charges 9 4 not possible)
+=lll,0,0,0,2,2,f4,5.8 (average charge per edge 2 and a bit)
+=abm,3,4,4,7,7,f5,5.10
+=bam,0,3,3,8,4,f6,5.8 
+=bmm,4,4,0,7,0,f7,5.8
+=amX,0,4,0,0,7,f8,5.8
+=azy,0,4,3,0,7,f9,5.8
+=lBZ,0,4,4,2,7,f10,5.8
+=bmY,4,4,0,7,0,f11,5.8
+=bzx,4,4,0,7,0,f12,5.8
+=aba,3,4,0,7,7,f14,5.10
+=amb,0,4,4,0,7,f15,5.10
+=azb,0,4,4,0,7,f16,5.10
+=amX,0,0,0,4,4,m1,5.10
+=azy,0,0,0,4,4,m2,5.10
+=abx,0,0,0,7,4,m3,5.10
+=abY,0,0,0,7,4,m4,5.10
+=bxl,4,3,3,2,0,not47xii,4.07xii
+=bYZ,4,3,3,2,0,not47xiii,4.07xiii
+=abx,3,4,3,9,0,abx90,5.9
+=abY,3,4,3,9,0,abY90,5.9
+=bab,4,3,4,7,7,bab77,suppose its 7
+=bab,4,3,4,8,8,bab88,suppose its 8
+=abx,3,4,3,8,1,mustbe423x1,because l vertex has degree 3
+=abY,3,4,3,8,1,mustbe423x2,because z vertex has degree 3
+=aba,3,4,3,9,0,notbothabpos,because b not adjacent to b 2x
+=yzz,0,0,0,4,4,m5,5.10
+=bzz,0,0,0,4,4,m6,5.10
+#  rules used in 7.7 (more logical?)
+=aba,3,4,4,7,5,aba,5.10
+=abm,3,4,3,8,1,abm,5.10
+=abz,3,4,3,8,1,abz,5.10
+=abx,0,0,0,7,4,abx,5.10
+=abY,0,0,0,7,4,abY,5.10
+=amb,0,0,0,7,3,amb,5.10
+=amX,0,0,0,7,3,amX,5.10
+=azy,0,0,0,7,3,azy,5.10
+=azb,0,0,0,7,3,azb,5.10
+=azz,3,3,4,6,0,azz,5.10 3zz4 from hex is 0
+=baX,0,0,0,7,3,baX,5.10
+=bay,0,0,0,7,3,bay,5.10
+=bmm,0,0,0,7,3,bmm,5.10
+=bmY,0,0,0,7,0,bmY,5.10
+=bzx,0,0,0,7,0,bzx,5.10
+=bzz,0,0,0,7,3,bzz,5.10
+=llx,0,0,0,7,3,llx,5.10
+=llB,0,0,0,7,3,llB,5.10
+=lBX,0,0,0,7,3,lBX,5.10
+=yzz,0,0,0,7,3,yzz,5.10
+=abm,0,0,0,5,5,abmm1,5.10
+=bmm,0,0,0,5,5,abmm2,5.10
+=abm,0,0,0,5,5,abma1,5.10
+=amb,0,0,0,5,5,abma2,5.10
+=abz,0,0,0,5,5,abzz1,5.10
+=bzz,0,0,0,5,5,abzz2,5.10
+=abz,0,0,0,5,5,abza1,5.10
+=azb,0,0,0,5,5,abza2,5.10
+
+
+
+
+
+
+

@@ -1,0 +1,326 @@
+4.00
+# This file encodes the figures 4.1 to 4.32 contained in the technical report
+# 'The infinite Fibonacci groups and relative asphericity'
+# by M.Edjvet and A.Juhasz
+# 4-sided regions are described by the 4 vertices, joining the 4 edges, which are 
+# encountered in the clockwise direction. A vertex is described by its successive angles 
+# read in a clockwise direction.
+# The angles are represented by letters a,A,b,B,x,X,y,Y,z,Z,l,m. These correspond to 
+# the letters of the technical report, a, a bar, b, b bar, x, x bar, y, y bar, z, z bar,
+# lamda,mu. The first letter of a vertex label is the angle 
+# contained in the corner of the region being described read in a clockwise direction.
+# Successive vertices are separated by a comma and describe an edge joining the two vertices, 
+# the start vertex and end vertex of the edge read in a clockwise direction from within the 
+# region being described.
+# If the described edge receives a charge n from the region, the  end vertex label is 
+# appended with the digit n. 
+# When vertices are defined, they are given a number M, allocated in ascending order. 
+# This number starts from 1 in each configuration. 
+# If a vertex is referred to again, then it is written in the form Mp where p is the letter 
+# contained in the corner of the region being described.
+# If not all angles of a vertex are known, then the description n. is used. This indicates >=n more
+# edges (read in a clockwise direction). So this represents n+1 extra angles. 
+# The description n= indicates that there are exactly n more edges.
+# Two or more regions are separated by ';''s. Each configuration has the label 4.nr where 4.n precedes the
+# group of configurations and r precedes the description of regions.
+# Charges are normally specified by an integer representing the number of 1/30'ths of charge. If another
+# fraction is involved then the format NDDD is used to represent N/DDD eg 1012 represents 1/12.
+4.01 
+ii,xYa5,bmz5,Yax5,AyX5
+iii,xYa,bmz5,Yax5,A4.
+iv,xYa1,bmz5,Yax5,AlYxZ1
+v,xYa,bmz6,Yax6,AAAAA
+vi,xYa5,bmz5,Yax5,AAlZ
+vii,xYa,bmz5,Yax5,AlZA5
+4.02
+i,xYa5,bmz5,Y4.,AyX
+ii,xYa5,bmz5,YzmxB2,AyX
+iii,xYa5,bmz5,YxZAl2,AyX
+iv,xYa6,bmz6,YxBB3,AyX
+4.03
+i,xYa6,b3.,Yax,AyX6
+ii,xYa5,bXyb,Yax5,AyX5
+vi,x3.,bmz,Yax6,AyX6
+vii,xBBY,bmz3,Yax6,AyX6
+4.04
+i,xYa,bmz4,Y3.1,A3.
+i,xYa,bmz4,Y2.1,A4.
+i,xYa,bmz4,Y4.1,A2.
+ii,xYa,bmz4,YxZAl2,AAlZ1
+iii,xYa,bmz4,YxZAl2,AlZA1
+iv,xYa,bmz4,YxZAl2,AlZA1
+v,xYa,bmz4,YzmxB2,AAlZ1
+vi,xYa,bmz4,YxBB3,A3=
+vii,xYa,bmz4,YxBB3,AAlZ3;3b
+viii,xYa,bmz4,YxBB3,AlZA3;3b
+4.05
+i,x3.,bmz1,YAx4,A3.
+i,x2.,bmz1,YAx4,A4.
+i,x4.,bmz1,YAx4,A2.
+ii,xZAlY2,bmz,Yax4,AlZA1
+iii,xBYzm2,bmz,Yax4,AlZA1
+iv,xZAlY2,bmz1,Yax4,AlZA
+v,xBYzm2,bmz1,Yax4,AAlZ
+vi,xBBY,bmz3,Yax4,A4=
+vii,xBBY3,bmz3,Yax4,AAlZ;3b
+viii,xBBY3,bmz3,Yax4,AlZA;3b
+4.06
+i,x.,b.,Yax,AyX10
+ii,xYa10,b.,Y.,AyX
+4.07
+i,x4.,bmz2,YxBB3,AyX
+ii,xZAlY2,bmz2,YxBB3,AyX
+iii,xBYzm,bmz4,YxBB3,AyX
+iv,xBBY,bmz3,Y4.2,AyX
+v,xBBY,bmz3,YxZAl2,AyX2
+vi,xBBY,bmz3,YzmxB4,AyX
+vii,xZAlY,bmz2,Y4.,AyX
+viii,xBYzm,bmz2,Y4.,AyX
+ix,x4.,bmz,YxZAl,AyX2
+x,x4.,bmz,YzmxB2,AyX
+x,xZAlY,bmz2,YxZAl,AyX2
+x,xBYzm,bmz2,YxZAl,AyX2
+x,xZAlY,bmz2,YzmxB2,AyX
+x,xBYzm,bmz2,YzmxB2,AyX
+
+xi,xBBY2,bmz3,YxBB3,AyX2;4y,3B,*3;1B,4X,*3
+xii,xBBY4,bmz3,YxBB3,AyX;4y,3B,*2;3b
+xiii,xBBY,bmz3,YxBB3,AyX4;3b
+4.08
+ii,xBBY2,bmz3,YxBB3,AyX2;4y2,3B,X3.,a2.m
+iii,xBBY2,bmz3,YxBB3,AyX2;4y2,3B,Xybb,azXym2
+iv,xBBY2,bmz3,YxBB3,AyX2;4y2,3B,Xybb,aazm5;4b3b(4z)
+v,xBBY2,bmz3,YxBB3,AyX2;4y4,3B,X3=,aazm
+vi,xBBY2,bmz3,YxBB3,AyX2;4y2,3B,XAy5,a3.m
+vii,xBBY2,bmz3,YxBB3,AyX2;4y2,3B,XAy5,azxym2
+viii,xBBY2,bmz3,YxBB3,AyX2;4y4,3B,XAy8,aazm;3z
+4.09
+ii,xBBY2,bmz3,YxBB3,AyX2;1B,4X,az2.2,y3.
+iii,xBBY2,bmz3,YxBB3,AyX2;1B,4X,azXym2,ybbX2
+iv,xBBY2,bmz3,YxBB3,AyX2;1B,4X,azma2,ybbX5;4b3b(4m)
+v,xBBY2,bmz3,YxBB3,AyX2;1B,4X,azma4,y3.
+vi,xBBY2,bmz3,YxBB3,AyX2;1B7,4X,az3.,yXA;3m
+vii,xBBY2,bmz3,YxBB3,AyX2;1B7,4X,azXym2,yXA;3m
+viii,xBBY2,bmz3,YxBB3,AyX2;1B8,4X,azma4,yXA;3m
+4.10
+ii,xBBY2,bmz3,YxBB3,AyX2;1B,4X,aazm,y4.2;5a2,4y,3B,X4.
+iii,xBBY2,bmz3,YxBB3,AyX2;1B,4X,aazm,y4.2;5a4,4y,3B,Xymaz
+iv,xBBY2,bmz3,YxBB3,AyX2;1B,4X,aazm,y4.2;5a2,4y,3B,XlZyb2
+v,xBBY2,bmz3,YxBB3,AyX2;1B,4X,aazm,y4.2;5a7,4y,3B,Xybb;4b3b(4m)
+vi,xBBY2,bmz3,YxBB3,AyX2;1B,4X,aazm,y4.2;5a4,4y,3B,XAy8;3z
+vii,xBBY2,bmz3,YxBB3,AyX2;1B,4X,aazm,ymazX4;5a2,4y,3B,X4.
+viii,xBBY2,bmz3,YxBB3,AyX2;1B2,4X,aazm,ybXlZ2;5a2,4y,3B,X4.
+ix,xBBY2,bmz3,YxBB3,AyX2;1B,4X,aazm,ybbX7;5a2,4y,3B,X4.;4b3b(4z)
+x,xBBY2,bmz3,YxBB3,AyX2;1B8,4X,aazm,yXA4;5a2,4y,3B,X4.;3m
+4.11
+i,xBBY2,bmz3,YxBB3,AyX2;1B,4X,aaaaa,y4.;5a1,4y,3B,Xymaz
+ii,xBBY2,bmz3,YxBB3,AyX2;1B,4X,aaaaa,y4.;5a1,4y,3B,XlZyb
+iii,xBBY2,bmz3,YxBB3,AyX2;1B,4X,aaaaa,y4.;5a4,4y,3B,Xybb;4b3b
+iv,xBBY2,bmz3,YxBB3,AyX2;1B,4X,aaaaa,y4.;5A,4y,3B,XAy9
+v,xBBY2,bmz3,YxBB3,AyX2;1B,4X,aaaaa,ymazX1;5A,4y,3B,X4.
+vi,xBBY2,bmz3,YxBB3,AyX2;1B,4X,aaaaa,ybXlZ1;5A,4y,3B,X4.
+vii,xBBY2,bmz3,YxBB3,AyX2;1B,4X,aaaaa,ybbX4;5A,4y,3B,X4.;4b3b
+viii,xBBY2,bmz3,YxBB3,AyX2;1B9,4X,aaaaa,yXA;5A,4y,3B,X4.
+4.12
+i,xBBY2,bmz3,YxBB3,AyX2;1B,4X,aa3.,y3.;5a,4y,3B,XAy7;3z
+ii,xBBY2,bmz3,YxBB3,Ayx2;1B7,4X,aa3.,yXA;5a,4y,3B,X3.;3m
+iii,xBBY,bmz3,YxBB3,AyX4;1B,4X,aa3.,ybbX;5a4,4y,3B,Xybb;4b3b
+iii,xBBY4,bmz3,YxBB3,AyX;1B,4X,aa3.,ybbX4;5a,4y,3B,X.;4b3b
+4.13
+ii,xBBY,bmz3,YxBB3,AyX2;1B,4X,aax1.Y,y3.;5a2,4y,3B,Xybb;5X,7b,Yax2,A2.
+iii,xBBY,bmz3,YxBB3,AyX2;1B,4X,aax1.Y,y3.;5a2,4y,3B,Xybb;5X,7b,Yax3,AyX4
+iv,xBBY,bmz3,YxBB3,AyX2;1B,4X,aax2.Y,y3.;5a2105,4y,3B,Xybb;5X,7b,YxBB,AyX
+v,xBBY,bmz3,YxBB3,AyX2;1B,4X,aaxYxY,y3.;5a2,4y,3B,Xybb;5x2,7b,YxBB,AyX
+vi,xBBY,bmz3,YxBB3,AyX2;1B,4X,aax1.Y,y3.;5a2,4y,3B,Xybb;5X,7b,Y3.,AyX
+4.14
+ii,xBBY,bmz3,YxBB3,AyX;1B,4X,aax1.Y,ybbX;5a,4y,3B,Xybb;6b2,5Y,A2.,xYa
+iii,xBBY2,bmz3,YxBB3,AyX2;1B,4X,aax1.Y,ybbX2;5a,4y,3B,Xybb;6b3,5Y,AyX,xYa4
+iv,xBBY2,bmz3,YxBB3,AyX2;1B,4X,aax2.Y,ybbX2105;5a,4y,3B,Xybb;6b,5Y,AyX,xBBY
+v,xBBY2,bmz3,YxBB3,AyX2;1B,4X,aaxYxY,ybbX2;5a,4y,3B,Xybb;6b,5Y,AyX2,xBBY
+vi,xBBY2,bmz3,YxBB3,AyX2;1B,4X,aax1.Y,ybbX2;5a,4y,3B,Xybb;6B,5Y,AyX,x3.
+4.15
+i,xYa5,bXyb,Yax5,AAlZ
+ii,xYa5,bbXy5,Yax,AAlZ
+iii,xYa,bXyb,Yax5,AlZA5
+iv,xYa,bbXy5,Yax,AlZA5
+v,xYa,bXyb,Yax7,AAAAA
+vi,xYa,bbXy7,Yax,AAAAA
+vii,xYa1,bXyb,Yax4,AlYxZ2
+viii,xYa1,bbXy4,Yax,AlYxZ2
+ix,xYa7,b3=,Yax,AAlZ
+x,xYa,b3=,Yax,AlZA7
+xi,xYa,bXyb,Yax5,A4.
+xii,xYa,bbXy5,Yax,A4.
+xiii,xYa5,b4.,Yax,AAlZ
+xiv,xYa,b4.,Yax,AlZA5
+xv,xYa1,b4.,Yax,AlYxZ1
+xvi,xYa,bbbbb2,Yax2,A3.
+xvii,xYa2,bXlZy,Yax,A3.2;1Y,4.,*4;4.,3x,*4
+xvii,xYa2,bXlZy,Yax2,A3.;1Y,4.,*4;4.,3x,.,.,.
+xvii,xYa,bXlZy2,Yax,A3.2;1Y,4.,.,.,.;4.,3x,*4
+xvii,xYa,bXlZy2,Yax2,A3.;1Y,4.,.,.,.;4.,3x,.,.,.
+4.16 
+# * paired with 4.17 - only looking to distribute 1/2 c(delta)
+i,xYa,b4.1,Yax1,AAAAA;2.,1a,*4;3a,2.,*4
+i,xYa1,b4.,Yax1,AAAAA;1Y,4A,*4;3a,2.,*4
+i,xYa,b4.1,Yax,AAAAA1;2.,1a,*4;4A,3x,*4
+i,xYa1,b4.,Yax,AAAAA1;1Y,4A,*4;4A,3x,*4
+iii*,xYa1,bX3.,Yax,AAAAA;1Y,4A,x3.,byXb;1A,6y,BZl,2X
+iv*,xYa1,bX3.,Yax,AAAAA;1Y,4A1,xBBY3,byXb;1A,6y,BZl,2X;4b3b
+v*,xYa1,bX3.,Yax,AAAAA;1Y,4A1,xYa,bbyX8;1A,6y,BZl,2X;3z
+vi*,xYa,bX3.1,Yax,AAAAA;1Y,4A,x.,bXlZy;1A,6y,BZl2,2X1
+vii*,xYa,bX3.1,Yax,AAAAA;1Y,4A,x.,b3.y;1A,6y,BZl,2X1
+viii*,xYa,bX4=1105,Yax,AAAAA;1Y,4A,x.,bbXy;1a,6y,B2=,2X
+ix*,xYa,bX3=1,Yax,AAAAA;1Y,4A,x.,bbXy;1a,6y,BYxB1,2X
+x*,xYa,bX3=1,Yax,AAAAA;1Y,4A,x.,bbXy;1a,6y,BBYx,2X1;7x,*4
+xii*,xYa1,bX3=,Yax,AAAAA;1Y,4A,x3.,bbXy;1a,6y,BBYx,2X;7x,bbXy,Yaz,2A
+xiii*,xYa1,bX3=,Yax,AAAAA;1Y,4A,xBBY3,bbXy;1a,6y,BBYx,2X;7x,bbXy,Yaz,2A;4b4b(5a)
+xiv*,xYa1,bX3=,Yax,AAAAA;1Y,4A,xYa,bbXy8;1a,6y,BBYx,2X;7x,bbXy,Yaz,2A;4b4b
+xv*,xYa,bXA2=1,Yax,AAAAA;1Y,4A,xYa,bbXy;1a,6y,BBYx,2X1;7x,bmz3,Yax3,2A
+xvi*,xYa,bXA2=1,Yax,AAAAA;1Y,4A,xYa,bbXy;1a,6y,BBYx,2X1;7X,bmz1,Y2.,2A
+xvii*,xYa,bXA2=1,Yax,AAAAA;1Y,4A,xYa,bbXy;1a,6y,BBYx,2X1;7x,bXyb,Yax1,2A 
+xviii*,xYa,bXA2=1,Yax,AAAAA;1Y,4A,xYa,bbXy;1a,6y,BBYx,2X1;7x,b3.,Yax,2A
+xviii*,xYa,bXA2=1,Yax,AAAAA;1Y,4A,xYa,bbXy;1a,6y,BBYx,2X1;7x,b2.,Y2.,2A
+xix*,xYa,bX3.1,Yax,AAAAA;1Y,4A,x.,b2.y;1a,6y,B2.,2X
+4.17 
+# * paired with 4.16 - only looking to distribute 1/2 c(delta)
+ii*,xYa,b3.y,Yax,AAAAA1;3a,2y,BZl,Xybb;3x,6b,Y3.,4A
+iii*,xYa,b3.y,Yax,AAAAA1;3a,2y,BZl,Xybb;3x,6b,YxBB,4A3;4b3b
+iv*,xYa,b3.y,Yax,AAAAA1;3a,2y,BZl,Xybb;3x,6b,Yax8,4A;3m
+v*,xYa,b3.y,Yax1,AAAAA;3a,2y,BZl1,XlZyb2;3x,6b,Y.,4A
+vi*,xYa,b3.y,Yax1,AAAAA;3a,2y,BZl1,X3.b;3x,6b,Y.,4A
+vii*,xYa,b4=y,Yax1105,AAAAA;3a,2y,B2=,XYbb;3x,6b,Y.,4A
+viii*,xYa,b3=y,Yax1,AAAAA;3a,2y,BBYx,XYbb1;3x,6b,Y.,4A
+ix*,xYa,b3=y,Yax1,AAAAA;3a,2y,BYxB1,XYbb;3x,6b,Y.,4A;5Y,2.,*3
+xi*,xYa,b3=y,Yax,AAAAA1;3a,2y,BYxB,XYbb;3x,6b,Y3.,4A;5Y,2A,xYa,bXyb
+xii*,xYa,b3=y,Yax,AAAAA1;3a,2y,BYxB,XYbb;3x,6b,YxBB,4A3;5Y,2A,xYa,bXyb;4b4b(5a)
+xiii*,xYa,b3=y,Yax,AAAAA1;3a,2y,BYxB,XYbb;3x,6b,Yax8,4A;5Y,2A,xYa,bXyb;4b4b
+xiv*,xYa,b2=Ay,Yax1,AAAAA;3a,2y,BYxB1,XYbb;3x,6b,Yax,4A;5Y3,2A,xYa,bmz3
+xv*,xYa,b2=Ay,Yax1,AAAAA;3a,2y,BYxB1,XYbb;3x,6b,Yax,4A;5Y1,2A,x2.,bmz
+xvi*,xYa,b2=Ay,Yax1,AAAAA;3a,2y,BYxB1,XYbb;3x,6b,Yax,4A;5Y,2A,xYa,bbXy1
+xvii*,xYa,b2=Ay,Yax1,AAAAA;3a,2y,BYxB1,XYbb;3x,6b,Yax,4A;5Y,2A,xYa,b2.z
+xvii*,xYa,b2=Ay,Yax1,AAAAA;3a,2y,BYxB1,XYbb;3x,6b,Yax,4A;5Y,2A,xY1.,b1.z
+xviii*,xYa,b3=y,Yax1,AAAAA;3a,2y,B2.,X2.b;3x,6b,Y.,4A
+4.18 
+# * paired with 4.19 - only looking to distribute 1/2 c(delta)
+ii*,xYa,bXlZy2,Yax,A2.A;1Y,4A,x.,bbXy;6y,BZl3,2X6,1a
+iii*,xYa,bXlZy2,Yax,A2.A;1Y,4A,x.,bbXy;6y,BYxB2,2X2,1a
+iv*,xYa,bXlZy2,Yax,A2.A;1Y,4A,x.,bbXy;6y,BBYx,2X4,1a
+v*,xYa,bXlZy2,Yax,A2.A;1Y,4A,x.,bbXy;6y,B3=,2X1,1a
+vi*,xYa,bXlZy2,Yax,A2.A;1Y,4A,x.,bbXy;6y,B4.,2X,1a
+vii*,xYa,bXlZy12,Yax,A2.A;1Y,4A,x.,bXlZy;6y,BZl2,2X4,1a
+viii*,xYa,bXlZy2,Yax,A2.A;1Y,4A,x.,bXlZy;6y,BYxB,2X1,1a
+ix*,xYa,bXlZy2,Yax,A2.A;1Y,4A,x.,bXlZy;6y,BBYx,2X1,1a
+x*,xYa,bXlZy2,Yax,A2.A;1Y,4A,x.,bXlZy;6y,B3.,2X,1a
+xi*,xYa,bXlZy2,Yax,A2.A;1Y,4A,x.,b3.y;6y,BZl,2X4,1a
+xii*,xYa,bXlZy2,Yax,A2.A;1Y,4A,x.,b3.y;6y,B2.,2X,1a
+4.19 
+# * paired with 4.18 - only looking to distribute 1/2 c(delta)
+ii*,xYa,bXlZy,Yax2,A2.A;4A,3x,bXyb,Y.;3a,2y,BZl6,5X3
+iii*,xYa,bXlZy,Yax2,A2.A;4A,3x,bXyb,Y.;3a,2y,BBYx2,5X2
+iv*,xYa,bXlZy,Yax2,A2.A;4A,3x,bXyb,Y.;3a,2y,BYxB4,5X
+v*,xYa,bXlZy,Yax2,A2.A;4A,3x,bXyb,Y.;3a,2y,B3=1,5X
+vi*,xYa,bXlZy,Yax2,A2.A;4A,3x,bXyb,Y.;3a,2y,B4.,5X
+vii*,xYa,bXlZy,Yax2,A2.A;4A,3x,bXlZy,Y.;3a,2y,BZl4,5X2
+viii*,xYa,bXlZy,Yax2,A2.A;4A,3x,bXlZy,Y.;3a,2y,BBYx1,5X
+ix*,xYa,bXlZy,Yax2,A2.A;4A,3x,bXlZy,Y.;3a,2y,BYxB1,5X
+x*,xYa,bXlZy,Yax2,A2.A;4A,3x,bXlZy,Y.;3a,2y,B3.,5X
+xi*,xYa,bXlZy,Yax2,A2.A;4A,3x,bX3.,Y.;3a,2y,BZl4,5X
+xii*,xYa,bXlZy,Yax2,A2.A;4A,3x,bX3.,Y.;3a,2y,B2.,5X
+4.20
+i,xYa,b2=,YzmxB,AlZA2
+ii,xYa,b2=,YxZAl,AlZA2
+iii,xYa2,b2=,Y3=,AAlZ
+iv,xYa,b2=,YxBB,AAAAA2;4b
+v,xYa2,b2=,YxBB,AlYxZ
+vi,xYa3,b2=,YxBB,AAlZ2;4b
+vii,xYa2,b3=,YxBB,AAlZ
+viii,xYa,b2=,YxBB,AlZA5;4b(4z)
+ix,xYa,b3=,YxBB,AlZA2
+4.21
+i,x3=,bmz,YxBB2,A2=
+ii,xBBY,bmz2,Y3=,A2=
+iii,xBBY,bmz1012,YxBB1012,A2=
+4.22
+i,x3=,b2=,Yax,AlZA2
+ii,xZAlY2,b2=,Yax,AAlZ
+iii,xBYzm2,b2=,Yax,AAlZ
+iv,xBBY2,b2=,Yax,AAAAA
+v,xBBY2,b2=,Yax,AlYxZ
+vi,xBBY5,b2=,Yax,AAlZ;4b(4m)
+vii,xBBY2,b3=,Yax,AAlZ
+viii,xBBY2,b2=,Yax,AlZA3
+ix,xBBY,b3=,Yax,AlZA2
+4.23
+i,xZAlY2,b2=,Y2=,Ayx
+ii,xBYzm,bbXy2,Y2=,Ayx
+iii,xBYzm,bXyb2,Y2=,Ayx
+iv,x2=,b2=,YxZAl,Ayx2
+v,x2=,bbXy,YzmxB2,Ayx
+vi,x2=,bXyb,YzmxB2,Ayx
+vii,xBBY,bXyb5,YxBB,Ayx
+viii,xBBY,bbXy,YxBB5,Ayx
+ix,xBBY,bXlZy2,YxBB,Ayx
+x,xBBY1,bbbbb,YxBB,AyX1
+xi,xBBY2,bbbbb,YxBB,AyX
+xii,xBBY,bbbbb,YxBB,AyX2
+4.24
+ii,xBBY,bbbbb,YxBB,Ayx2;1B,4X,aazm,y.;4y,3B,X4.,5a2
+iii,xBBY,bbbbb,YxBB,Ayx2;1B,4X,aazm,y.;4y,3B,Xymaz,5a4
+iv,xBBY,bbbbb,YxBB,Ayx2;1B,4X,aazm,y.;4y,3B,XlZyb2,5a2
+v,xBBY,bbbbb,YxBB,Ayx2;1B,4X,aazm,y.;4y,3B,Xybb,5a7;4b5b(4m)
+vi,xBBY,bbbbb,YxBB,Ayx2;1B,4X,aazm,y.;4y,3B,XAy8,5a4;5b
+4.25
+# * ii,iii  paired with iv,v only looking to distribute 1/2 c(delta)
+i,xBBY1,bbbbb,YxBB,AyX1;1B,4X,aaaaa,y3.;4y,3B,X3.,5a
+ii*,xBBY,bbbbb,YxBB,AyX1;1B,4X,aaaaa,y.;4y,3B,Xybb,5a3;4b5b
+iii*,xBBY,bbbbb,YxBB,AyX1;1B,4X,aaaaa,y.;4y,3B,XAy8,5a;5b
+iv*,xBBY1,bbbbb,YxBB,AyX;1B,4X,aaaaa,ybbX3;4y,3B,X.,5a;4b5b
+v*,xBBY1,bbbbb,YxBB,AyX;1B8,4X,aaaaa,yXA;4y,3B,X.,5a;5b
+vi,xBBY2,bbbbb,YxBB,AyX;1B,4X,aa3.,y4.;4y,3B,X.,5a
+vi,xBBY,bbbbb,YxBB,AyX2;1B,4X,aa3.,y.;4y,3B,X4.,5a,
+vii,xBBY2,bbbbb,YxBB,AyX;1B7,4X,aa3.,yxA;4y,3B,X.,5a;5b
+vii,xBBY,bbbbb,YxBB,AyX2;1B,4X,aa3.,y.;4y,3B,XAy7,5a
+viii,xBBY1,bbbbb,YxBB,AyX1;1B,4X,aa4.,ybbX;4y,3B,Xybb,5a
+ix,xBBY2,bbbbb,YxBB,AyX;1B,4X,aa3=,ybbX2;4y,3B,Xybb,5a;6b,5a.,*4;
+ix,xBBY,bbbbb,YxBB,AyX2;1B,4X,aa3=,ybbX;4y,3B,Xybb,5a2;5a.,7b,*4
+4.26
+i,xBBY,bbbbb,YxBB,Ayx2;1B,4X,aaxYxY,y2=;4y,3B,Xybb,5a2;5x,7b,Y2.,A2.
+ii,xBBY,bbbbb,YxBB,Ayx2;1B,4X,aaxYxY,y2=;4y,3B,Xybb,5a2;5x,7b,Yax2,A2.
+iii,xBBY,bbbbb,YxBB,Ayx2;1B,4X,aaxYxY,y2=;4y,3B,Xybb,5a2;5x2,7b,Yax3,AyX2
+iv,xBBY,bbbbb,YxBB,Ayx2;1B,4X,aaxYxY,y2=;4y,3B,Xybb,5a2;5x2,7b,Y2.,AyX
+4.27
+i,XAy6,aaaaa,yXA,BYxB1;4xBBY4,bmz3,YxBB3,AyX;7y10,6B,Xybb,axY;4q
+ii,XAy6,aaaaa,yXA,BYxB;4xBBY4,bmz3,YxBB3,AyX;7y9,6B,Xybb1,axY;6B,XAy,aaaaa,8y3;10y,BZl6,XAy,11a;4q
+iii,XAy6,aaaaa,yXA,BYxB;4xBBY4,bmz3,YxBB3,AyX;7y9,6B,Xybb1,axY;4q
+4.28
+i,axY10,ybbX,BBYx,XAy;4A4,3x,bmz3,YxBB3;6BBYx6,XAy1,aaaaa,yXA;4q
+ii,axY9,ybbX,BBYx1,XAy;4A4,3x,bmz3,YxBB3;6B,XAy,aaaaa,yXA;3B,2X1,aaaaa3,yXA;11X6,10a,yXA,BZl;4q
+iii,axY9,ybbX,BBYx1,XAy;4A4,3x,bmz3,YxBB3;6B,XAy,aaaaa,yXA;4q
+4.29
+i,zbm,Y.,AAAAA,xYa;4Y6,3A,xYa,bmz6;AyX9,xBBY1,bbXy,Yax;1m,4a,6z,7y,10x
+ii,xYa9,bXyb,YxBB,AyX1;bmz,Yax,AAAAA,xYa;8Y,7A,x.,bzm;1y,4X,5m,8a,10z
+4.30 
+i,yXA4,BYxB,X2.,axY6;XAy;1X,4Y,5A
+ii,yXA4,BYxB,XAy5,axY6;XAy;1X,4Y,5A
+iii,xYa4,bXyb,Y2.,AyX6;Yax;1Y,4X,5a
+iv,xYa4,bXyb,Yax5,AyX6;Yax;1Y,4X,5a
+4.31
+# regions 1 and 2 distribute at most 2(+),3(+') or 4(++) charge to region 3
+i+,Yax,bX3.,Yax,AAAAA;1Y,4A,xYa,b3.y.;2X1999,1a,6y,B2.
+ii+,Yax,bX3.,Yax,AAAAA;1Y,4A,xYa,b3.y;2X1,1a,6y,BZl1
+iii+',Yax,bX3.,Yax,AAAAA;1Y,4A,xYa,bXlZy;2X1,1a,6y,BZl4
+iv+',Yax,bXlZy,Yax,AAAAA;1Y,4A,xYa,b3.y;2X4,1a,6y,BZl1
+v++,Yax,bXlZy,Yax,AAAAA;1Y,4A,xYa,bXlZy;2X1,1a,6y,BYxB2
+vi++,Yax,bXlZy,Yax,AAAAA;1Y,4A,xYa,bXlZy;2X1,1a,6y,BBYx2
+vii++,Yax,bXlZy,Yax,AAAAA;1Y,4A,xYa,bXlZy;2X4,1a,6y,BZl4
+4.32
+# regions 1 and 5 and 6 distribute at most 18/7(@) or 32/7 (@@) charge to region 4
+
+i@@,xBBY,bmz,YxBB,AyX;1B,4X,aaxB1.y,y.;4y,3B,Xybb,5a2105;5x,7b,Y2.B,AyX;5B,9X,aaaaa,yXA;10a,9y,8B,XAy
+i@,xBBY,bmz,YxBB,AyX;1B,4X,aaxB1.y,y.;4y,3B,Xybb,5a2105;5x,7b,Y1.B,AyX;5B,9X,aaaaa,yXA;10a,9y,8B,XAy
+ii@@,xBBY,bmz,YxBB,Ayx;1B,4X,aax1.BY,ybbX2105;5a,4y,3B,Xybb;6b,5Y,AyX,xBaaa;8y,5B,XAy,aaaaa;9B,8X,11a,yXA
+ii@,xBBY,bmz,YxBB,Ayx;1B,4X,aax1.BY,ybbX2105;5a,4y,3B,Xybb;6b,5Y,AyX,xBaa;8y,5B,XAy,aaaaa;9B,8X,11a,yXA
+
+
+

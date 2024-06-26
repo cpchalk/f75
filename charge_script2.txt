@@ -1,0 +1,65 @@
+# at least 4 vertices of degree >= 4
++zbYXY(Al(x[4,4]
+# 0 vertices of degree >= 4 condition u4E
++zbYXYAlx[8]{u4E}
+# 0 vertices of degree >= 4 condition u5E
++zbYXYAlx[8]{u5E}
+# 1 vertex of degree >=4 (1,2,3,5,6,7,8) condition u4E
++zbYXYAlx[7,1(1)]{u4E}
++zbYXYAlx[7,1(2)]{u4E}
+bYXYAlx[7,1(3)]
++zbYXYAlx[7,1(5)]
++zbYXYAlx[7,1(6)]{u4E}
++zbYXYAlx[7,1(7)]{u4E}
++zbYXYAlx[7,1(8)]{u4E}
+# 1 vertex of degree >=4 (1,2,3,5,6,7,8) condition u5E
++zbYXYAlx[7,1(1)]{u5E}
++zbYXYAlx[7,1(2)]{u5E}
+bYXYAlx[7,1(3)]
++zbYXYAlx[7,1(5)]
++zbYXYAlx[7,1(6)]{u5E}
++zbYXYAlx[7,1(7)]{u5E}
++zbYXYAlx[7,1(8)]{u5E}
+# 2 vertices of degree >= 4 and condition u5E
+# no deg > 4 allowed
++zbYXYAlx[6,2(1|2|*)]{u5E|f1}
+# deg > 4 allowed (subtract 6 for each deg>4)
++zbYXYAlx[6,2(1|2)]{u5E|-6}
++zbYXYAlx[6,2(1|3)]
++zbYXYAlx[6,2(1|5)]
++zbYXYAlx[6,2(1|6)]
++zbYXYAlx[6,2(1|7)]
++zbYXYAlx[6,2(1|8)]
++zbYXYAlx[6,2(2|3)]
++zbYXYAlx[6,2(2|5)]
++zbYXYAlx[6,2(2|6)]
++zbYXYAlx[6,2(2|7)]{u5E}
++zbYXYAlx[6,2(2|8)]{u5E}
++zbYXYAlx[6,2(3|6)]
++zbYXYAlx[6,2(3|7)]
++zbYXYAlx[6,2(3|8)]
++zbYXYAlx[6,2(5|6)]
++zbYXYAlx[6,2(5|7)]
++zbYXYAlx[6,2(5|8)]
++zbYXYAlx[6,2(6|7)]
++zbYXYAlx[6,2(6|8)]
++zbYXYAlx[6,2(7|8)]
+
+#3 vertices of degree > 3
+# if deg u2=3 or deg u5,u6=3 or deg(u5)>=4
+# 3v deg 4 vertices give curv <= 0 
+#u2=3 
++zbYXY(Alx[5(2),3]
+#u4=3,u5=3,u6=3 and u3=4
++zbYXYA(lx[5(4|5|6),3(2|3|*)]
++zbYXYA(lx[5(4|5|6),3(2|3)]{-6}
+#u3=3,u4=3,u5=3,u6=3
++zbYXY(Alx[5(3|4|5|6),3(2)]{u5E}
+
+# not u2=3 or u5=3,u6=3
+#no degs > 4
++zbYXYAlx[5,3(1|2|6|*)]
+# degs>4 allowed
++zbYXYAlx[5,3(1|2|6)]{-6}
++zbYXYAlx[5,3(2|6|7)]
++zbYXYAlx[5,3(2|6|8)]

@@ -1,0 +1,189 @@
+# use n-gon division to build up n+2-gon division up to 14 gon division and
+# so list the possible 4-gon,6-gon, 8-gon and >=10-gon labels.
+# For each shape we consider drawing edges which skip 1,2,3,4,5,6 or 7 vertices
+# or until >=(n/2-1) is reached
+# Unless the edge is a diameter of the shape, this always
+#  leads to considering a subdivision of a smaller even order face of the shape.
+# So we apply the subdivision already worked out for this smaller face.
+# For 10-gon onwards we are only interested in labels with xyx or yxy sequences
+# and n2 (number of edges not in xy sequence) < 9 or 10)
+# the pattern is as follows
+#=14gon
+#*1,2,3,4,5,6,7,8,9,A,B,C,D,E
+#skip 1 vertex
+#13,14,ch1
+#apply 12gon
+#apply 12gon to 1,4,5,6,7,8,9,A,B,C,D,E
+#skip 2 vertices
+#14,15,ch1
+#apply 12gon
+#apply 12gon to 1,Q,5,6,7,8,9,A,B,C,D,E
+#14,16,ch1
+#apply 10gon
+#apply 10gon to 1,6,7,8,9,A,B,C,D,E
+#14,5E,ch1
+#apply 10gon
+#apply 10gon to 5,6,7,8,9,A,B,C,D,E
+#skip 3 vertices
+#15,16,ch1
+#apply 12gon
+#apply 12gon to 1,Q,Q,6,7,8,9,A,B,C,D,E
+#15,17
+#apply 10gon
+#apply 10gon to 1,Q,7,8,9,A,B,C,D,E
+#15,6E
+#apply 10gon
+#apply 10gon to E,Q,6,7,8,9,A,B,C,D
+##skip 4 vertices
+#16,ch1
+#apply 12gon
+#apply 12gon to 1,Q,Q,6,7,8,9,A,B,C,D,E
+#skip 5 vertices
+#17,ch1
+#apply 10gon to 1,Q,7,8,9,A,B,C,D,E
+#skip 6 vertices
+#diameter
+#18,ch1,ch2
+#?14gon
+
+
+nofilter_xy
+nofilter
+=4gon
+#
+#4gon 1,2,3,4
+*1,2,3,4
+# skip 1 vertex
+13,ch1,ch2
+=6gon
+*1,2,3,4,5,6
+# 6gon 1,2,3,4,5,6
+# skip 1 vertex
+13,14,ch1
+#apply 4gon
+apply 4gon to 1,4,5,6
+# skip 2 vertices
+#diameter
+14,ch1,ch2
+?6gon
+=8gon
+*1,2,3,4,5,6,7,8
+#8gon 1,2,3,4,5,6,7,8
+#skip 1 vertex
+13,14,ch1
+#apply 6gon
+apply 6gon to 1,4,5,6,7,8
+#skip 2 vertices
+14,16,ch1
+#apply 6gon or 4gon
+apply 4gon to 1,6,7,8
+14,15,ch1
+apply 6gon to 1,Q,5,6,7,8
+14,58
+apply 4gon to 5,6,7,8
+#skip 3 vertices
+15,ch1,ch2
+?8gon
+
+
+=10gon
+*1,2,3,4,5,6,7,8,9,A
+#10gon 1,2,3,4,5,6,7,8,9,A
+filter_xy
+#skip 1 vertex
+13,14,ch1
+#apply 8gon
+apply 8gon to 1,4,5,6,7,8,9,A
+#skip 2 vertices
+14,16,ch1
+#apply 6gon or 8gon
+apply 6gon to 1,6,7,8,9,A
+14,15,ch1
+apply 8gon to 1,Q,5,6,7,8,9,A
+14,5A,ch1
+apply 6gon to A,5,6,7,8,9
+#skip 3 vertices
+15,16,ch1
+#apply 8gon or 6gon
+apply 8gon to 1,Q,Q,6,7,8,9,A
+15,17,ch1
+apply 6gon to 1,Q,7,8,9,A
+15,6A,ch1
+apply 6gon to A,Q,6,7,8,9
+#skip 4 vertices
+16,ch1,ch2
+?10gon
+=12gon
+*1,2,3,4,5,6,7,8,9,A,B,C
+#12gon 1,2,3,4,5,6,7,8,9,A,B,C
+#skip 1 vertex
+13,14,ch1
+#apply 10gon
+apply 10gon to 1,4,5,6,7,8,9,A,B,C
+#skip 2 vertices
+14,15,ch1
+#apply 10gon
+apply 10gon to 1,Q,5,6,7,8,9,A,B,C
+14,16,ch1
+#apply 8gon
+apply 8gon to 1,6,7,8,9,A,B,C
+14,5C,ch1
+#apply 8gon
+apply 8gon to 5,6,7,8,9,A,B,C
+#skip 3 vertices
+15,16,ch1
+#apply 10gon
+apply 10gon to 1,Q,Q,6,7,8,9,A,B,C
+15,17
+#apply 8gon
+apply 8gon to 1,Q,7,8,9,A,B,C
+15,6C
+#apply 8gon
+apply 8gon to C,Q,6,7,8,9,A,B
+#skip 4 vertices
+16,ch1
+#apply 10gon
+apply 10gon to 1,Q,Q,6,7,8,9,A,B,C
+#skip 5 vertices
+#diameter
+17,ch1,ch2
+?12gon
+=14gon
+*1,2,3,4,5,6,7,8,9,A,B,C,D,E
+#14gon 1,2,3,4,5,6,7,8,9,A,B,C,E
+#skip 1 vertex
+13,14,ch1
+#apply 12gon
+apply 12gon to 1,4,5,6,7,8,9,A,B,C,D,E
+#skip 2 vertices
+14,15,ch1
+#apply 12gon
+apply 12gon to 1,Q,5,6,7,8,9,A,B,C,D,E
+14,16,ch1
+#apply 10gon
+apply 10gon to 1,6,7,8,9,A,B,C,D,E
+14,5E,ch1
+#apply 10gon
+apply 10gon to 5,6,7,8,9,A,B,C,D,E
+#skip 3 vertices
+15,16,ch1
+#apply 12gon
+apply 12gon to 1,Q,Q,6,7,8,9,A,B,C,D,E
+15,17
+#apply 10gon
+apply 10gon to 1,Q,7,8,9,A,B,C,D,E
+15,6E
+#apply 10gon
+apply 10gon to E,Q,6,7,8,9,A,B,C,D
+#skip 4 vertices
+16,ch1
+#apply 12gon
+apply 12gon to 1,Q,Q,6,7,8,9,A,B,C,D,E
+#skip 5 vertices
+17,ch1
+apply 10gon to 1,Q,7,8,9,A,B,C,D,E
+#skip 6 vertices
+#diameter
+18,ch1,ch2
+?14gon
+

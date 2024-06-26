@@ -1,0 +1,79 @@
+# 4 gons
+*a,b,c,d
+ac,ch1,ch2
+*a,b,c,d,e,f
+#6 gons
+ad,ch1,ch2
+-,bd,ad,ae,ch1,ch2
+*1,2,3,4,5,6,7,8
+#8 gons
+-,15,ch1,ch2
+-,24,25,58,ch1,ch2
+-,-,-,14,84,85,ch1,ch2
+-,-,-,24,25,27,ch1,ch2
+-,-,-,24,25,16,ch1,ch2
+-,-,-,13,38,84,47,75,ch1,ch2
+*a,b,1,5,2,c,d,e,3,4
+# B faces with n2<=8, 2 B-segments with no connecting shadow edge
+
+b4,b3,1e,5d,2d,ch1,ch2
+*a,b,1,2,c,d,e,f,3,4
+a1,a2,4c,3d,fd,ch1,ch2
+*a,b,c,1,5,2,d,e,f,3,6,4
+a2,ad,b1,b5,d4,e6,e3,ch1,ch2
+*a,b,c,1,2,d,e,f,3,4
+ad,b1,b2,e4,e3,ch1,ch2
+
+*a,b,c,d,e,f,g
+# B faces with n2<=8 and 1 B segment
+5,a1,a2,3g,4f,5e,ch1,ch2
+3,a1,a2,f3,ch1,ch2
+5,a1,a2,3g,4g,5f,ch1,ch2
+3,1g,2f,3e,ch1,ch2
+3,a1,a2,3g,cg,cf,ch1,ch2
+-,-,cf,ce,ch1,ch2
+-,-,dg,df,ch1,ch2
+3,1g,2g,3f,ch1,ch2
+
+#filter
+*a,b,c,d,e,f,g,h
+filter
+2,a1,a2,ch1,ch2
+2,1h,2h,ch1,ch2
+2,1g,2g,ch1,ch2
+4,1h,2h,3g,4g,ch1,ch2
+4,1g,2g,3f,4f,ch1,ch2
+4,1a,2a,3g,4g,ch1,ch2
+4,1h,2h,3g,4g,ch1,ch2
+6,1h,2h,3g,4g,5f,6f,ch1,ch2
+4,1a,2a,3f,4f,ch1,ch2
+6,1g,2g,3f,4f,5d,6d,ch1,ch2
+4,1h,2h,3e,4e,ch1,ch2
+6,1h,2h,3g,4g,5e,6e,ch1,ch2
+8,1h,2h,3g,4g,5f,6f,7e,8e,ch1,ch2
+4,1a,2a,3e,4e,ch1,ch2
+6,1a,2a,3g,4g,5e,6e,ch1,ch2
+6,1h,2h,3g,4g,5d,6d,ch1,ch2
+8,1h,2h,3g,4g,5f,6f,7d,8d,ch1,ch2
+# B faces with n2 <= 9 and 1 B segment with 7.2 border ab..ma
+*4,a,b,1,A,B
+# 7.11 gap between 2 B segments with connecting shadow lines and n2<=8
+nofilter
+14,ch1,ch2
+*4,a,b,1,A,B,5,6
+b6,b4,15,ch1,ch2
+*4,a,b,c,1,A,B,C
+14,ch1,ch2
+*4,a,b,c,1,A,B,C,D,E,F,5
+c4,15,ch1,ch2
+*4,a,b,c,1,A,B,5
+ca,c4,15,ch1,ch2
+*4,a,b,c,1,A,B,C,5,6
+c4,c6,15,ch1,ch2
+*4,a,b,c,1,A,B,C,5,6
+b4,b6,15,ch1,ch2
+*4,a,b,c,1,A,B,C,D,E,F,5,6,7
+4b,b7,c6,15,ch1,ch2
+*4,a,b,c,1,A,B,C,5,6,7,8
+4b,b8,c7,c6,15,ch1,ch2
+

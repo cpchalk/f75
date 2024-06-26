@@ -1,0 +1,109 @@
+
+# supplementary info [pqn = max charge of edge following pq is n<=1]
+# format 'edge'n('reason code')
+# charges come from either a 4-gon with corners xbYA or from a 5-gon
+#x3b12345m12Y12Alx    
+#y3B12345Z12X12azy
+# where letters represent corner labels of 5-gon, numbers represent possible charges 
+# generated between the corners
+# ('reason code') explanation for 0 or 1 charge
+# (az) zy has charge 0 in azy
+#(am) mX has charge 0 in amX
+# (xy) xy? generates 0 charge on y?
+# (yx) yx? generates 0 charge on x?
+# (ma1)(za1) ay/aX generates charge <=1 on may/zaX if not next to a^5 vertex
+# (4m)(4z) the m and Z corners are always degree 3 when bm/mY or BZ/ZX
+# outputs a charge.
+# (4lx) (4zy) l/z is corner of a 3 vertex when xb/yB of lxb/zyB gives a charge > 0.
+# (m4Y)(z4x) y/x is corner of a 3 vertex when YA/Xa in mYA/ZXa gives a charge > 0  
+#  (xy30) 0xy or xy0 in figs 4.30ii and 4.30iv
+
+4.01 
+ii,am0(az),az0(am),xy0(yx),xy1(ma1),0xy(xy),
+iii,am0(az),az0(am),
+iv,am0(az),az0(am),
+v,am0(az),az0(am),
+vi,am0(az),az0(am),yz0(4m),
+vii,am0(az),az0(am),
+4.02
+i,0am(xy),xy1(ma1), 
+ii,0am(xy),xy1(ma1),
+iii,0am(xy),xy1(ma1),
+iv,0am(xy),xy1(ma1),
+4.03
+i,0xy(xy),xy0(yx),
+ii,0xy(xy),xy0(yx),0ab(yx),
+vi,0az(yx),1xy(za1),
+vii,0az(yx),1xy(za1),
+4.08
+iv,0ab(4z),
+vi,ab0(z4x),  
+vii,ab0(z4x),
+viii,ab0(z4x),
+4.09
+iv,0ab(4m),
+vi,ab0(m4Y),
+vii,0ab(4lx),ab0(m4Y),
+viii,ab0(m4Y),
+4.10
+ii,
+v,bz0(4m),
+vi,ab0(z4x),
+ix,bm0(4z),
+x,ab0(m4Y),
+4.11
+iv,ab0(z4x),
+viii,ab0(m4Y),
+4.12
+i,ab0(z4x), 
+ii,ab0(m4Y),
+4.15
+i,yz0(4m),
+ii,yz0(4m),0ab(4zy),
+iii,0ab(4lx),0lx(4z),
+iv,0lx(4z),
+v,
+vi,
+ix,yz0(4m),
+x,0lx(4z),
+xi,
+xii,
+xiii,yz0(4m),
+xiv,0lx(4z),
+4.16 
+v*,ab0(z4x),
+xiv*,
+4.17 
+iv*,
+xiii*,
+4.18 
+ii*,ll0(4z),
+4.19 
+ii*,0zz(l4),
+4.20
+viii,bm0(4z),
+4.22
+vi,bz0(4m),
+4.23
+vii,
+viii,
+4.24
+v,bz0(4m), 
+vi,0ab(4zy),
+4.25
+iii*,
+v*,
+vii,
+4.29
+i,am0(az),
+ii,az0(am),
+4.30 
+ii,0xy(xy30),0ab(yx),
+iv,xy0(yx30),0ab(yx),
+5.3
+iii,0zz(am),
+5.4
+iii,0ll(az),
+
+
+

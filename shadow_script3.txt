@@ -1,0 +1,92 @@
+# Shapes with B segments
+# digits and letters>=p are members of B segment
+# letters >=p need not exist 
+# letters <p are not in a B segment
+# Rules regarding  B segment vertices 
+# R1  a B segment vertex must go somewhere with an odd number of edges
+#     if such a vertex cant go anywhere, without breaking a rule its said
+#     to be 'cut off'
+# R2  2 vertices of the same B segment cannot join
+# R3  3 vertices of the same B segment cannot join to the same vertex
+# R3'  end 2 vertices of the same B segment and the next vertex cannot join to the same vertex
+
+#violation of Rule n is denoted XRn
+#  N.B    no computer assistance for 3 B segment case
+# shape with 3 B segments
+# n2=6
+*a,1,x,2,b,3,y,4,c,5,z,6
+#assume no edges skipping 1 vertex
+# if 1 goes to b or 3 then 2 is cut off
+# if 1 goes to y or 4 then 3 has to go to 1 or x and 2 is cut off
+# if 1 goes to c then 5 has to go to a or 1 and 6 is cut off
+# if 1 goes to 5 or z then 6 is cut off
+# so there must be an edge skipping 1 vertex
+# vertex skipped must be a,b or c
+# assume 16
+16
+# forces 6x/62 or 1z/15 by symmetry can assume 6x
+#16,6x
+# 6 must then go somewhere else by R1
+# Not 6x' or 62 because of R3
+# if 6b then 2 is isolated
+# assume 63 or 6y
+#16,6x,63
+#16,6x,6y
+# 2 cannot go to 6 because of R3
+# so 2 must go to 3 or y
+# but 2y isolates 3, so 2 goes to 3
+# if 6 goes to 3 then 3 must also go to xx
+*a,1,x,xx,2,b,3,y,4,c,5,z,6
+16,6x,63,23,3xx
+16,6x,6y,23
+# 4 goes to 6,z or 5.
+# if 4 goes to 6 or z then 5 must go to 4
+*a,1,x,xx,2,b,3,y,4,c,5,z,6
+16,6x,63,23,3xx,45
+16,6x,6y,23,45
+
+# 54 forces 4z/46 or 5y/53 or 5yy/53
+#if 4z/46, then 4 must also go to zz/6 by rule R1 this breaks R3
+#if 5y/53 or 5yy/53, then 5 must also go to yy or yyy by rule R1 this breaks R3
+# so 16 leads to a contradiction and n2=6 is not possible
+#n2=7
+*a,b,1,x,2,c,3,y,4,d,5,z,6
+# assume no edges skipping 1 vertex (****)
+# if 1 goes to c or 3 then 2 is cut off
+# if 1 goes to y or 4 then 3 has to go to 1 or x and 2 is cut off
+# if 1 goes to d then 5 has to go to a,b or 1 then 6 
+# 6   is cut off unless 5 goes to 1 and 6 goes to 1
+# By Rule1, 1 must then go to z breaking rule R3
+# so there must be an edge skipping 1 vertex
+# skipped vertex must be a,b c or d
+# Assume only a or b is skipped. By symmetry assume b is skipped by 1a. 
+# 1a then this forces 16 or ax/a2
+# If 16, then repeat the argument (****) above to get a contradiction
+# Assume ax
+# If 2y or 24 then 3 is cut off
+# If 2d or 25 then 35 or 3d and 4 is cut off
+# If 2z then 26 or 6x
+# 26 implies 2a or 2zz
+*1a,ax,2z,26,2a
+*1a,ax,2z,26,2zz
+# breaking Rule 3 in both cases
+#6x implies xz
+*1a,ax,2z,x6,xzz
+# breaking rule 3' (a,6,zz to x)
+# so one of c or d must be skipped
+# by symmetry assume it is c
+#23 -> 3x or 2y
+*23,3x
+# if 3d  is cut off
+# if 35,3z,36 then 45. 5y, 5yy  or 45, 4z,4zz  XR3
+# if 3a then 1a ax X
+#23->2y, then 2d implies 42 X,, 25,2z,26 implies 45, 4z,,46
+# or 45,5yy,52,2zz etc
+#2a -> 1a -> axx X
+
+
+
+
+
+
+

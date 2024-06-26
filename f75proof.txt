@@ -1,0 +1,3042 @@
+**** 4.04vii 3b
+**** 4.04viii 3b
+**** 4.05vii 3b
+**** 4.05viii 3b
+**** 4.07xii 3b
+**** 4.07xiii 3b
+**** 4.08iv 4b3b(4z)
+**** 4.08viii 3z
+**** 4.09iv 4b3b(4m)
+**** 4.09vi 3m
+**** 4.09vii 3m
+**** 4.09viii 3m
+**** 4.10v 4b3b(4m)
+**** 4.10vi 3z
+**** 4.10ix 4b3b(4z)
+**** 4.10x 3m
+**** 4.11iii 4b3b
+**** 4.11vii 4b3b
+**** 4.12i 3z
+**** 4.12ii 3m
+**** 4.12iii 4b3b
+**** 4.12iii 4b3b
+**** 4.16iv* 4b3b
+**** 4.16v* 3z
+**** 4.16xiii* 4b4b(5a)
+**** 4.16xiv* 4b4b
+**** 4.17iii* 4b3b
+**** 4.17iv* 3m
+**** 4.17xii* 4b4b(5a)
+**** 4.17xiii* 4b4b
+**** 4.20iv 4b
+**** 4.20vi 4b
+**** 4.20viii 4b(4z)
+**** 4.22vi 4b(4m)
+**** 4.24v 4b5b(4m)
+**** 4.24vi 5b
+**** 4.25ii* 4b5b
+**** 4.25iii* 5b
+**** 4.25iv* 4b5b
+**** 4.25v* 5b
+**** 4.25vii 5b
+**** 4.27i 4q
+**** 4.27ii 4q
+**** 4.27iii 4q
+**** 4.28i 4q
+**** 4.28ii 4q
+**** 4.28iii 4q
+find hexagons with +ve curvature not in configs A,B,C or D
+
+charge,curvature,c(i,j),vertex labels,figure,charge distribution
+6 0 	...6.. ['bmz', 'mzb', 'Yax', 'AyX', 'lBZ', 'xYa'] 5.1ix 321...  
+6 0 	...6.. ['BZl', 'ZlB', 'XAy', 'axY', 'zbm', 'yXA'] 5.2ix 321...  
+6 5 	...6.. ['bmz', 'mzb', 'Yax', 'AyX', 'lBZ', 'xBBY'] 5.1iii .1....  
+6 5 	...6.. ['BZl', 'ZlB', 'XAy', 'axY', 'zbm', 'ybbX'] 5.2iii .1....  
+7 5 	....7. ['bmz', 'mzb', 'Yax', 'AyX', 'lZAA', 'xYa'] 5.1iv .2....  
+7 5 	....7. ['BZl', 'ZlB', 'XAy', 'axY', 'zmaa', 'yXA'] 5.2iv .2....  
+9 5 	.3.6.. ['bmz', 'mzb', 'YxBB', 'AyX', 'lBZ', 'xYa'] 5.1v 4.....  
+9 5 	.3.6.. ['BZl', 'ZlB', 'Xybb', 'axY', 'zbm', 'yXA'] 5.2v 4.....  
+6 5 	...6.. ['bmz', 'maaz', 'Yax', 'AyX', 'lBZ', 'xYa'] 5.1vi ..1...  
+6 5 	...6.. ['BZl', 'ZAAl', 'XAy', 'axY', 'zbm', 'yXA'] 5.2vi ..1...  
+6 5 	...6.. ['bbXy', 'mzb', 'Yax', 'AyX', 'lBZ', 'xYa'] 5.1vii .1....  
+8 5 	...6.2 ['bXyb', 'mzb', 'Yax', 'AyX', 'lBZ', 'xYa'] 5.1viii .21...  
+8 5 	...6.2 ['BYxB', 'ZlB', 'XAy', 'axY', 'zbm', 'yXA'] 5.2viii .21...  
+6 5 	...6.. ['BBYx', 'ZlB', 'XAy', 'axY', 'zbm', 'yXA'] 5.2vii .1....  
+11 10 	.3.6.2 ['bXyb', 'mzb', 'YxBB', 'AyX', 'lBZ', 'xYa'] 5.1i 1.....  
+11 10 	.3.6.2 ['BYxB', 'ZlB', 'Xybb', 'axY', 'zbm', 'yXA'] 5.2i 1.....  
+13 10 	7..6.. ['bbXy', 'maaz', 'Yax', 'AyX', 'lBZ', 'xYa'] 5.1ii .....3  
+13 10 	7..6.. ['BBYx', 'ZAAl', 'XAy', 'axY', 'zbm', 'yXA'] 5.2ii .....3  
+find hexagons with +ve curvature in configs A and B
+
+charge,curvature,c(i,j),vertex labels,figure,charge distribution
+9 5 	.3.6.. ['bmz', 'mzb', 'YxBB', 'AyX', 'lBZ', 'xYa'] 5.3iii 5.....  
+9 5 	.3.6.. ['BZl', 'ZlB', 'Xybb', 'axY', 'zbm', 'yXA'] 5.4iii 5.....  
+11 10 	.3.6.2 ['bXyb', 'mzb', 'YxBB', 'AyX', 'lBZ', 'xYa'] 5.3iv 2.....  
+11 10 	.3.6.2 ['BYxB', 'ZlB', 'Xybb', 'axY', 'zbm', 'yXA'] 5.4iv 2.....  
+find hexagons with +ve curvature in configs C and D
+
+charge,curvature,c(i,j),vertex labels,figure,charge distribution
+8 5 	...6.2 ['bXyb', 'mzb', 'Yax', 'AyX', 'lBZ', 'xYa'] 5.5iii ..2...  
+6 5 	...6.. ['BYxB', 'ZlB', 'XAy', 'axY', 'zbm', 'yXA'] 5.5iv ..2...  
+11 10 	.3.6.2 ['bXyb', 'mzb', 'YxBB', 'AyX', 'lBZ', 'xYa'] 5.5v 1.....  
+
+*****
+
+See Figure 5.6
+ identify possible delta6^ 
+ignoring 4.08ii in  (i) since delta5^ >4
+ignoring 4.23xi in  (i) since delta5^ >4
+ignoring 4.09ii in  (ii) since delta5^ >4
+ignoring 4.23xii in  (ii) since delta5^ >4
+candidates for delta6^ are
+(i) 4.07xi
+deg delta^^ is > 4 since it receives a charge
+(ii) 4.07xi
+deg delta^^ is > 4 since it receives a charge
+Since delta^^ has deg > 4 in all cases,
+ edge 5 of delta1^ receives no charge
+vertex w4 has deg > 3 since no 3 vertex starts Yx
+filter out contribution of 4.28, 4.27 to edge 3
+
+****
+Calculate highest possible curvature of Delta1^
+****
+
+charge,curvature,c(i,j),vertex labels
+10 10 	13.6.. ['bXyb', 'mzb', 'YxBB', 'AyX', 'lBZ', 'xYa'] 
+10 10 	13.6.. ['BYxB', 'ZlB', 'Xybb', 'axY', 'zbm', 'yXA'] 
+
+*****
+
+See Figure 5.7
+Delta has degree 4, so Delta4 cant be 4.07xi, 4.09ii, 4.23xii
+ 3rd edge of Delta2^ cant interface with 4.27,4.28 
+Delta4 cant be 4.01v or 4.03v since they cause contradiction that
+Delta1 is a 4.27i/4.28i hexagon only
+
+****
+Calculate highest possible curvature of Delta2^
+****
+
+charge,curvature,c(i,j),vertex labels
+charge_script0.txt
+
+# lll is either 4 0 or 6 0 with degree 5 (-3) so can treat as if ll is
+
+# 2  remembering to add a suitable number to the curvature at the end
+
+# eg 2 if there are 5 ll's (ave=12/5)
+
+#  rules used in 7.7 (more logical?)
+f75 rules read in from file f75rules.txt, 255 figures
+'Show'commands
+   4.00   -  description of the encoding format of figures 4.1 to 4.32
+   4.nr   -  show figure(s) 4.nr, n= 1 - 32, r= i, ii, .. etc 
+'Proof steps' - show (that).. [where c*(..) = charges-curvature of ..]
+   4.1    -  for all X in 4.1-4.32, c*(X) <=0  including all overlaps
+   5.1    -  6-gons with positive curvature and charge distribution
+   5.2    -  c*(Delta1^) and c*(Delta2^) <=0 in figs 5.6 and 5.7
+   5.8    -  non ab edges with charges 5,6 or 7
+   5.9    -  ab edges with charges >=5
+   5.10   -  what charges can follow 8 or 7 charges (lemma 5.5/fig 5.10)
+   6.1    -  c*(c*('A' region=10) <= 0
+   6.3    -  c*('A' region<=9) <= 0
+   7.3    -  c*(6.2viii/x/xi) <= 0
+ patterns and figures
+   4.33i  -  highest charges for (?,?) edges of fig 4.33i
+   4.33ii -  charges for edges with at least one vertex of degree >=5 
+   p21    -  page 21 table of max charges per hexagon edge label
+   p25    -  page 25 Note 2
+Diagnostics
+   4.nrp  -  show Python list structure of 4.nr above
+   4.nrc  -  calculate curvature of 4.nr above
+   scfgpq -  show charges for pq edges with vertex degrees >=f and >=g
+   pcd [d1 d2 s1 s2 t1t2]   -  print charge dictionary 
+ [d1/d2 = degrees or 0, s1/s2 = source letters or ?,t1t2 target letters]
+   quit or q
+? shadow_script5.txt
+#4gon 1,2,3,4
+labels associated with shape ['1', '2', '3', '4']
+['ayBX', ['13']] 
+# 6gon 1,2,3,4,5,6
+labels associated with shape ['1', '2', '3', '4', '5', '6']
+['azyBZX', ['13', '14', '46']] 
+['aylBXm', ['14']] 
+#8gon 1,2,3,4,5,6,7,8
+#abmmmmmm if F(7,5) and no shadow edges 6.2i
+#abmmmmmmm if F(8,5) and no shadow edges 6.2xii
+labels associated with shape ['1', '2', '3', '4', '5', '6', '7', '8']
+['azzyBZZX', ['13', '14', '48', '57', '58']] 6.2ix 
+['abYAxyBX', ['13', '14', '16']] 6.2viii
+['abaylBZX', ['13', '14', '47']] 6.2v
+['abYABAxb', ['13', '14', '47']] 6.2vi
+['ayBZAxbm', ['13', '14', '47']] 6.2vii
+['abYZAlxb', ['13', '14', '47']] 6.2iv
+['azylBXYX', ['13', '14', '58']] 6.2xi
+['ayxyBZXm', ['13', '14', '58']] 6.2x
+['azylBZXm', ['14', '15', '58']] 6.2iii
+['ayllBXmm', ['15']] 6.2ii
+#10gon 1,2,3,4,5,6,7,8,9,A
+labels associated with shape ['1', '2', '3', '4', '5', '6', '7', '8', '9', 'A']
+xy exceptions
+['abYZZAxyxb', ['13', '14', '5A', '79', '7A']] 7.7ix
+['abayxyBZZX', ['13', '14', '5A', '79', '7A']] 7.7xii
+['azyxyBZXYX', ['13', '14', '5A', '68', '69']] 7.6i/ii/iii/iv/vi 7.7xiii/xiv
+['azzylBZXYX', ['13', '14', '5A', '69', '6A']] 7.7x
+['azyxyBZZXm', ['13', '14', '5A', '69', '6A']] 7.7xi
+['abayllBXYX', ['13', '14', '59']] 7.7iii
+['abYXYAllxb', ['13', '14', '59']] 7.7iv
+['abYXmabmmm', ['14', '15']] 7.8i
+['azyllBXYXm', ['14', '15', '6A']] 7.7xvi
+['ayxylBZXmm', ['14', '15', '6A']] 7.7xv
+['ayxylBXYXm', ['14', '5A', '69']] 7.7vii/viii
+# 12gon 1,2,3,4,5,6,7,8,9,A,B,C
+labels associated with shape ['1', '2', '3', '4', '5', '6', '7', '8', '9', 'A', 'B', 'C']
+xy exceptions
+['azzyxyBZZXYX', ['13', '14', '5C', '6B', '6C', '79', '7A']] 7.6v
+['abYXYXmazbmm', ['13', '14', '59', '69']] 7.8ii
+['abYXYXmababm', ['13', '14', '59', '69']] 7.8iv
+['abYXYXmabmab', ['13', '14', '59', '69']] 7.8iii
+['azzyllBXYXYX', ['13', '14', '5C', '6C', '7B']] 7.7vi
+['ayxyxyBZZXmm', ['13', '14', '5C', '6C', '7B']] 7.7v
+['azyxylBXYXYX', ['13', '14', '5C', '6B', '7A']] 7.7ii
+['ayxyxyBZXYXm', ['13', '14', '5C', '6B', '7A']] 7.7i
+#14gon 1,2,3,4,5,6,7,8,9,A,B,C,D,E
+# please wait 5 minutes!!!!
+labels associated with shape ['1', '2', '3', '4', '5', '6', '7', '8', '9', 'A', 'B', 'C', 'D', 'E']
+xy exceptions
+['abYXYXYXmazbab', ['14', '15', '6D', '7D', '8B', '9B']] 7.8vii
+['abYXYXYXmabazb', ['14', '15', '6D', '7D', '8B', '9B']] 7.8v
+['abYXYXYXmazzbm', ['14', '15', '6E', '7E', '8B', '9B']] 7.8vi
+#16gon 1,2,3,4,5,6,7,8,9,A,B,C,D,E,F,G
+#please wait 2 minutes!!!
+labels associated with shape ['1', '2', '3', '4', '5', '6', '7', '8', '9', 'A', 'B', 'C', 'D', 'E', 'F', 'G']
+xy exceptions
+['abYXYXYXYXmazzzb', ['14', '15', '6G', '7G', '8F', '9F', 'AD', 'BD']] 7.8viii
+#18gon 1,2,3,4,5,6,7,8,9,A,B,C,D,E,F,G,H,I
+labels associated with shape ['1', '2', '3', '4', '5', '6', '7', '8', '9', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H', 'I']
+xy exceptions
+pcd2 5 7 ab
+[3, 3, 'Y', 'A', '0xy(xy)', 5, '4.03ii']
+[3, 3, 'Y', 'A', '0xy(xy)', 6, '4.03i']
+[3, 3, 'Y', 'A', '1xy(za1)', 6, '4.03vi']
+[3, 3, 'Y', 'A', 'xy0(yx)', 5, '4.01ii']
+[3, 3, 'Y', 'b', '0az(yx)', 6, '4.03vi']
+[3, 3, 'Y', 'b', 'az0(am)', 5, '4.01ii']
+[3, 3, 'Y', 'b', 'az0(am)', 6, '4.01v']
+[3, 3, 'a', 'X', '0xy(xy)', 5, '4.03ii']
+[3, 3, 'a', 'X', 'xy0(yx)', 5, '4.01ii']
+[3, 3, 'a', 'X', 'xy1(ma1)', 5, '4.02i']
+[3, 3, 'a', 'X', 'xy1(ma1)', 6, '4.02iv']
+[3, 3, 'x', 'b', '0am(xy)', 5, '4.02i']
+[3, 3, 'x', 'b', '0am(xy)', 6, '4.02iv']
+[3, 3, 'x', 'b', 'am0(az)', 5, '4.01ii']
+[3, 3, 'x', 'b', 'am0(az)', 6, '4.01v']
+[3, 4, 'X', 'a', 'yz0(4m)', 5, '4.01vi']
+[3, 4, 'X', 'a', 'yz0(4m)', 7, '4.15ix']
+[3, 5, 'B', 'X', 'll0(4z)', 6, '4.18ii*']
+[4, 3, 'A', 'Y', '0lx(4z)', 5, '4.15iii']
+[4, 3, 'A', 'Y', '0lx(4z)', 7, '4.15x']
+[4, 3, 'A', 'Y', 'lx', 5, '4.01vii']
+[4, 4, 'B', 'X', 'xy', 5, '4.23vii']
+[4, 4, 'X', 'a', 'bz0(4m)', 5, '4.22vi']
+[4, 4, 'X', 'a', 'bz0(4m)', 7, '4.10v']
+[4, 4, 'Y', 'b', 'xy', 5, '4.23viii']
+[4, 4, 'y', 'a', 'bm0(4z)', 5, '4.20viii']
+[4, 4, 'y', 'a', 'bm0(4z)', 7, '4.10ix']
+[5, 3, 'Y', 'b', '0zz(l4)', 6, '4.19ii*']
+pcd3 5 20 ab
+[3, 4, 'Y', 'b', '0ab(4lx)', 5, '4.15iii']
+[3, 4, 'Y', 'b', '0ab(4lx)', 7, '4.09vii']
+[3, 4, 'Y', 'b', '0ab(yx)', 5, '4.03ii']
+[3, 4, 'Y', 'b', 'ab', 5, '4.15i']
+[3, 4, 'Y', 'b', 'ab', 7, '4.15v']
+[3, 4, 'Y', 'b', 'ab', 8, '4.17iv*']
+[3, 4, 'Y', 'b', 'ab0(m4Y)', 7, '4.09vi']
+[3, 4, 'Y', 'b', 'ab0(m4Y)', 8, '4.09viii']
+[3, 4, 'Y', 'b', 'ab0(m4Y)', 9, '4.11viii']
+[3, 4, 'x', 'b', '0ab(4zy)', 5, '4.15ii']
+[3, 4, 'x', 'b', '0ab(4zy)', 8, '4.24vi']
+[3, 4, 'x', 'b', 'ab', 5, '4.15iv']
+[3, 4, 'x', 'b', 'ab', 7, '4.15vi']
+[3, 4, 'x', 'b', 'ab', 8, '4.16xiv*']
+[3, 4, 'x', 'b', 'ab0(z4x)', 5, '4.08vi']
+[3, 4, 'x', 'b', 'ab0(z4x)', 7, '4.12i']
+[3, 4, 'x', 'b', 'ab0(z4x)', 8, '4.08viii']
+[3, 4, 'x', 'b', 'ab0(z4x)', 9, '4.11iv']
+[4, 4, 'a', 'X', '0ab(4z)', 5, '4.08iv']
+[4, 4, 'a', 'y', '0ab(4m)', 5, '4.09iv']
+5.10i 8 charges
+[3, 4, 8, 'Y', 'b', '4.09viii', [66, 1], 'ab'] 3m
+[3, 4, 8, 'Y', 'b', '4.10x', [75, 1], 'ab'] 3m
+[3, 4, 8, 'Y', 'b', '4.17iv*', [141, 2], 'ab'] 3m
+[3, 4, 8, 'Y', 'b', '4.17xiii*', [149, 2], 'ab'] 4b4b
+[3, 4, 8, 'Y', 'b', '4.25v*', [220, 1], 'ab'] 5b
+5.10i 7 charges
+[3, 4, 7, 'Y', 'b', '4.09vi', [64, 1], 'ab'] 3m
+[3, 4, 7, 'Y', 'b', '4.09vii', [65, 1], 'ab'] 3m
+[3, 4, 7, 'Y', 'b', '4.12ii', [85, 1], 'ab'] 3m
+[3, 4, 7, 'Y', 'b', '4.15v', [102, 0], 'ab'] ?
+[3, 4, 7, 'Y', 'b', '4.25vii', [223, 1], 'ab'] 5b
+5.10i  next charges
+[4, 4, 5, 'a', 'y', '4.09iv', [62, 1], 'ab'] 4b3b(4m)
+[5, 4, 3, 'a', 'y', '4.17xii*', [148, 2], 'ab'] 4b4b(5a)
+[4, 4, 7, 'y', 'a', '4.10ix', [74, 1], 'bm'] 4b3b(4z)
+[4, 4, 5, 'y', 'a', '4.20viii', [185, 0], 'bm'] 4b(4z)
+5.10vii 8 charges
+[3, 4, 8, 'x', 'b', '4.08viii', [59, 1], 'ab'] 3z
+[3, 4, 8, 'x', 'b', '4.10vi', [71, 2], 'ab'] 3z
+[3, 4, 8, 'x', 'b', '4.16v*', [124, 1], 'ab'] 3z
+[3, 4, 8, 'x', 'b', '4.16xiv*', [132, 1], 'ab'] 4b4b
+[3, 4, 8, 'x', 'b', '4.24vi', [215, 2], 'ab'] 5b
+[3, 4, 8, 'x', 'b', '4.25iii*', [218, 2], 'ab'] 5b
+5.10vii 7 charges
+[3, 4, 7, 'x', 'b', '4.12i', [84, 2], 'ab'] 3z
+[3, 4, 7, 'x', 'b', '4.15vi', [103, 0], 'ab'] ?
+[3, 4, 7, 'x', 'b', '4.25vii', [224, 2], 'ab'] 5b
+5.10vii  next charges
+[4, 4, 5, 'a', 'X', '4.08iv', [55, 1], 'ab'] 4b3b(4z)
+[5, 4, 3, 'a', 'X', '4.16xiii*', [131, 1], 'ab'] 4b4b(5a)
+[4, 4, 7, 'X', 'a', '4.10v', [70, 2], 'bz'] 4b3b(4m)
+[4, 4, 5, 'X', 'a', '4.22vi', [195, 0], 'bz'] 4b(4m)
+[4, 4, 7, 'X', 'a', '4.24v', [214, 2], 'bz'] 4b5b(4m)
+charge_script1.txt
+
+# 8 gons - charges for A-type *, B-type +
+
+#*llllBAll
+
+#*yllBXmma
+
+#*AlxzbmYZ
+
+#*AlxbabYZ
+
+#*BAxzbmYA
+
+#*BAxbabYA
+
+#*ZAxbmayB
+
+#*xbYXayBA
+
+#*XazzyBZZ
+
+#*zbYXYAlx
+
+#*ZAxyxbmY
+
+#*llllBAlll
+
+#Proposition 6.3 8-gons with no B regions have non-positive curvature
+
+############
+
+#1. llllBAll uses fact 4 and fact 6
+
+############
+
+# fact 4 implies that ll has max average degree <=2.4 ((4+0+4+0+4)/5)
+
+# NB if llllll is 6 0 6 0 6 then there are 3 > deg 4 vertices each giving
+
+# a surplus of -3 to each 6 reducing it to 3 0 3 0 3
+
+# so we treat average as 2 as add 2 on at the end
+
+# fact 6 says max charge for bam is 8,4
+
+#3 vertices of degree >=4
+*llllBAll[5,3]{f4|f6|+2}
+ll 2 ll 2 ll 2 lB 7 BA 8 Al 4 ll 2 ll 2
+curv= -360 + 200 + 90 + 58 = -12 
+
+#no vertices of degree >= 4
+*llllBAll[8]{f4|+2}
+3ll3 2 3ll3 2 3ll3 2 3lB3 0 3BA3 2 3Al3 6 3ll3 2 3ll3 2
+curv= -360 + 320 + 36 = -4 
+
+# 1 vertex of degree >=4
+
+#du5=3
+*llllBAll[7(5),1]{f4|+2}
+ll 2 ll 2 ll 2 0lB3 0 3BA0 2 Al 6 ll 2 ll 2
+curv= -360 + 280 + 30 + 36 = -14 
+
+#du5=4
+*llllBAll[7(4|6),1(5)]{f4|f6|+2}
+ll 2 ll 2 0ll3 2 3lB4 1 4BA3 8 3Al0 4 ll 2 ll 2
+curv= -360 + 280 + 30 + 46 = -4 
+
+# 2 vertices of degree u5 and one of 1,2,3,7,8
+*llllBAll[6(4|6),2(5)]{f4|f6|+2}
+ll 2 ll 2 0ll3 2 3lB4 1 4BA3 8 3Al0 4 ll 2 ll 2
+curv= -360 + 240 + 60 + 46 = -14 
+
+#du4 and du5>=4, du5 and du6 >=4
+*llllBAll[6,2(4|5)]{f4|f6|+2}
+3ll3 2 3ll3 2 3ll4 2 4lB4 7 4BA3 8 3Al3 4 3ll3 2 3ll3 2
+curv= -360 + 240 + 60 + 58 = -2 
+*llllBAll[6,2(5|6)]{f4|f6|+2}
+3ll3 2 3ll3 2 3ll3 2 3lB4 1 4BA4 8 4Al3 4 3ll3 2 3ll3 2
+curv= -360 + 240 + 60 + 46 = -14 
+
+############
+
+#2. yllBXmma
+
+############
+
+#3 vertices of degree >=4
+*yllBXmma[5,3]{f7}
+yl 3 ll 0 lB 7 BX 4 Xm 7 mm 6 ma 6 ay 2
+curv= -360 + 200 + 90 + 70 = 0 
+
+#no vertices of degree >= 4
+*yllBXmma[8]
+3yl3 0 3ll3 4 3lB3 0 3BX3 0 3Xm3 0 3mm3 4 3ma3 6 3ay3 0
+curv= -360 + 320 + 28 = -12 
+
+# 1 vertex of degree >= 4
+*yllBXmma[7,1(1)]
+4yl3 3 3ll3 4 3lB3 0 3BX3 0 3Xm3 0 3mm3 4 3ma3 6 3ay4 2
+curv= -360 + 280 + 30 + 38 = -12 
+*yllBXmma[7,1(2)]
+3yl4 2 4ll3 4 3lB3 0 3BX3 0 3Xm3 0 3mm3 4 3ma3 6 3ay3 0
+curv= -360 + 280 + 30 + 32 = -18 
+*yllBXmma[7,1(3)]
+3yl3 0 3ll4 6 4lB3 0 3BX3 0 3Xm3 0 3mm3 4 3ma3 6 3ay3 0
+curv= -360 + 280 + 30 + 32 = -18 
+*yllBXmma[7,1(4)]
+3yl3 0 3ll3 4 3lB4 1 4BX3 4 3Xm3 0 3mm3 4 3ma3 6 3ay3 0
+curv= -360 + 280 + 30 + 38 = -12 
+*yllBXmma[7,1(5)]
+3yl3 0 3ll3 4 3lB3 0 3BX4 0 4Xm3 0 3mm3 4 3ma3 6 3ay3 0
+curv= -360 + 280 + 30 + 28 = -22 
+*yllBXmma[7,1(6)]
+3yl3 0 3ll3 4 3lB3 0 3BX3 0 3Xm4 7 4mm3 4 3ma3 6 3ay3 0
+curv= -360 + 280 + 30 + 42 = -8 
+*yllBXmma[7,1(7)]
+3yl3 0 3ll3 4 3lB3 0 3BX3 0 3Xm3 0 3mm4 6 4ma3 0 3ay3 0
+curv= -360 + 280 + 30 + 20 = -30 
+*yllBXmma[7,1(8)]
+3yl3 0 3ll3 4 3lB3 0 3BX3 0 3Xm3 0 3mm3 4 3ma4 2 4ay3 2
+curv= -360 + 280 + 30 + 24 = -26 
+
+#2 vertices of degree >=4
+
+#du3,du4,du5=3
+*yllBXmma[6(3|4|5),2]
+yl 3 0ll3 4 3lB3 0 3BX3 0 3Xm0 7 mm 6 ma 6 ay 2
+curv= -360 + 240 + 60 + 56 = -4 
+
+#du4,du5,du6=3
+*yllBXmma[6(4|5|6),2]
+yl 3 ll 6 0lB3 0 3BX3 0 3Xm3 0 3mm0 6 ma 6 ay 2
+curv= -360 + 240 + 60 + 46 = -14 
+
+# leaves 14 cases to consider
+*yllBXmma[6,2(1|4)]
+4yl3 3 3ll3 4 3lB4 1 4BX3 4 3Xm3 0 3mm3 4 3ma3 6 3ay4 2
+curv= -360 + 240 + 60 + 48 = -12 
+*yllBXmma[6,2(1|5)]
+4yl3 3 3ll3 4 3lB3 0 3BX4 0 4Xm3 0 3mm3 4 3ma3 6 3ay4 2
+curv= -360 + 240 + 60 + 38 = -22 
+*yllBXmma[6,2(2|4)]
+3yl4 2 4ll3 4 3lB4 1 4BX3 4 3Xm3 0 3mm3 4 3ma3 6 3ay3 0
+curv= -360 + 240 + 60 + 42 = -18 
+*yllBXmma[6,2(2|5)]
+3yl4 2 4ll3 4 3lB3 0 3BX4 0 4Xm3 0 3mm3 4 3ma3 6 3ay3 0
+curv= -360 + 240 + 60 + 32 = -28 
+*yllBXmma[6,2(3|4)]
+3yl3 0 3ll4 6 4lB4 7 4BX3 4 3Xm3 0 3mm3 4 3ma3 6 3ay3 0
+curv= -360 + 240 + 60 + 54 = -6 
+*yllBXmma[6,2(3|5)]
+3yl3 0 3ll4 6 4lB3 0 3BX4 0 4Xm3 0 3mm3 4 3ma3 6 3ay3 0
+curv= -360 + 240 + 60 + 32 = -28 
+*yllBXmma[6,2(3|6)]
+3yl3 0 3ll4 6 4lB3 0 3BX3 0 3Xm4 7 4mm3 4 3ma3 6 3ay3 0
+curv= -360 + 240 + 60 + 46 = -14 
+*yllBXmma[6,2(4|5)]
+3yl3 0 3ll3 4 3lB4 1 4BX4 0 4Xm3 0 3mm3 4 3ma3 6 3ay3 0
+curv= -360 + 240 + 60 + 30 = -30 
+*yllBXmma[6,2(4|6)]
+3yl3 0 3ll3 4 3lB4 1 4BX3 4 3Xm4 7 4mm3 4 3ma3 6 3ay3 0
+curv= -360 + 240 + 60 + 52 = -8 
+*yllBXmma[6,2(4|7)]
+3yl3 0 3ll3 4 3lB4 1 4BX3 4 3Xm3 0 3mm4 6 4ma3 0 3ay3 0
+curv= -360 + 240 + 60 + 30 = -30 
+*yllBXmma[6,2(4|8)]
+3yl3 0 3ll3 4 3lB4 1 4BX3 4 3Xm3 0 3mm3 4 3ma4 2 4ay3 2
+curv= -360 + 240 + 60 + 34 = -26 
+*yllBXmma[6,2(5|6)]
+3yl3 0 3ll3 4 3lB3 0 3BX4 0 4Xm4 4 4mm3 4 3ma3 6 3ay3 0
+curv= -360 + 240 + 60 + 36 = -24 
+*yllBXmma[6,2(5|7)]
+3yl3 0 3ll3 4 3lB3 0 3BX4 0 4Xm3 0 3mm4 6 4ma3 0 3ay3 0
+curv= -360 + 240 + 60 + 20 = -40 
+*yllBXmma[6,2(5|8)]
+3yl3 0 3ll3 4 3lB3 0 3BX4 0 4Xm3 0 3mm3 4 3ma4 2 4ay3 2
+curv= -360 + 240 + 60 + 24 = -36 
+
+############
+
+#3. AlxzbmYZ
+
+############
+
+#2 vertices of degree >=4
+*AlxzbmYZ[6,2]{f8|f9|f10}
+Al 0 lx 7 xz 3 zb 7 bm 2 mY 3 YZ 7 ZA 0
+curv= -360 + 240 + 60 + 58 = -2 
+
+#0 vertices of degree >=4
+*AlxzbmYZ[8]
+3Al3 6 3lx3 0 3xz3 0 3zb3 0 3bm3 0 3mY3 0 3YZ3 0 3ZA3 6
+curv= -360 + 320 + 24 = -16 
+
+#1 vertices of degree >=4
+*AlxzbmYZ[7,1(1)]
+4Al3 2 3lx3 0 3xz3 0 3zb3 0 3bm3 0 3mY3 0 3YZ3 0 3ZA4 2
+curv= -360 + 280 + 30 + 8 = -42 
+*AlxzbmYZ[7,1(2)]
+3Al4 0 4lx3 7 3xz3 0 3zb3 0 3bm3 0 3mY3 0 3YZ3 0 3ZA3 6
+curv= -360 + 280 + 30 + 26 = -24 
+*AlxzbmYZ[7,1(3)]
+3Al3 6 3lx4 0 4xz3 3 3zb3 0 3bm3 0 3mY3 0 3YZ3 0 3ZA3 6
+curv= -360 + 280 + 30 + 30 = -20 
+*AlxzbmYZ[7,1(4)]
+3Al3 6 3lx3 0 3xz4 2 4zb3 0 3bm3 0 3mY3 0 3YZ3 0 3ZA3 6
+curv= -360 + 280 + 30 + 28 = -22 
+*AlxzbmYZ[7,1(5)]
+3Al3 6 3lx3 0 3xz3 0 3zb4 1 4bm3 1 3mY3 0 3YZ3 0 3ZA3 6
+curv= -360 + 280 + 30 + 28 = -22 
+*AlxzbmYZ[7,1(6)]
+3Al3 6 3lx3 0 3xz3 0 3zb3 0 3bm4 0 4mY3 2 3YZ3 0 3ZA3 6
+curv= -360 + 280 + 30 + 28 = -22 
+*AlxzbmYZ[7,1(7)]
+3Al3 6 3lx3 0 3xz3 0 3zb3 0 3bm3 0 3mY4 3 4YZ3 0 3ZA3 6
+curv= -360 + 280 + 30 + 30 = -20 
+*AlxzbmYZ[7,1(8)]
+3Al3 6 3lx3 0 3xz3 0 3zb3 0 3bm3 0 3mY3 0 3YZ4 7 4ZA3 1
+curv= -360 + 280 + 30 + 28 = -22 
+
+############
+
+#4.AlxbabYZ using max charges m1,m2,m3,m4 derived from 5.8/9/10
+
+############
+
+#4 vertices of degree >=4
+*AlxbabYZ[4,4]{m1|m2|m3|m4}
+Al 4 lx 4 xb 4 ba 7 ab 7 bY 4 YZ 4 ZA 4
+curv= -360 + 160 + 120 + 76 = -4 
+
+#0 vertices of degree >=4
+*AlxbabYZ[8]
+3Al3 6 3lx3 0 3xb3 0 3ba3 2 3ab3 2 3bY3 0 3YZ3 0 3ZA3 6
+curv= -360 + 320 + 32 = -8 
+
+#1 vertex of degree >=4
+*AlxbabYZ[7,1(1)]
+4Al3 2 3lx3 0 3xb3 0 3ba3 2 3ab3 2 3bY3 0 3YZ3 0 3ZA4 2
+curv= -360 + 280 + 30 + 16 = -34 
+*AlxbabYZ[7,1(2)]
+3Al4 0 4lx3 7 3xb3 0 3ba3 2 3ab3 2 3bY3 0 3YZ3 0 3ZA3 6
+curv= -360 + 280 + 30 + 34 = -16 
+*AlxbabYZ[7,1(3)]
+3Al3 6 3lx4 0 4xb3 0 3ba3 2 3ab3 2 3bY3 0 3YZ3 0 3ZA3 6
+curv= -360 + 280 + 30 + 32 = -18 
+*AlxbabYZ[7,1(4)]{m3}
+3Al3 6 3lx3 0 3xb4 4 4ba3 7 3ab3 2 3bY3 0 3YZ3 0 3ZA3 6
+curv= -360 + 280 + 30 + 50 = 0 
+*AlxbabYZ[7,1(5)]
+3Al3 6 3lx3 0 3xb3 0 3ba4 0 4ab3 0 3bY3 0 3YZ3 0 3ZA3 6
+curv= -360 + 280 + 30 + 24 = -26 
+*AlxbabYZ[7,1(6)]{m4}
+3Al3 6 3lx3 0 3xb3 0 3ba3 2 3ab4 7 4bY3 4 3YZ3 0 3ZA3 6
+curv= -360 + 280 + 30 + 50 = 0 
+*AlxbabYZ[7,1(7)]
+3Al3 6 3lx3 0 3xb3 0 3ba3 2 3ab3 2 3bY4 0 4YZ3 0 3ZA3 6
+curv= -360 + 280 + 30 + 32 = -18 
+*AlxbabYZ[7,1(8)]
+3Al3 6 3lx3 0 3xb3 0 3ba3 2 3ab3 2 3bY3 0 3YZ4 7 4ZA3 1
+curv= -360 + 280 + 30 + 36 = -14 
+
+#2 vertices of degree >=4
+
+#du4=3
+*AlxbabYZ[6(4),2]{m4|m2|m1}
+Al 4 lx 4 0xb3 0 3ba0 2 ab 7 bY 4 YZ 4 ZA 4
+curv= -360 + 240 + 60 + 58 = -2 
+
+#du6=3
+*AlxbabYZ[6(6),2]{m1|m2|m3}
+Al 4 lx 4 xb 4 ba 7 0ab3 2 3bY0 0 YZ 4 ZA 4
+curv= -360 + 240 + 60 + 58 = -2 
+
+#du4>3,du6>3
+
+# cases ab charge is 9, 7 or 8 - need that max charge abx and abY is 9
+
+# (for simplicity charges for ba and ab are assumed to be the same)
+
+# the mustbe423x fact needs a bit of explaining!!!
+*AlxbabYZ[6,2(4|6)]{abx90|abY90}
+3Al3 6 3lx3 0 3xb4 0 4ba3 9 3ab4 9 4bY3 0 3YZ3 0 3ZA3 6
+curv= -360 + 240 + 60 + 60 = 0 
+*AlxbabYZ[6,2(4|6)]{not47xii|not47xiii|bab77}
+3Al3 6 3lx3 0 3xb4 2 4ba3 7 3ab4 7 4bY3 2 3YZ3 0 3ZA3 6
+curv= -360 + 240 + 60 + 60 = 0 
+*AlxbabYZ[6,2(4|6)]{mustbe423x1|mustbe423x2|bab88}
+3Al3 6 3lx3 0 3xb4 1 4ba3 8 3ab4 8 4bY3 1 3YZ3 0 3ZA3 6
+curv= -360 + 240 + 60 + 60 = 0 
+
+# 3 vertices of degree > 3
+
+#du2=3, du8=3
+*AlxbabYZ[5(2|8),3]{m4|m3}
+0Al3 6 3lx0 0 xb 4 ba 7 ab 7 bY 4 0YZ3 0 3ZA0 6
+curv= -360 + 200 + 90 + 68 = -2 
+
+#du4=3
+*AlxbabYZ[5(4),3]{m1|m2}
+Al 4 lx 4 0xb3 0 3ba0 2 ab 9 bY 4 YZ 4 ZA 4
+curv= -360 + 200 + 90 + 62 = -8 
+
+#du6=3
+*AlxbabYZ[5(6),3]{m1|m2}
+Al 4 lx 4 xb 4 ba 9 0ab3 2 3bY0 0 YZ 4 ZA 4
+curv= -360 + 200 + 90 + 62 = -8 
+
+# i,j,k must be 2,4,6 or 8,4,6
+*AlxbabYZ[5,3(2|4|6)]{m3|m4}
+3Al4 0 4lx3 7 3xb4 4 4ba3 7 3ab4 7 4bY3 4 3YZ3 0 3ZA3 6
+curv= -360 + 200 + 90 + 70 = 0 
+*AlxbabYZ[5,3(4|6|8|*)]{m3|m4}
+3Al3 6 3lx3 0 3xb=4 4 =4ba3 7 3ab=4 7 =4bY3 4 3YZ=4 7 =4ZA3 0
+curv= -360 + 200 + 90 + 70 = 0 
+*AlxbabYZ[5,3(4|6|8)]{m3|m4|-6}
+3Al3 6 3lx3 0 3xb4 4 4ba3 7 3ab4 7 4bY3 4 3YZ4 7 4ZA3 1
+curv= -360 + 200 + 90 + 72 = 2 (-6) 
+
+############
+
+#5. BAxzbmYA
+
+############
+
+#3 vertices of degree >=4
+*BAxzbmYA[5,3]{f14|f12|f11}
+BA 7 Ax 2 xz 0 zb 7 bm 7 mY 0 YA 2 AB 7
+curv= -360 + 200 + 90 + 64 = -6 
+
+#0 vertices of degree >=4
+*BAxzbmYA[8]
+3BA3 2 3Ax3 0 3xz3 0 3zb3 0 3bm3 0 3mY3 0 3YA3 0 3AB3 2
+curv= -360 + 320 + 8 = -32 
+
+#1 vertices of degree >=4
+*BAxzbmYA[7,1(1)]
+4BA3 9 3Ax3 0 3xz3 0 3zb3 0 3bm3 0 3mY3 0 3YA3 0 3AB4 9
+curv= -360 + 280 + 30 + 36 = -14 
+*BAxzbmYA[7,1(2)]
+3BA4 0 4Ax3 2 3xz3 0 3zb3 0 3bm3 0 3mY3 0 3YA3 0 3AB3 2
+curv= -360 + 280 + 30 + 8 = -42 
+*BAxzbmYA[7,1(3)]
+3BA3 2 3Ax4 2 4xz3 3 3zb3 0 3bm3 0 3mY3 0 3YA3 0 3AB3 2
+curv= -360 + 280 + 30 + 18 = -32 
+*BAxzbmYA[7,1(4)]
+3BA3 2 3Ax3 0 3xz4 2 4zb3 0 3bm3 0 3mY3 0 3YA3 0 3AB3 2
+curv= -360 + 280 + 30 + 12 = -38 
+*BAxzbmYA[7,1(5)]
+3BA3 2 3Ax3 0 3xz3 0 3zb4 1 4bm3 1 3mY3 0 3YA3 0 3AB3 2
+curv= -360 + 280 + 30 + 12 = -38 
+*BAxzbmYA[7,1(6)]
+3BA3 2 3Ax3 0 3xz3 0 3zb3 0 3bm4 0 4mY3 2 3YA3 0 3AB3 2
+curv= -360 + 280 + 30 + 12 = -38 
+*BAxzbmYA[7,1(7)]
+3BA3 2 3Ax3 0 3xz3 0 3zb3 0 3bm3 0 3mY4 3 4YA3 2 3AB3 2
+curv= -360 + 280 + 30 + 18 = -32 
+*BAxzbmYA[7,1(8)]
+3BA3 2 3Ax3 0 3xz3 0 3zb3 0 3bm3 0 3mY3 0 3YA4 2 4AB3 0
+curv= -360 + 280 + 30 + 8 = -42 
+
+#2 vertices of degree >=4
+
+#du1=3
+*BAxzbmYA[6(1),2]{f12|f11}
+3BA0 2 Ax 2 xz 0 zb 7 bm 7 mY 0 YA 2 0AB3 2
+curv= -360 + 240 + 60 + 44 = -16 
+
+#du5=3
+*BAxzbmYA[6(5),2]{f14}
+BA 7 Ax 2 xz 3 0zb3 0 3bm0 0 mY 3 YA 2 AB 7
+curv= -360 + 240 + 60 + 48 = -12 
+
+#du1>3,du5>3
+*BAxzbmYA[6,2(1|5)]{f14|f12}
+4BA3 7 3Ax3 0 3xz3 0 3zb4 7 4bm3 1 3mY3 0 3YA3 0 3AB4 7
+curv= -360 + 240 + 60 + 44 = -16 
+
+############
+
+#6.BAxbabYA
+
+############
+
+#4 vertices of degree >=4
+*BAxbabYA[4,4]{f14|m3|m4}
+BA 7 Ax 2 xb 4 ba 7 ab 7 bY 4 YA 2 AB 7
+curv= -360 + 160 + 120 + 80 = 0 
+
+#0 vertices of degree >=4
+*BAxbabYA[8]
+3BA3 2 3Ax3 0 3xb3 0 3ba3 2 3ab3 2 3bY3 0 3YA3 0 3AB3 2
+curv= -360 + 320 + 16 = -24 
+
+#1 vertex of degree >=4
+*BAxbabYA[7,1(1)]
+4BA3 9 3Ax3 0 3xb3 0 3ba3 2 3ab3 2 3bY3 0 3YA3 0 3AB4 9
+curv= -360 + 280 + 30 + 44 = -6 
+*BAxbabYA[7,1(2)]
+3BA4 0 4Ax3 2 3xb3 0 3ba3 2 3ab3 2 3bY3 0 3YA3 0 3AB3 2
+curv= -360 + 280 + 30 + 16 = -34 
+*BAxbabYA[7,1(3)]
+3BA3 2 3Ax4 2 4xb3 0 3ba3 2 3ab3 2 3bY3 0 3YA3 0 3AB3 2
+curv= -360 + 280 + 30 + 20 = -30 
+*BAxbabYA[7,1(4)]
+3BA3 2 3Ax3 0 3xb4 4 4ba3 9 3ab3 2 3bY3 0 3YA3 0 3AB3 2
+curv= -360 + 280 + 30 + 38 = -12 
+*BAxbabYA[7,1(5)]
+3BA3 2 3Ax3 0 3xb3 0 3ba4 0 4ab3 0 3bY3 0 3YA3 0 3AB3 2
+curv= -360 + 280 + 30 + 8 = -42 
+*BAxbabYA[7,1(6)]
+3BA3 2 3Ax3 0 3xb3 0 3ba3 2 3ab4 9 4bY3 4 3YA3 0 3AB3 2
+curv= -360 + 280 + 30 + 38 = -12 
+*BAxbabYA[7,1(7)]
+3BA3 2 3Ax3 0 3xb3 0 3ba3 2 3ab3 2 3bY4 0 4YA3 2 3AB3 2
+curv= -360 + 280 + 30 + 20 = -30 
+*BAxbabYA[7,1(8)]
+3BA3 2 3Ax3 0 3xb3 0 3ba3 2 3ab3 2 3bY3 0 3YA4 2 4AB3 0
+curv= -360 + 280 + 30 + 16 = -34 
+
+#2 vertices of degree >=4
+
+#du1=3
+*BAxbabYA[6(1),2]{m3|m4}
+3BA0 2 Ax 2 xb 4 ba 7 ab 7 bY 4 YA 2 0AB3 2
+curv= -360 + 240 + 60 + 60 = 0 
+*BAxbabYA[6,2(1|2)]
+4BA4 5 4Ax3 2 3xb3 0 3ba3 2 3ab3 2 3bY3 0 3YA3 0 3AB4 9
+curv= -360 + 240 + 60 + 40 = -20 
+*BAxbabYA[6,2(1|3)]{f14}
+4BA3 7 3Ax4 2 4xb3 0 3ba3 2 3ab3 2 3bY3 0 3YA3 0 3AB4 7
+curv= -360 + 240 + 60 + 40 = -20 
+*BAxbabYA[6,2(1|4)]{f14|m3}{
+4BA3 7 3Ax3 0 3xb4 4 4ba3 7 3ab3 2 3bY3 0 3YA3 0 3AB4 7
+curv= -360 + 240 + 60 + 54 = -6 
+*BAxbabYA[6,2(1|5)]
+4BA3 9 3Ax3 0 3xb3 0 3ba4 0 4ab3 0 3bY3 0 3YA3 0 3AB4 9
+curv= -360 + 240 + 60 + 36 = -24 
+*BAxbabYA[6,2(1|6)]{f14|m4}
+4BA3 7 3Ax3 0 3xb3 0 3ba3 2 3ab4 7 4bY3 4 3YA3 0 3AB4 7
+curv= -360 + 240 + 60 + 54 = -6 
+*BAxbabYA[6,2(1|7)]{f14}
+4BA3 7 3Ax3 0 3xb3 0 3ba3 2 3ab3 2 3bY4 0 4YA3 2 3AB4 7
+curv= -360 + 240 + 60 + 40 = -20 
+*BAxbabYA[6,2(1|8)]
+4BA3 9 3Ax3 0 3xb3 0 3ba3 2 3ab3 2 3bY3 0 3YA4 2 4AB4 5
+curv= -360 + 240 + 60 + 40 = -20 
+
+#3 vertices of degree >=4
+
+#du1=3
+*BAxbabYA[5(1),3]{m3|m4}
+3BA0 2 Ax 2 xb 4 ba 7 ab 7 bY 4 YA 2 0AB3 2
+curv= -360 + 200 + 90 + 60 = -10 
+
+#du4=3
+*BAxbabYA[5(4),3]{m4}
+BA 9 Ax 2 0xb3 0 3ba0 2 ab 7 bY 4 YA 2 AB 9
+curv= -360 + 200 + 90 + 70 = 0 
+
+#du6=3
+*BAxbabYA[5(6),3]{m3}
+BA 9 Ax 2 xb 4 ba 7 0ab3 2 3bY0 0 YA 2 AB 9
+curv= -360 + 200 + 90 + 70 = 0 
+
+#du1>3,du4>3,du6>3
+*BAxbabYA[5,3(1|4|6|*)]{m3|m4|notbothabpos}
+=4BA3 0 3Ax3 0 3xb=4 4 =4ba3 7 3ab=4 7 =4bY3 4 3YA3 0 3AB=4 9
+curv= -360 + 200 + 90 + 62 = -8 
+*BAxbabYA[5,3(1|4|6)]{f14|m3|m4|-6}
+4BA3 7 3Ax3 0 3xb4 4 4ba3 7 3ab4 7 4bY3 4 3YA3 0 3AB4 7
+curv= -360 + 200 + 90 + 72 = 2 (-6) 
+
+############
+
+#7.ZAxbmayB
+
+############
+
+#2 vertices of degree >=4
+*ZAxbmayB[6,2]{f15|f16}
+ZA 0 Ax 2 xb 4 bm 7 ma 0 ay 2 yB 4 BZ 7
+curv= -360 + 240 + 60 + 52 = -8 
+
+#0 vertices of degree >=4
+*ZAxbmayB[8]
+3ZA3 6 3Ax3 0 3xb3 0 3bm3 0 3ma3 6 3ay3 0 3yB3 0 3BZ3 0
+curv= -360 + 320 + 24 = -16 
+
+#1 vertices of degree >=4
+*ZAxbmayB[7,1(1)]
+4ZA3 1 3Ax3 0 3xb3 0 3bm3 0 3ma3 6 3ay3 0 3yB3 0 3BZ4 0
+curv= -360 + 280 + 30 + 14 = -36 
+*ZAxbmayB[7,1(2)]
+3ZA4 2 4Ax3 2 3xb3 0 3bm3 0 3ma3 6 3ay3 0 3yB3 0 3BZ3 0
+curv= -360 + 280 + 30 + 20 = -30 
+*ZAxbmayB[7,1(3)]
+3ZA3 6 3Ax4 2 4xb3 0 3bm3 0 3ma3 6 3ay3 0 3yB3 0 3BZ3 0
+curv= -360 + 280 + 30 + 28 = -22 
+*ZAxbmayB[7,1(4)]
+3ZA3 6 3Ax3 0 3xb4 4 4bm3 1 3ma3 6 3ay3 0 3yB3 0 3BZ3 0
+curv= -360 + 280 + 30 + 34 = -16 
+*ZAxbmayB[7,1(5)]
+3ZA3 6 3Ax3 0 3xb3 0 3bm4 0 4ma3 0 3ay3 0 3yB3 0 3BZ3 0
+curv= -360 + 280 + 30 + 12 = -38 
+*ZAxbmayB[7,1(6)]
+3ZA3 6 3Ax3 0 3xb3 0 3bm3 0 3ma4 2 4ay3 2 3yB3 0 3BZ3 0
+curv= -360 + 280 + 30 + 20 = -30 
+*ZAxbmayB[7,1(7)]
+3ZA3 6 3Ax3 0 3xb3 0 3bm3 0 3ma3 6 3ay4 2 4yB3 0 3BZ3 0
+curv= -360 + 280 + 30 + 28 = -22 
+*ZAxbmayB[7,1(8)]
+3ZA3 6 3Ax3 0 3xb3 0 3bm3 0 3ma3 6 3ay3 0 3yB4 4 4BZ3 1
+curv= -360 + 280 + 30 + 34 = -16 
+
+############
+
+#8.xbYXayBA
+
+############
+
+#3 vertices of degree >=4
+*xbYXayBA[5,3]
+xb 4 bY 4 YX 6 Xa 2 ay 2 yB 4 BA 9 Ax 2
+curv= -360 + 200 + 90 + 66 = -4 
+
+#0 vertices of degree >=4
+*xbYXayBA[8]
+3xb3 0 3bY3 0 3YX3 6 3Xa3 0 3ay3 0 3yB3 0 3BA3 2 3Ax3 0
+curv= -360 + 320 + 16 = -24 
+
+#1 vertices of degree >=4
+*xbYXayBA[7,1(1)]
+4xb3 0 3bY3 0 3YX3 6 3Xa3 0 3ay3 0 3yB3 0 3BA3 2 3Ax4 2
+curv= -360 + 280 + 30 + 20 = -30 
+*xbYXayBA[7,1(2)]
+3xb4 4 4bY3 4 3YX3 6 3Xa3 0 3ay3 0 3yB3 0 3BA3 2 3Ax3 0
+curv= -360 + 280 + 30 + 32 = -18 
+*xbYXayBA[7,1(3)]
+3xb3 0 3bY4 0 4YX3 2 3Xa3 0 3ay3 0 3yB3 0 3BA3 2 3Ax3 0
+curv= -360 + 280 + 30 + 8 = -42 
+*xbYXayBA[7,1(4)]
+3xb3 0 3bY3 0 3YX4 2 4Xa3 2 3ay3 0 3yB3 0 3BA3 2 3Ax3 0
+curv= -360 + 280 + 30 + 12 = -38 
+*xbYXayBA[7,1(5)]
+3xb3 0 3bY3 0 3YX3 6 3Xa4 2 4ay3 2 3yB3 0 3BA3 2 3Ax3 0
+curv= -360 + 280 + 30 + 24 = -26 
+*xbYXayBA[7,1(6)]
+3xb3 0 3bY3 0 3YX3 6 3Xa3 0 3ay4 2 4yB3 0 3BA3 2 3Ax3 0
+curv= -360 + 280 + 30 + 20 = -30 
+*xbYXayBA[7,1(7)]
+3xb3 0 3bY3 0 3YX3 6 3Xa3 0 3ay3 0 3yB4 4 4BA3 9 3Ax3 0
+curv= -360 + 280 + 30 + 38 = -12 
+*xbYXayBA[7,1(8)]
+3xb3 0 3bY3 0 3YX3 6 3Xa3 0 3ay3 0 3yB3 0 3BA4 0 4Ax3 2
+curv= -360 + 280 + 30 + 16 = -34 
+
+#2 vertices of degree >=4
+
+#du2=3
+*xbYXayBA[6(2),2]
+0xb3 0 3bY0 0 YX 6 Xa 2 ay 2 yB 4 BA 9 Ax 2
+curv= -360 + 240 + 60 + 50 = -10 
+
+#du7=3
+*xbYXayBA[6(7),2]
+xb 4 bY 4 YX 6 Xa 2 ay 2 0yB3 0 3BA0 2 Ax 2
+curv= -360 + 240 + 60 + 44 = -16 
+
+#du2>3,du7>3
+*xbYXayBA[6,2(2|7)]
+3xb4 4 4bY3 4 3YX3 6 3Xa3 0 3ay3 0 3yB4 4 4BA3 9 3Ax3 0
+curv= -360 + 240 + 60 + 54 = -6 
+
+############
+
+#9.XazzyBZZ
+
+############
+
+#3 vertices of degree >=4
+*XazzyBZZ[5,3]{m5|m6}
+Xa 2 az 6 zz 4 zy 4 yB 4 BZ 4 ZZ 4 ZX 3
+curv= -360 + 200 + 90 + 62 = -8 
+
+#0 vertices of degree >=4
+*XazzyBZZ[8]
+3Xa3 0 3az3 6 3zz3 4 3zy3 0 3yB3 0 3BZ3 0 3ZZ3 4 3ZX3 0
+curv= -360 + 320 + 28 = -12 
+
+#1 vertex of degree >=4
+*XazzyBZZ[7,1(1)]
+4Xa3 2 3az3 6 3zz3 4 3zy3 0 3yB3 0 3BZ3 0 3ZZ3 4 3ZX4 3
+curv= -360 + 280 + 30 + 38 = -12 
+*XazzyBZZ[7,1(2)]
+3Xa4 2 4az3 2 3zz3 4 3zy3 0 3yB3 0 3BZ3 0 3ZZ3 4 3ZX3 0
+curv= -360 + 280 + 30 + 24 = -26 
+*XazzyBZZ[7,1(3)]
+3Xa3 0 3az4 1 4zz3 6 3zy3 0 3yB3 0 3BZ3 0 3ZZ3 4 3ZX3 0
+curv= -360 + 280 + 30 + 22 = -28 
+*XazzyBZZ[7,1(4)]
+3Xa3 0 3az3 6 3zz4 4 4zy3 7 3yB3 0 3BZ3 0 3ZZ3 4 3ZX3 0
+curv= -360 + 280 + 30 + 42 = -8 
+*XazzyBZZ[7,1(5)]
+3Xa3 0 3az3 6 3zz3 4 3zy4 0 4yB3 0 3BZ3 0 3ZZ3 4 3ZX3 0
+curv= -360 + 280 + 30 + 28 = -22 
+*XazzyBZZ[7,1(6)]
+3Xa3 0 3az3 6 3zz3 4 3zy3 0 3yB4 4 4BZ3 1 3ZZ3 4 3ZX3 0
+curv= -360 + 280 + 30 + 38 = -12 
+*XazzyBZZ[7,1(7)]
+3Xa3 0 3az3 6 3zz3 4 3zy3 0 3yB3 0 3BZ4 0 4ZZ3 6 3ZX3 0
+curv= -360 + 280 + 30 + 32 = -18 
+*XazzyBZZ[7,1(8)]
+3Xa3 0 3az3 6 3zz3 4 3zy3 0 3yB3 0 3BZ3 0 3ZZ4 4 4ZX3 2
+curv= -360 + 280 + 30 + 32 = -18 
+
+#2 vertices of degree >=4
+
+#du4/5/6=3
+*XazzyBZZ[6(4|5|6),2]
+Xa 2 az 6 0zz3 6 3zy3 0 3yB3 0 3BZ0 0 ZZ 6 ZX 3
+curv= -360 + 240 + 60 + 46 = -14 
+
+#du5/6/7=3
+*XazzyBZZ[6(5|6|7),2]
+Xa 2 az 6 zz 6 0zy3 7 3yB3 0 3BZ3 0 3ZZ0 4 ZX 3
+curv= -360 + 240 + 60 + 56 = -4 
+*XazzyBZZ[6,2(1|5)]
+4Xa3 2 3az3 6 3zz3 4 3zy4 0 4yB3 0 3BZ3 0 3ZZ3 4 3ZX4 3
+curv= -360 + 240 + 60 + 38 = -22 
+*XazzyBZZ[6,2(1|6)]
+4Xa3 2 3az3 6 3zz3 4 3zy3 0 3yB4 4 4BZ3 1 3ZZ3 4 3ZX4 3
+curv= -360 + 240 + 60 + 48 = -12 
+*XazzyBZZ[6,2(2|5)]
+3Xa4 2 4az3 2 3zz3 4 3zy4 0 4yB3 0 3BZ3 0 3ZZ3 4 3ZX3 0
+curv= -360 + 240 + 60 + 24 = -36 
+*XazzyBZZ[6,2(2|6)]
+3Xa4 2 4az3 2 3zz3 4 3zy3 0 3yB4 4 4BZ3 1 3ZZ3 4 3ZX3 0
+curv= -360 + 240 + 60 + 34 = -26 
+*XazzyBZZ[6,2(3|5)]
+3Xa3 0 3az4 1 4zz3 6 3zy4 0 4yB3 0 3BZ3 0 3ZZ3 4 3ZX3 0
+curv= -360 + 240 + 60 + 22 = -38 
+*XazzyBZZ[6,2(3|6)]
+3Xa3 0 3az4 1 4zz3 6 3zy3 0 3yB4 4 4BZ3 1 3ZZ3 4 3ZX3 0
+curv= -360 + 240 + 60 + 32 = -28 
+*XazzyBZZ[6,2(4|5)]
+3Xa3 0 3az3 6 3zz4 4 4zy4 4 4yB3 0 3BZ3 0 3ZZ3 4 3ZX3 0
+curv= -360 + 240 + 60 + 36 = -24 
+*XazzyBZZ[6,2(4|6)]
+3Xa3 0 3az3 6 3zz4 4 4zy3 7 3yB4 4 4BZ3 1 3ZZ3 4 3ZX3 0
+curv= -360 + 240 + 60 + 52 = -8 
+*XazzyBZZ[6,2(4|7)]
+3Xa3 0 3az3 6 3zz4 4 4zy3 7 3yB3 0 3BZ4 0 4ZZ3 6 3ZX3 0
+curv= -360 + 240 + 60 + 46 = -14 
+*XazzyBZZ[6,2(5|6)]
+3Xa3 0 3az3 6 3zz3 4 3zy4 0 4yB4 4 4BZ3 1 3ZZ3 4 3ZX3 0
+curv= -360 + 240 + 60 + 38 = -22 
+*XazzyBZZ[6,2(5|7)]
+3Xa3 0 3az3 6 3zz3 4 3zy4 0 4yB3 0 3BZ4 0 4ZZ3 6 3ZX3 0
+curv= -360 + 240 + 60 + 32 = -28 
+*XazzyBZZ[6,2(5|8)]
+3Xa3 0 3az3 6 3zz3 4 3zy4 0 4yB3 0 3BZ3 0 3ZZ4 4 4ZX3 2
+curv= -360 + 240 + 60 + 32 = -28 
+*XazzyBZZ[6,2(6|7)]
+3Xa3 0 3az3 6 3zz3 4 3zy3 0 3yB4 4 4BZ4 7 4ZZ3 6 3ZX3 0
+curv= -360 + 240 + 60 + 54 = -6 
+*XazzyBZZ[6,2(6|8)]
+3Xa3 0 3az3 6 3zz3 4 3zy3 0 3yB4 4 4BZ3 1 3ZZ4 4 4ZX3 2
+curv= -360 + 240 + 60 + 42 = -18 
+
+############
+
+#10. zbYXYAlx
+
+############
+
+#3 vertices of degree >=4
+*zbYXYAlx[5,3]{f8|f12}
+zb 7 bY 4 YX 6 XY 6 YA 2 Al 0 lx 7 xz 0
+curv= -360 + 200 + 90 + 64 = -6 
+
+#0 vertices of degree >=4
+*zbYXYAlx[8]
+3zb3 0 3bY3 0 3YX3 6 3XY3 6 3YA3 0 3Al3 6 3lx3 0 3xz3 0
+curv= -360 + 320 + 36 = -4 
+
+#1 vertices of degree >=4
+*zbYXYAlx[7,1(1)]
+4zb3 0 3bY3 0 3YX3 6 3XY3 6 3YA3 0 3Al3 6 3lx3 0 3xz4 2
+curv= -360 + 280 + 30 + 40 = -10 
+*zbYXYAlx[7,1(2)]
+3zb4 1 4bY3 4 3YX3 6 3XY3 6 3YA3 0 3Al3 6 3lx3 0 3xz3 0
+curv= -360 + 280 + 30 + 46 = -4 
+*zbYXYAlx[7,1(3)]
+3zb3 0 3bY4 0 4YX3 2 3XY3 6 3YA3 0 3Al3 6 3lx3 0 3xz3 0
+curv= -360 + 280 + 30 + 28 = -22 
+*zbYXYAlx[7,1(4)]
+3zb3 0 3bY3 0 3YX4 2 4XY3 2 3YA3 0 3Al3 6 3lx3 0 3xz3 0
+curv= -360 + 280 + 30 + 20 = -30 
+*zbYXYAlx[7,1(5)]
+3zb3 0 3bY3 0 3YX3 6 3XY4 2 4YA3 2 3Al3 6 3lx3 0 3xz3 0
+curv= -360 + 280 + 30 + 32 = -18 
+*zbYXYAlx[7,1(6)]
+3zb3 0 3bY3 0 3YX3 6 3XY3 6 3YA4 2 4Al3 2 3lx3 0 3xz3 0
+curv= -360 + 280 + 30 + 32 = -18 
+*zbYXYAlx[7,1(7)]
+3zb3 0 3bY3 0 3YX3 6 3XY3 6 3YA3 0 3Al4 0 4lx3 7 3xz3 0
+curv= -360 + 280 + 30 + 38 = -12 
+*zbYXYAlx[7,1(8)]
+3zb3 0 3bY3 0 3YX3 6 3XY3 6 3YA3 0 3Al3 6 3lx4 0 4xz3 3
+curv= -360 + 280 + 30 + 42 = -8 
+
+#2 vertices of degree >=4
+
+#du1=3
+*zbYXYAlx[6(1),2]{f8}
+3zb0 1 bY 4 YX 6 XY 6 YA 2 Al 0 lx 7 0xz3 3
+curv= -360 + 240 + 60 + 58 = -2 
+
+#du2=3
+*zbYXYAlx[6(2),2]{f8|f12}
+0zb3 7 3bY0 0 YX 6 XY 6 YA 2 Al 0 lx 7 xz 0
+curv= -360 + 240 + 60 + 56 = -4 
+
+#du1>3,du2>3
+*zbYXYAlx[6,2(1|2)]{f8|f12}
+4zb4 7 4bY3 4 3YX3 6 3XY3 6 3YA3 0 3Al3 0 3lx3 7 3xz4 0
+curv= -360 + 240 + 60 + 60 = 0 
+
+############
+
+#11. ZAxyxbmY
+
+############
+
+#3 vertices of degree >=4
+*ZAxyxbmY[5,3]{f9|f11}
+ZA 0 Ax 2 xy 6 yx 6 xb 4 bm 7 mY 0 YZ 7
+curv= -360 + 200 + 90 + 64 = -6 
+
+#0 vertices of degree >=4
+*ZAxyxbmY[8]
+3ZA3 6 3Ax3 0 3xy3 6 3yx3 6 3xb3 0 3bm3 0 3mY3 0 3YZ3 0
+curv= -360 + 320 + 36 = -4 
+
+#1 vertices of degree >=4
+*ZAxyxbmY[7,1(1)]
+4ZA3 1 3Ax3 0 3xy3 6 3yx3 6 3xb3 0 3bm3 0 3mY3 0 3YZ4 7
+curv= -360 + 280 + 30 + 40 = -10 
+*ZAxyxbmY[7,1(2)]
+3ZA4 2 4Ax3 2 3xy3 6 3yx3 6 3xb3 0 3bm3 0 3mY3 0 3YZ3 0
+curv= -360 + 280 + 30 + 32 = -18 
+*ZAxyxbmY[7,1(3)]
+3ZA3 6 3Ax4 2 4xy3 2 3yx3 6 3xb3 0 3bm3 0 3mY3 0 3YZ3 0
+curv= -360 + 280 + 30 + 32 = -18 
+*ZAxyxbmY[7,1(4)]
+3ZA3 6 3Ax3 0 3xy4 2 4yx3 2 3xb3 0 3bm3 0 3mY3 0 3YZ3 0
+curv= -360 + 280 + 30 + 20 = -30 
+*ZAxyxbmY[7,1(5)]
+3ZA3 6 3Ax3 0 3xy3 6 3yx4 2 4xb3 0 3bm3 0 3mY3 0 3YZ3 0
+curv= -360 + 280 + 30 + 28 = -22 
+*ZAxyxbmY[7,1(6)]
+3ZA3 6 3Ax3 0 3xy3 6 3yx3 6 3xb4 4 4bm3 1 3mY3 0 3YZ3 0
+curv= -360 + 280 + 30 + 46 = -4 
+*ZAxyxbmY[7,1(7)]
+3ZA3 6 3Ax3 0 3xy3 6 3yx3 6 3xb3 0 3bm4 0 4mY3 2 3YZ3 0
+curv= -360 + 280 + 30 + 40 = -10 
+*ZAxyxbmY[7,1(8)]
+3ZA3 6 3Ax3 0 3xy3 6 3yx3 6 3xb3 0 3bm3 0 3mY4 3 4YZ3 0
+curv= -360 + 280 + 30 + 42 = -8 
+
+#2 vertices of degree >=4
+
+#du6=3
+*ZAxyxbmY[6(6),2]{f9}
+ZA 0 Ax 2 xy 6 yx 6 0xb3 0 3bm0 0 mY 3 YZ 7
+curv= -360 + 240 + 60 + 48 = -12 
+
+#du7=3
+*ZAxyxbmY[6(7),2]{f9}
+ZA 0 Ax 2 xy 6 yx 6 xb 4 0bm3 1 3mY0 3 YZ 7
+curv= -360 + 240 + 60 + 58 = -2 
+
+#du6>3,du7>3
+*ZAxyxbmY[6,2(6|7)]{f9|f11}
+3ZA3 0 3Ax3 0 3xy3 6 3yx3 6 3xb4 4 4bm4 7 4mY3 0 3YZ3 7
+curv= -360 + 240 + 60 + 60 = 0 
+
+############
+
+#12. llllBAlll uses fact 4 and fact 6  (length 9 case)
+
+############
+
+# fact 4 implies that ll has max average degree <=2 ((4+0+4+0+4+0)/6)
+
+# NB if llllll is 6 0 6 0 6 0 then there are 3 > deg 4 vertices each giving
+
+# a surplus of -3 to each 6 reducing it to 3 0 3 0 3 0
+
+# so we treat average as 2
+
+# fact 6 says max charge for bam is 8,4
+
+#3 vertices of degree >=4
+*llllBAlll[6,3]{f4|f6}
+ll 2 ll 2 ll 2 lB 7 BA 8 Al 4 ll 2 ll 2 ll 2
+curv= -420 + 240 + 90 + 62 = -28 
+
+#no vertices of degree >= 4
+*llllBAlll[9]{f4}
+3ll3 2 3ll3 2 3ll3 2 3lB3 0 3BA3 2 3Al3 6 3ll3 2 3ll3 2 3ll3 2
+curv= -420 + 360 + 40 = -20 
+
+# 1 vertex of degree >=4
+
+#du5=3
+*llllBAlll[8(5),1]{f4}
+ll 2 ll 2 ll 2 0lB3 0 3BA0 2 Al 6 ll 2 ll 2 ll 2
+curv= -420 + 320 + 30 + 40 = -30 
+
+#du5=4
+*llllBAlll[8(4|6),1(5)]{f4|f6}
+ll 2 ll 2 0ll3 2 3lB4 1 4BA3 8 3Al0 4 ll 2 ll 2 ll 2
+curv= -420 + 320 + 30 + 50 = -20 
+
+# 2 vertices of degree >= 4,  u5 and one of 1,2,3,7,8,9
+*llllBAlll[7(4|6),2(5)]{f4|f6}
+ll 2 ll 2 0ll3 2 3lB4 1 4BA3 8 3Al0 4 ll 2 ll 2 ll 2
+curv= -420 + 280 + 60 + 50 = -30 
+
+# degrees of u4 and u5 >= 4, u5 and u6 >=4
+*llllBAlll[7,2(4|5)]{f4|f6}
+3ll3 2 3ll3 2 3ll4 2 4lB4 7 4BA3 8 3Al3 4 3ll3 2 3ll3 2 3ll3 2
+curv= -420 + 280 + 60 + 62 = -18 
+*llllBAlll[7,2(5|6)]{f4|f6}
+3ll3 2 3ll3 2 3ll3 2 3lB4 1 4BA4 8 4Al3 4 3ll3 2 3ll3 2 3ll3 2
+curv= -420 + 280 + 60 + 50 = -30 
+charge_script2.txt
+
+# at least 4 vertices of degree >= 4
++zbYXY(Al(x[4,4]
+bY 4 YX 10 XY 10 YA 2 Alx 7 xzb 7
+curv= -360 + 160 + 120 + 80 = 0 
+
+# 0 vertices of degree >= 4 condition u4E
++zbYXYAlx[8]{u4E}
+3zb3 0 3bY3 0 3YX3 10 3XY3 4 3YA3 0 3Al3 6 3lx3 0 3xz3 0
+curv= -360 + 320 + 40 = 0 
+
+# 0 vertices of degree >= 4 condition u5E
++zbYXYAlx[8]{u5E}
+3zb3 0 3bY3 0 3YX3 7 3XY3 7 3YA3 0 3Al3 6 3lx3 0 3xz3 0
+curv= -360 + 320 + 40 = 0 
+
+# 1 vertex of degree >=4 (1,2,3,5,6,7,8) condition u4E
++zbYXYAlx[7,1(1)]{u4E}
+4zb3 0 3bY3 0 3YX3 10 3XY3 4 3YA3 0 3Al3 6 3lx3 0 3xz4 2
+curv= -360 + 280 + 30 + 44 = -6 
++zbYXYAlx[7,1(2)]{u4E}
+3zb4 1 4bY3 4 3YX3 10 3XY3 4 3YA3 0 3Al3 6 3lx3 0 3xz3 0
+curv= -360 + 280 + 30 + 50 = 0 
++zbYXYAlx[7,1(5)]
+3zb3 0 3bY3 0 3YX3 10 3XY4 2 4YA3 2 3Al3 6 3lx3 0 3xz3 0
+curv= -360 + 280 + 30 + 40 = -10 
++zbYXYAlx[7,1(6)]{u4E}
+3zb3 0 3bY3 0 3YX3 10 3XY3 4 3YA4 0 4Al3 2 3lx3 0 3xz3 0
+curv= -360 + 280 + 30 + 32 = -18 
++zbYXYAlx[7,1(7)]{u4E}
+3zb3 0 3bY3 0 3YX3 10 3XY3 4 3YA3 0 3Al4 0 4lx3 7 3xz3 0
+curv= -360 + 280 + 30 + 42 = -8 
++zbYXYAlx[7,1(8)]{u4E}
+3zb3 0 3bY3 0 3YX3 10 3XY3 4 3YA3 0 3Al3 6 3lx4 0 4xz3 3
+curv= -360 + 280 + 30 + 46 = -4 
+
+# 1 vertex of degree >=4 (1,2,3,5,6,7,8) condition u5E
++zbYXYAlx[7,1(1)]{u5E}
+4zb3 0 3bY3 0 3YX3 7 3XY3 7 3YA3 0 3Al3 6 3lx3 0 3xz4 2
+curv= -360 + 280 + 30 + 44 = -6 
++zbYXYAlx[7,1(2)]{u5E}
+3zb4 1 4bY3 4 3YX3 7 3XY3 7 3YA3 0 3Al3 6 3lx3 0 3xz3 0
+curv= -360 + 280 + 30 + 50 = 0 
++zbYXYAlx[7,1(5)]
+3zb3 0 3bY3 0 3YX3 10 3XY4 2 4YA3 2 3Al3 6 3lx3 0 3xz3 0
+curv= -360 + 280 + 30 + 40 = -10 
++zbYXYAlx[7,1(6)]{u5E}
+3zb3 0 3bY3 0 3YX3 7 3XY3 7 3YA4 2 4Al3 2 3lx3 0 3xz3 0
+curv= -360 + 280 + 30 + 36 = -14 
++zbYXYAlx[7,1(7)]{u5E}
+3zb3 0 3bY3 0 3YX3 7 3XY3 7 3YA3 0 3Al4 0 4lx3 7 3xz3 0
+curv= -360 + 280 + 30 + 42 = -8 
++zbYXYAlx[7,1(8)]{u5E}
+3zb3 0 3bY3 0 3YX3 7 3XY3 7 3YA3 0 3Al3 6 3lx4 0 4xz3 3
+curv= -360 + 280 + 30 + 46 = -4 
+
+# 2 vertices of degree >= 4 and condition u5E
+
+# no deg > 4 allowed
++zbYXYAlx[6,2(1|2|*)]{u5E|f1}
+=4zb=4 7 =4bY3 0 3YX3 7 3XY3 7 3YA3 0 3Al3 6 3lx3 0 3xz=4 0
+curv= -360 + 240 + 60 + 54 = -6 
+
+# deg > 4 allowed (subtract 6 for each deg>4)
++zbYXYAlx[6,2(1|2)]{u5E|-6}
+4zb4 7 4bY3 4 3YX3 7 3XY3 7 3YA3 0 3Al3 6 3lx3 0 3xz4 2
+curv= -360 + 240 + 60 + 66 = 6 (-6) 
++zbYXYAlx[6,2(1|3)]
+4zb3 0 3bY4 0 4YX3 2 3XY3 10 3YA3 0 3Al3 6 3lx3 0 3xz4 2
+curv= -360 + 240 + 60 + 40 = -20 
++zbYXYAlx[6,2(1|5)]
+4zb3 0 3bY3 0 3YX3 10 3XY4 2 4YA3 2 3Al3 6 3lx3 0 3xz4 2
+curv= -360 + 240 + 60 + 44 = -16 
++zbYXYAlx[6,2(1|6)]
+4zb3 0 3bY3 0 3YX3 10 3XY3 10 3YA4 2 4Al3 2 3lx3 0 3xz4 2
+curv= -360 + 240 + 60 + 52 = -8 
++zbYXYAlx[6,2(1|7)]
+4zb3 0 3bY3 0 3YX3 10 3XY3 10 3YA3 0 3Al4 0 4lx3 7 3xz4 2
+curv= -360 + 240 + 60 + 58 = -2 
++zbYXYAlx[6,2(1|8)]
+4zb3 0 3bY3 0 3YX3 10 3XY3 10 3YA3 0 3Al3 6 3lx4 0 4xz4 0
+curv= -360 + 240 + 60 + 52 = -8 
++zbYXYAlx[6,2(2|3)]
+3zb4 1 4bY4 4 4YX3 2 3XY3 10 3YA3 0 3Al3 6 3lx3 0 3xz3 0
+curv= -360 + 240 + 60 + 46 = -14 
++zbYXYAlx[6,2(2|5)]
+3zb4 1 4bY3 4 3YX3 10 3XY4 2 4YA3 2 3Al3 6 3lx3 0 3xz3 0
+curv= -360 + 240 + 60 + 50 = -10 
++zbYXYAlx[6,2(2|6)]
+3zb4 1 4bY3 4 3YX3 10 3XY3 10 3YA4 2 4Al3 2 3lx3 0 3xz3 0
+curv= -360 + 240 + 60 + 58 = -2 
++zbYXYAlx[6,2(2|7)]{u5E}
+3zb4 1 4bY3 4 3YX3 7 3XY3 7 3YA3 0 3Al4 0 4lx3 7 3xz3 0
+curv= -360 + 240 + 60 + 52 = -8 
++zbYXYAlx[6,2(2|8)]{u5E}
+3zb4 1 4bY3 4 3YX3 7 3XY3 7 3YA3 0 3Al3 6 3lx4 0 4xz3 3
+curv= -360 + 240 + 60 + 56 = -4 
++zbYXYAlx[6,2(3|6)]
+3zb3 0 3bY4 0 4YX3 2 3XY3 10 3YA4 2 4Al3 2 3lx3 0 3xz3 0
+curv= -360 + 240 + 60 + 32 = -28 
++zbYXYAlx[6,2(3|7)]
+3zb3 0 3bY4 0 4YX3 2 3XY3 10 3YA3 0 3Al4 0 4lx3 7 3xz3 0
+curv= -360 + 240 + 60 + 38 = -22 
++zbYXYAlx[6,2(3|8)]
+3zb3 0 3bY4 0 4YX3 2 3XY3 10 3YA3 0 3Al3 6 3lx4 0 4xz3 3
+curv= -360 + 240 + 60 + 42 = -18 
++zbYXYAlx[6,2(5|6)]
+3zb3 0 3bY3 0 3YX3 10 3XY4 2 4YA4 0 4Al3 2 3lx3 0 3xz3 0
+curv= -360 + 240 + 60 + 28 = -32 
++zbYXYAlx[6,2(5|7)]
+3zb3 0 3bY3 0 3YX3 10 3XY4 2 4YA3 2 3Al4 0 4lx3 7 3xz3 0
+curv= -360 + 240 + 60 + 42 = -18 
++zbYXYAlx[6,2(5|8)]
+3zb3 0 3bY3 0 3YX3 10 3XY4 2 4YA3 2 3Al3 6 3lx4 0 4xz3 3
+curv= -360 + 240 + 60 + 46 = -14 
++zbYXYAlx[6,2(6|7)]
+3zb3 0 3bY3 0 3YX3 10 3XY3 10 3YA4 2 4Al4 1 4lx3 7 3xz3 0
+curv= -360 + 240 + 60 + 60 = 0 
++zbYXYAlx[6,2(6|8)]
+3zb3 0 3bY3 0 3YX3 10 3XY3 10 3YA4 2 4Al3 2 3lx4 0 4xz3 3
+curv= -360 + 240 + 60 + 54 = -6 
++zbYXYAlx[6,2(7|8)]
+3zb3 0 3bY3 0 3YX3 10 3XY3 10 3YA3 0 3Al4 0 4lx4 4 4xz3 3
+curv= -360 + 240 + 60 + 54 = -6 
+
+#3 vertices of degree > 3
+
+# if deg u2=3 or deg u5,u6=3 or deg(u5)>=4
+
+# 3v deg 4 vertices give curv <= 0
+
+#u2=3
++zbYXY(Alx[5(2),3]
+0zb3 0 3bY0 0 YX 10 XY 10 YA 2 Alx 7 xz 3
+curv= -360 + 200 + 90 + 64 = -6 
+
+#u4=3,u5=3,u6=3 and u3=4
++zbYXYA(lx[5(4|5|6),3(2|3|*)]
+0zb=4 7 =4bY=4 0 =4YX3 0 3XY3 10 3YA3 0 3Al0 6 lxz 9
+curv= -360 + 200 + 90 + 64 = -6 
++zbYXYA(lx[5(4|5|6),3(2|3)]{-6}
+0zb4 7 4bY4 4 4YX3 2 3XY3 10 3YA3 0 3Al0 6 lxz 9
+curv= -360 + 200 + 90 + 76 = 6 (-6) 
+
+#u3=3,u4=3,u5=3,u6=3
++zbYXY(Alx[5(3|4|5|6),3(2)]{u5E}
+0zb4 7 4bY3 4 3YX3 7 3XY3 7 3YA3 0 Alx 7 xz 3
+curv= -360 + 200 + 90 + 70 = 0 
+
+# not u2=3 or u5=3,u6=3
+
+#no degs > 4
++zbYXYAlx[5,3(1|2|6|*)]
+=4zb=4 7 =4bY3 4 3YX3 10 3XY3 10 3YA=4 0 =4Al3 0 3lx3 0 3xz=4 0
+curv= -360 + 200 + 90 + 62 = -8 
+
+# degs>4 allowed
++zbYXYAlx[5,3(1|2|6)]{-6}
+4zb4 7 4bY3 4 3YX3 10 3XY3 10 3YA4 2 4Al3 2 3lx3 0 3xz4 2
+curv= -360 + 200 + 90 + 74 = 4 (-6) 
++zbYXYAlx[5,3(2|6|7)]
+3zb4 1 4bY3 4 3YX3 10 3XY3 10 3YA4 2 4Al4 1 4lx3 7 3xz3 0
+curv= -360 + 200 + 90 + 70 = 0 
++zbYXYAlx[5,3(2|6|8)]
+3zb4 1 4bY3 4 3YX3 10 3XY3 10 3YA4 2 4Al3 2 3lx4 0 4xz3 3
+curv= -360 + 200 + 90 + 64 = -6 
+charge_script3.txt
+
+#Proposition 7.4
+
+# 7.6 cases
+
+############
+
+#1 XYX azy xy BZ
+
+############
+
+#1 vertex degree 4 du6
++XYXazyxyBZ[9,1(6)]
+3XY3 10 3YX3 10 3Xa3 0 3az3 6 3zy4 0 4yx3 2 3xy3 10 3yB3 0 3BZ3 0 3ZX3 0
+curv= -480 + 360 + 30 + 76 = -14 
+
+#2 vertices degree >=4
++XYXazyxyBZ[8,2(4|6)]
+3XY3 10 3YX3 10 3Xa4 2 4az3 2 3zy4 0 4yx3 2 3xy3 10 3yB3 0 3BZ3 0 3ZX3 0
+curv= -480 + 320 + 60 + 72 = -28 
++XYXazyxyBZ[8,2(5|6)]
+3XY3 10 3YX3 10 3Xa3 0 3az4 1 4zy4 4 4yx3 2 3xy3 10 3yB3 0 3BZ3 0 3ZX3 0
+curv= -480 + 320 + 60 + 74 = -26 
++XYXazyxyBZ[8,2(9|6)]
+3XY3 10 3YX3 10 3Xa3 0 3az3 6 3zy4 0 4yx3 2 3xy3 10 3yB4 4 4BZ3 1 3ZX3 0
+curv= -480 + 320 + 60 + 86 = -14 
++XYXazyxyBZ[8,2(10|6)]
+3XY3 10 3YX3 10 3Xa3 0 3az3 6 3zy4 0 4yx3 2 3xy3 10 3yB3 0 3BZ4 0 4ZX3 2
+curv= -480 + 320 + 60 + 80 = -20 
+
+#3 vertices degree >=4
+
+#du5=3
++XYXazyxyBZ[7(1|2|3|7|8|5),3(6)]{m2|f12}
+3XY3 10 3YX3 10 3Xa0 2 0az3 4 3zy4 4 4yx3 2 3xy3 10 3yB0 4 BZ 7 0ZX3 0
+curv= -480 + 280 + 90 + 106 = -4 
+
+#du10=3
++XYXazyxyBZ[7(1|2|3|7|8|10),3(6)]{m2|f12}
+3XY3 10 3YX3 10 3Xa0 2 az 4 0zy4 4 4yx3 2 3xy3 10 3yB0 4 0BZ3 7 3ZX3 0
+curv= -480 + 280 + 90 + 106 = -4 
+
+# du6,du5,du10 >=4
++XYXazyxyBZ[7,3(5|6|10)]
+3XY3 10 3YX3 10 3Xa3 0 3az4 1 4zy4 4 4yx3 2 3xy3 10 3yB3 0 3BZ4 0 4ZX3 2
+curv= -480 + 280 + 90 + 78 = -32 
+
+#4 vertices of degree >=4
++XYXazyxyBZ[6(1|2|3|7|8),4(6)]{m2|f12}
+3XY3 10 3YX3 10 3Xa0 2 az 4 0zy4 4 4yx3 2 3xy3 10 3yB0 4 BZ 7 0ZX3 0
+curv= -480 + 240 + 120 + 106 = -14 
+
+############
+
+#2 yxy BZX YX az
+
+############
+
+#1 vertex degree 4 du6
++yxyBZXYXaz[9,1(6)]
+3yx3 10 3xy3 10 3yB3 0 3BZ3 0 3ZX4 3 4XY3 2 3YX3 10 3Xa3 0 3az3 6 3zy3 0
+curv= -480 + 360 + 30 + 82 = -8 
+
+#2 vertices degree >=4
++yxyBZXYXaz[8,2(4|6)]
+3yx3 10 3xy3 10 3yB4 4 4BZ3 1 3ZX4 3 4XY3 2 3YX3 10 3Xa3 0 3az3 6 3zy3 0
+curv= -480 + 320 + 60 + 92 = -8 
++yxyBZXYXaz[8,2(5|6)]
+3yx3 10 3xy3 10 3yB3 0 3BZ4 0 4ZX4 0 4XY3 2 3YX3 10 3Xa3 0 3az3 6 3zy3 0
+curv= -480 + 320 + 60 + 76 = -24 
++yxyBZXYXaz[8,2(9|6)]
+3yx3 10 3xy3 10 3yB3 0 3BZ3 0 3ZX4 3 4XY3 2 3YX3 10 3Xa4 2 4az3 2 3zy3 0
+curv= -480 + 320 + 60 + 78 = -22 
++yxyBZXYXaz[8,2(10|6)]
+3yx3 10 3xy3 10 3yB3 0 3BZ3 0 3ZX4 3 4XY3 2 3YX3 10 3Xa3 0 3az4 1 4zy3 7
+curv= -480 + 320 + 60 + 86 = -14 
+
+#3 vertices degree >=4
+
+#du10=3
++yxyBZXYXaz[7(1|2|3|7|8|10),3(6)]
+3yx3 10 3xy3 10 3yB0 4 BZ 7 0ZX4 3 4XY3 2 3YX3 10 3Xa0 2 0az3 6 3zy3 0
+curv= -480 + 280 + 90 + 108 = -2 
++yxyBZXYXaz[7,3(6|10|4)]
+3yx3 10 3xy3 10 3yB4 4 4BZ3 1 3ZX4 3 4XY3 2 3YX3 10 3Xa3 0 3az4 1 4zy3 7
+curv= -480 + 280 + 90 + 96 = -14 
++yxyBZXYXaz[7,3(6|10|5)]
+3yx3 10 3xy3 10 3yB3 0 3BZ4 0 4ZX4 0 4XY3 2 3YX3 10 3Xa3 0 3az4 1 4zy3 7
+curv= -480 + 280 + 90 + 80 = -30 
++yxyBZXYXaz[7,3(6|10|9)]
+3yx3 10 3xy3 10 3yB3 0 3BZ3 0 3ZX4 3 4XY3 2 3YX3 10 3Xa4 2 4az4 2 4zy3 7
+curv= -480 + 280 + 90 + 92 = -18 
+
+#4 vertices of degree >=4
++yxyBZXYXaz[6(1|2|3|7|8),4(6)]{f12}
+3yx3 10 3xy3 10 3yB0 4 BZ 7 0ZX4 0 4XY3 2 3YX3 10 3Xa0 2 az 6 0zy3 7
+curv= -480 + 240 + 120 + 116 = -4 
+
+############
+
+#3 xy xzbY XY ZA
+
+############
+
+# 3 vertices degree>=4
++xyxzbYXYZA[7(1|2|7|8),3(3|6)]
+3xy3 10 3yx4 2 4xz0 3 zb 7 0bY4 4 4YX3 2 3XY3 10 3YZ0 7 ZA 6 0Ax3 2
+curv= -480 + 280 + 90 + 106 = -4 
+
+# 2 vertices of degree 4 - must be 3 and 6
++xyxzbYXYZA[8,2(3|6)]
+3xy3 10 3yx4 2 4xz3 3 3zb3 0 3bY4 0 4YX3 2 3XY3 10 3YZ3 0 3ZA3 6 3Ax3 0
+curv= -480 + 320 + 60 + 66 = -34 
+
+############
+
+#4 YX YZax yx zb
+
+############
+
+# 3 vertices degree>=4
++YXYZaxyxzb[7(1|2|7|8),3(3|6)]
+3YX3 10 3XY4 2 4YZ0 4 Za 4 0ax4 0 4xy3 2 3yx3 10 3xz0 2 zb 7 0bY3 4
+curv= -480 + 280 + 90 + 90 = -20 
+
+# 2 vertices of degree 4 - must be 3 and 6
++YXYZaxyxzb[8,2(3|6)]
+3YX3 10 3XY4 2 4YZ3 0 3Za3 4 3ax4 0 4xy3 2 3yx3 10 3xz3 0 3zb3 0 3bY3 0
+curv= -480 + 320 + 60 + 56 = -44 
+
+############
+
+#5 YXY ZZA xyx zzb
+
+############
+
+# no vertices of degree >=4
++YXYZZAxyxzzb[12]
+3YX3 10 3XY3 10 3YZ3 0 3ZZ3 4 3ZA3 6 3Ax3 0 3xy3 10 3yx3 10 3xz3 0 3zz3 4 3zb3 0 3bY3 0
+curv= -600 + 480 + 108 = -12 
+
+# one vertex of degree >=4
++YXYZZAxyxzzb[11,1(4)]
+3YX3 10 3XY3 10 3YZ4 7 4ZZ3 6 3ZA3 6 3Ax3 0 3xy3 10 3yx3 10 3xz3 0 3zz3 4 3zb3 0 3bY3 0
+curv= -600 + 440 + 30 + 126 = -4 
++YXYZZAxyxzzb[11,1(5)]
+3YX3 10 3XY3 10 3YZ3 0 3ZZ4 4 4ZA3 1 3Ax3 0 3xy3 10 3yx3 10 3xz3 0 3zz3 4 3zb3 0 3bY3 0
+curv= -600 + 440 + 30 + 98 = -32 
++YXYZZAxyxzzb[11,1(6)]
+3YX3 10 3XY3 10 3YZ3 0 3ZZ3 4 3ZA4 2 4Ax3 2 3xy3 10 3yx3 10 3xz3 0 3zz3 4 3zb3 0 3bY3 0
+curv= -600 + 440 + 30 + 104 = -26 
++YXYZZAxyxzzb[11,1(10)]
+3YX3 10 3XY3 10 3YZ3 0 3ZZ3 4 3ZA3 6 3Ax3 0 3xy3 10 3yx3 10 3xz4 2 4zz3 6 3zb3 0 3bY3 0
+curv= -600 + 440 + 30 + 116 = -14 
++YXYZZAxyxzzb[11,1(11)]
+3YX3 10 3XY3 10 3YZ3 0 3ZZ3 4 3ZA3 6 3Ax3 0 3xy3 10 3yx3 10 3xz3 0 3zz4 4 4zb3 0 3bY3 0
+curv= -600 + 440 + 30 + 108 = -22 
++YXYZZAxyxzzb[11,1(12)]
+3YX3 10 3XY3 10 3YZ3 0 3ZZ3 4 3ZA3 6 3Ax3 0 3xy3 10 3yx3 10 3xz3 0 3zz3 4 3zb4 1 4bY3 4
+curv= -600 + 440 + 30 + 118 = -12 
+
+# 2 vertices of degree >=4
+
+#du4,du5=3
++YXYZZAxyxzzb[10(1|2|3|4|5|7|8|9),2]{m6}
+3YX3 10 3XY3 10 3YZ3 0 3ZZ3 4 3ZA0 6 0Ax3 2 3xy3 10 3yx3 10 3xz0 2 zz 4 zb 4 0bY3 4
+curv= -600 + 400 + 60 + 132 = -8 
+
+#du10,du11=3
++YXYZZAxyxzzb[10(1|2|3|7|8|9|10|11),2]
+3YX3 10 3XY3 10 3YZ0 7 ZZ 6 ZA 6 0Ax3 2 3xy3 10 3yx3 10 3xz3 0 3zz3 4 3zb0 1 0bY3 4
+curv= -600 + 400 + 60 + 140 = 0 
+
+#du12=3
++YXYZZAxyxzzb[10(1|2|3|7|8|9|12),2]
+3YX3 10 3XY3 10 3YZ0 7 ZZ 6 ZA 6 0Ax3 2 3xy3 10 3yx3 10 3xz0 2 zz 6 0zb3 0 3bY3 0
+curv= -600 + 400 + 60 + 138 = -2 
+
+# 3 vertices of degree >=4
++YXYZZAxyxzzb[9(1|2|3|7|8|9),3]{m6}
+3YX3 10 3XY3 10 3YZ0 7 ZZ 6 ZA 6 0Ax3 2 3xy3 10 3yx3 10 3xz0 2 zz 4 zb 4 0bY3 4
+curv= -600 + 360 + 90 + 150 = 0 
+
+############
+
+#6 YX YZA xy xzb
+
+############
+
+# 3 vertices of degree >=4
++YXYZAxyxzb[7(1|2|3|7|8|9),3]{m2}
+3YX3 10 3XY3 10 3YZ0 4 ZA 4 Ax 2 0xy3 10 3yx3 10 3xz3 0 3zb0 1 0bY3 4
+curv= -480 + 280 + 90 + 110 = 0 
+
+# 2 vertices of degree >=4
++YXYZAxyxzb[8,2(3|8)]
+3YX3 10 3XY4 2 4YZ3 0 3ZA3 6 3Ax3 0 3xy3 10 3yx4 2 4xz3 3 3zb3 0 3bY3 0
+curv= -480 + 320 + 60 + 66 = -34 
+charge_script4.txt
+
+#Proposition 7.4
+
+# 7.7 cases
+
+############
+
+#1 YXYXY Alxyxzb (vertex disp = +4)
+
+############
+
+#3 vertices of degree >= 4
+
+#1 vertex degree 4
+
+#du3,du8=3
++YXYXY*Alxyxzb[11(7|12),1]
+YX 10 XY 10 YX 10 XY 10 YA 2 0Al3 6 3lx0 0 xy 6 yx 6 xz 3 0zb3 0 3bY0 0
+curv= -600 + 440 + 30 + 126 = -4 
+
+#du3>=4 or du8>=4
++YXYXY*Alxyxzb[11,1(7)]
+3YX3 10 3XY3 10 3YX3 10 3XY3 10 3YA3 0 3Al4 0 4lx3 7 3xy3 6 3yx3 6 3xz3 0 3zb3 0 3bY3 0
+curv= -600 + 440 + 30 + 118 = -12 
++YXYXY*Alxyxzb[11,1(12)]
+3YX3 10 3XY3 10 3YX3 10 3XY3 10 3YA3 0 3Al3 6 3lx3 0 3xy3 6 3yx3 6 3xz3 0 3zb4 1 4bY3 4
+curv= -600 + 440 + 30 + 126 = -4 
+
+# 2 vertices degree >= 4
+
+#du3,du7=3
++YXYXY*Alxyxzb[10(7|11),2]
+YX 10 XY 10 YX 10 XY 10 YA 2 0Al3 6 3lx0 0 xy 6 yx 6 0xz3 3 3zb0 1 bY 4
+curv= -600 + 400 + 60 + 136 = -4 
+
+#du8=3
++YXYXY*Alxyxzb[10(12),2]
+YX 10 XY 10 YX 10 XY 10 YA 2 Al 6 lx 7 xy 6 yx 6 xz 3 0zb3 0 3bY0 0
+curv= -600 + 400 + 60 + 140 = 0 
+
+#du8,du3>=4
++YXYXY*Alxyxzb[10,2(12|8)]
+3YX3 10 3XY3 10 3YX3 10 3XY3 10 3YA3 0 3Al3 6 3lx4 0 4xy3 2 3yx3 6 3xz3 0 3zb4 1 4bY3 4
+curv= -600 + 400 + 60 + 118 = -22 
++YXYXY*Alxyxzb[10,2(12|11)]{bzx}
+3YX3 10 3XY3 10 3YX3 10 3XY3 10 3YA3 0 3Al3 6 3lx3 0 3xy3 6 3yx3 6 3xz4 0 4zb4 7 4bY3 4
+curv= -600 + 400 + 60 + 138 = -2 
+
+############
+
+#2 xyxyx bmYXYZA (vertex disp = +4)
+
+############
+
+#3 vertices of degree >= 4
++xyxyx*bmYXYZA[9,3]{bmY|azy}
+xy 10 yx 10 xy 10 yx 10 xb 4 bm 7 mY 0 YX 6 XY 6 YZ 3 ZA 7 Ax 2
+curv= -600 + 360 + 90 + 150 = 0 
+
+#0 vertices of degree >=4
++xyxyx*bmYXYZA[12]
+3xy3 10 3yx3 10 3xy3 10 3yx3 10 3xb3 0 3bm3 0 3mY3 0 3YX3 6 3XY3 6 3YZ3 0 3ZA3 6 3Ax3 0
+curv= -600 + 480 + 116 = -4 
+
+#1 vertex of degree >=4
+
+#du2,du7=3
++xyxyx*bmYXYZA[11(6|11),1]
+xy 10 yx 10 xy 10 yx 10 0xb3 0 3bm0 0 mY 3 YX 6 XY 6 0YZ3 0 3ZA0 6 Ax 2
+curv= -600 + 440 + 30 + 126 = -4 
+
+#du2>=4,du7>=4
++xyxyx*bmYXYZA[11,1(6)]
+3xy3 10 3yx3 10 3xy3 10 3yx3 10 3xb4 4 4bm3 1 3mY3 0 3YX3 6 3XY3 6 3YZ3 0 3ZA3 6 3Ax3 0
+curv= -600 + 440 + 30 + 126 = -4 
++xyxyx*bmYXYZA[11,1(11)]
+3xy3 10 3yx3 10 3xy3 10 3yx3 10 3xb3 0 3bm3 0 3mY3 0 3YX3 6 3XY3 6 3YZ4 7 4ZA3 1 3Ax3 0
+curv= -600 + 440 + 30 + 120 = -10 
+
+#2 vertices of degree 1
+
+#du2=3
++xyxyx*bmYXYZA[10(6),2]
+xy 10 yx 10 xy 10 yx 10 0xb3 0 3bm0 0 mY 3 YX 6 XY 6 YZ 7 ZA 6 Ax 2
+curv= -600 + 400 + 60 + 140 = 0 
+
+#du3,du7=3
++xyxyx*bmYXYZA[10(7|11),2]
+xy 10 yx 10 xy 10 yx 10 xb 4 0bm3 1 3mY0 3 YX 6 XY 6 0YZ3 0 3ZA0 6 Ax 2
+curv= -600 + 400 + 60 + 136 = -4 
+
+#du2,du3>=4
++xyxyx*bmYXYZA[10,2(6|8)]
+3xy3 10 3yx3 10 3xy3 10 3yx3 10 3xb4 4 4bm3 1 3mY4 3 4YX3 2 3XY3 6 3YZ3 0 3ZA3 6 3Ax3 0
+curv= -600 + 400 + 60 + 124 = -16 
++xyxyx*bmYXYZA[10,2(6|11)]
+3xy3 10 3yx3 10 3xy3 10 3yx3 10 3xb4 4 4bm3 1 3mY3 0 3YX3 6 3XY3 6 3YZ4 7 4ZA3 1 3Ax3 0
+curv= -600 + 400 + 60 + 130 = -10 
+
+############
+
+#3 xyx bmmYABA (vertex disp = +2)
+
+############
+
+#4 vertices of degree >= 4
++xyxbmmYABA[6,4]{bmm|bay|baX}
+xy 10 yx 10 xb 4 bm 7 mm 3 mY 3 YA 3 AB 7 BA 7 Ax 3
+curv= -480 + 240 + 120 + 114 = -6 
+
+#0 vertices of degree >=3
++xyxbmmYABA[10]
+3xy3 10 3yx3 10 3xb3 0 3bm3 0 3mm3 4 3mY3 0 3YA3 0 3AB3 2 3BA3 2 3Ax3 0
+curv= -480 + 400 + 56 = -24 
+
+#1 vertex of degree >=4
+
+#du7=3
++xyxbmmYABA[9(9),1]{bmm}
+xy 10 yx 10 xb 4 bm 7 mm 3 mY 3 YA 2 0AB3 2 3BA0 2 Ax 2
+curv= -480 + 360 + 30 + 90 = 0 
+
+#du7>=4
++xyxbmmYABA[9,1(9)]
+3xy3 10 3yx3 10 3xb3 0 3bm3 0 3mm3 4 3mY3 0 3YA3 0 3AB4 9 4BA3 9 3Ax3 0
+curv= -480 + 360 + 30 + 84 = -6 
+
+#2 vertices of degree >= 4
+
+#du7=3
++xyxbmmYABA[8(9),2]{bmm}
+xy 10 yx 10 xb 4 bm 7 mm 3 mY 3 YA 2 0AB3 2 3BA0 2 Ax 2
+curv= -480 + 320 + 60 + 90 = -10 
+
+#du2,du8=3
++xyxbmmYABA[8(4|10),2]{baX}
+xy 10 yx 10 0xb3 0 3bm0 0 mm 6 mY 3 YA 2 AB 9 0BA3 7 3Ax0 3
+curv= -480 + 320 + 60 + 100 = 0 
+
+#du7,du2>=4,du7,du8>=4
++xyxbmmYABA[8,2(9|4)]
+3xy3 10 3yx3 10 3xb4 4 4bm3 1 3mm3 4 3mY3 0 3YA3 0 3AB4 9 4BA3 9 3Ax3 0
+curv= -480 + 320 + 60 + 94 = -6 
++xyxbmmYABA[8,2(9|10)]
+3xy3 10 3yx3 10 3xb3 0 3bm3 0 3mm3 4 3mY3 0 3YA3 0 3AB4 9 4BA4 5 4Ax3 2
+curv= -480 + 320 + 60 + 80 = -20 
+
+#3 vertices of degree >= 4
+
+#du2=3
++xyxbmmYABA[7(4),3]
+xy 10 yx 10 0xb3 0 3bm0 0 mm 6 mY 3 YA 2 AB 9 BA 9 Ax 2
+curv= -480 + 280 + 90 + 102 = -8 
+
+#du7=3
++xyxbmmYABA[7(9),3]
+xy 10 yx 10 xb 4 bm 7 mm 6 mY 3 YA 2 0AB3 2 3BA0 2 Ax 2
+curv= -480 + 280 + 90 + 96 = -14 
+
+#du3=3,du8=3
++xyxbmmYABA[7(5|10),3]{baX}
+xy 10 yx 10 xb 4 0bm3 1 3mm0 6 mY 3 YA 2 AB 9 0BA3 7 3Ax0 3
+curv= -480 + 280 + 90 + 110 = 0 
+
+#du2,du7,du3 >=4, du2,du7,du8 >=4
++xyxbmmYABA[7,3(4|9|5)]
+3xy3 10 3yx3 10 3xb4 4 4bm4 7 4mm3 4 3mY3 0 3YA3 0 3AB4 9 4BA3 9 3Ax3 0
+curv= -480 + 280 + 90 + 106 = -4 
++xyxbmmYABA[7,3(4|9|10)]
+3xy3 10 3yx3 10 3xb4 4 4bm3 1 3mm3 4 3mY3 0 3YA3 0 3AB4 9 4BA4 5 4Ax3 2
+curv= -480 + 280 + 90 + 90 = -20 
+
+############
+
+#4 YXY Allxbab (vertex disp = +2)
+
+############
+
+#4 vertices of degree >= 4
++YXYAllxbab[6,4]{llx|abx|baX|abY}
+YX 10 XY 10 YA 2 Al 6 ll 7 lx 3 xb 4 ba 7 ab 7 bY 4
+curv= -480 + 240 + 120 + 120 = 0 
+
+#0 vertices of degree >=3
++YXYAllxbab[10]
+3YX3 10 3XY3 10 3YA3 0 3Al3 6 3ll3 4 3lx3 0 3xb3 0 3ba3 2 3ab3 2 3bY3 0
+curv= -480 + 400 + 68 = -12 
+
+#1 vertex of degree >=4
+
+#du4,du6 and du8=3
++YXYAllxbab[9(6|8|10),1]
+YX 10 XY 10 YA 2 Al 6 0ll3 4 3lx0 0 0xb3 0 3ba0 2 0ab3 2 3bY0 0
+curv= -480 + 360 + 30 + 72 = -18 
+
+#d4>=4,du6>=4 or du8>=4
++YXYAllxbab[9,1(6)]
+3YX3 10 3XY3 10 3YA3 0 3Al3 6 3ll4 6 4lx3 7 3xb3 0 3ba3 2 3ab3 2 3bY3 0
+curv= -480 + 360 + 30 + 86 = -4 
++YXYAllxbab[9,1(8)]
+3YX3 10 3XY3 10 3YA3 0 3Al3 6 3ll3 4 3lx3 0 3xb4 4 4ba3 9 3ab3 2 3bY3 0
+curv= -480 + 360 + 30 + 90 = 0 
++YXYAllxbab[9,1(10)]
+3YX3 10 3XY3 10 3YA3 0 3Al3 6 3ll3 4 3lx3 0 3xb3 0 3ba3 2 3ab4 9 4bY3 4
+curv= -480 + 360 + 30 + 90 = 0 
+
+#2 vertices of degree >=4
+
+#du2=3 and du6=3
++YXYAllxbab[8(3|4|8),2]{llx|abY}
+YX 10 0XY3 10 3YA3 0 3Al0 6 ll 7 lx 3 0xb3 0 3ba0 2 ab 7 bY 4
+curv= -480 + 320 + 60 + 98 = -2 
+
+#du4=3 and du8=3
++YXYAllxbab[8(6|10),2]
+YX 10 XY 10 YA 2 Al 6 0ll3 4 3lx0 0 xb 4 ba 9 0ab3 2 3bY0 0
+curv= -480 + 320 + 60 + 94 = -6 
+
+#du2,du4>=4 or du2,du8>=4 or du6,du4>=4 or du6,du8>=4 (du=4,du>4)
++YXYAllxbab[8,2(4|6)]
+3YX3 10 3XY3 10 3YA4 2 4Al3 2 3ll4 6 4lx3 7 3xb3 0 3ba3 2 3ab3 2 3bY3 0
+curv= -480 + 320 + 60 + 82 = -18 
++YXYAllxbab[8,2(4|10)]
+3YX3 10 3XY3 10 3YA4 2 4Al3 2 3ll3 4 3lx3 0 3xb3 0 3ba3 2 3ab4 9 4bY3 4
+curv= -480 + 320 + 60 + 86 = -14 
++YXYAllxbab[8,2(8|6)]{llx|abx}
+3YX3 10 3XY3 10 3YA3 0 3Al3 6 3ll4 7 4lx3 3 3xb4 4 4ba3 7 3ab3 2 3bY3 0
+curv= -480 + 320 + 60 + 98 = -2 
++YXYAllxbab[8,2(8|10)]{abx|abY|u4E}
+3YX3 10 3XY3 4 3YA3 0 3Al3 6 3ll3 4 3lx3 0 3xb4 4 4ba3 7 3ab4 7 4bY3 4
+curv= -480 + 320 + 60 + 92 = -8 
++YXYAllxbab[8,2(8|10)]{abx|abY|u5E}
+3YX3 7 3XY3 7 3YA3 0 3Al3 6 3ll3 4 3lx3 0 3xb4 4 4ba3 7 3ab4 7 4bY3 4
+curv= -480 + 320 + 60 + 92 = -8 
+
+# 3 vertices of degree >=4
+
+#du4,du6 or du8 = 3
++YXYAllxbab[7(3|6),3]{abx|abY}
+YX 10 0XY3 10 3YA0 2 Al 6 0ll3 4 3lx0 0 xb 4 ba 7 ab 7 bY 4
+curv= -480 + 280 + 90 + 108 = -2 
++YXYAllxbab[7(3|8),3]{abY}
+YX 10 0XY3 10 3YA0 2 Al 6 ll 6 lx 7 0xb3 0 3ba0 2 ab 7 bY 4
+curv= -480 + 280 + 90 + 108 = -2 
++YXYAllxbab[7(3|10),3]{abx}
+YX 10 0XY3 10 3YA0 2 Al 6 ll 6 lx 7 xb 4 ba 7 0ab3 2 3bY0 0
+curv= -480 + 280 + 90 + 108 = -2 
+
+#du4,du6 and du8>=4
++YXYAllxbab[7,3(4|6|8)]
+3YX3 10 3XY3 10 3YA4 2 4Al3 2 3ll4 6 4lx3 7 3xb4 4 4ba3 9 3ab3 2 3bY3 0
+curv= -480 + 280 + 90 + 104 = -6 
+
+############
+
+#5 yxyxy BZZXmma (vertex disp = +4)
+
+############
+
+#3 vertices of degree >= 4
++yxyxyBZZXmma[9,3]{bzz|llx}
+yx 10 xy 10 yx 10 xy 10 yB 4 BZ 7 ZZ 3 ZX 3 Xm 3 mm 7 ma 6 ay 2
+curv= -600 + 360 + 90 + 150 = 0 
+
+#0 vertices of degree >=3
++yxyxyBZZXmma[12]
+3yx3 10 3xy3 10 3yx3 10 3xy3 10 3yB3 0 3BZ3 0 3ZZ3 4 3ZX3 0 3Xm3 0 3mm3 4 3ma3 6 3ay3 0
+curv= -600 + 480 + 108 = -12 
+
+#1 vertex of degree >=4
+
+#du2,du6=3
++yxyxyBZZXmma[11(6|10),1]
+yx 10 xy 10 yx 10 xy 10 0yB3 0 3BZ0 0 ZZ 6 ZX 3 0Xm3 0 3mm0 6 ma 6 ay 2
+curv= -600 + 440 + 30 + 126 = -4 
+
+#du2>=4 or du6>=4
++yxyxyBZZXmma[11,1(6)]
+3yx3 10 3xy3 10 3yx3 10 3xy3 10 3yB4 4 4BZ3 1 3ZZ3 4 3ZX3 0 3Xm3 0 3mm3 4 3ma3 6 3ay3 0
+curv= -600 + 440 + 30 + 118 = -12 
++yxyxyBZZXmma[11,1(10)]
+3yx3 10 3xy3 10 3yx3 10 3xy3 10 3yB3 0 3BZ3 0 3ZZ3 4 3ZX3 0 3Xm4 7 4mm3 4 3ma3 6 3ay3 0
+curv= -600 + 440 + 30 + 122 = -8 
+
+#2 vertices of degree 1
+
+#du2=3
++yxyxyBZZXmma[10(6),2]
+yx 10 xy 10 yx 10 xy 10 0yB3 0 3BZ0 0 ZZ 6 ZX 3 Xm 7 mm 6 ma 6 ay 2
+curv= -600 + 400 + 60 + 140 = 0 
+
+#du2>=4 and dun >=4 (n=3,4,5,6,7,8)
++yxyxyBZZXmma[10,2(6|7)]
+3yx3 10 3xy3 10 3yx3 10 3xy3 10 3yB4 4 4BZ4 7 4ZZ3 6 3ZX3 0 3Xm3 0 3mm3 4 3ma3 6 3ay3 0
+curv= -600 + 400 + 60 + 134 = -6 
++yxyxyBZZXmma[10,2(6|8)]
+3yx3 10 3xy3 10 3yx3 10 3xy3 10 3yB4 4 4BZ3 1 3ZZ4 4 4ZX3 2 3Xm3 0 3mm3 4 3ma3 6 3ay3 0
+curv= -600 + 400 + 60 + 122 = -18 
++yxyxyBZZXmma[10,2(6|9)]
+3yx3 10 3xy3 10 3yx3 10 3xy3 10 3yB4 4 4BZ3 1 3ZZ3 4 3ZX4 3 4Xm3 0 3mm3 4 3ma3 6 3ay3 0
+curv= -600 + 400 + 60 + 124 = -16 
++yxyxyBZZXmma[10,2(6|10)]
+3yx3 10 3xy3 10 3yx3 10 3xy3 10 3yB4 4 4BZ3 1 3ZZ3 4 3ZX3 0 3Xm4 7 4mm3 4 3ma3 6 3ay3 0
+curv= -600 + 400 + 60 + 132 = -8 
++yxyxyBZZXmma[10,2(6|11)]
+3yx3 10 3xy3 10 3yx3 10 3xy3 10 3yB4 4 4BZ3 1 3ZZ3 4 3ZX3 0 3Xm3 0 3mm4 6 4ma3 0 3ay3 0
+curv= -600 + 400 + 60 + 110 = -30 
++yxyxyBZZXmma[10,2(6|12)]
+3yx3 10 3xy3 10 3yx3 10 3xy3 10 3yB4 4 4BZ3 1 3ZZ3 4 3ZX3 0 3Xm3 0 3mm3 4 3ma4 2 4ay3 2
+curv= -600 + 400 + 60 + 114 = -26 
+
+############
+
+#6 XYXYX azzyllB (vertex disp = +4)
+
+############
+
+#3 vertices of degree >= 3
++XYXYXazzyllB[9,3]{yzz|bmm}
+XY 10 YX 10 XY 10 YX 10 Xa 2 az 6 zz 3 zy 7 yl 3 ll 3 lB 7 BX 4
+curv= -600 + 360 + 90 + 150 = 0 
+
+#0 vertices of degree >=3
++XYXYXazzyllB[12]
+3XY3 10 3YX3 10 3XY3 10 3YX3 10 3Xa3 0 3az3 6 3zz3 4 3zy3 0 3yl3 0 3ll3 4 3lB3 0 3BX3 0
+curv= -600 + 480 + 108 = -12 
+
+#1 vertex of degree >=4
+
+#du4,du8=3
++XYXYXazzyllB[11(8|12),1]
+XY 10 YX 10 XY 10 YX 10 Xa 2 az 6 0zz3 6 3zy0 0 yl 3 ll 6 0lB3 0 3BX0 0
+curv= -600 + 440 + 30 + 126 = -4 
+
+#du4>=4,du8>=4
++XYXYXazzyllB[11,1(8)]
+3XY3 10 3YX3 10 3XY3 10 3YX3 10 3Xa3 0 3az3 6 3zz4 4 4zy3 7 3yl3 0 3ll3 4 3lB3 0 3BX3 0
+curv= -600 + 440 + 30 + 122 = -8 
++XYXYXazzyllB[11,1(12)]
+3XY3 10 3YX3 10 3XY3 10 3YX3 10 3Xa3 0 3az3 6 3zz3 4 3zy3 0 3yl3 0 3ll3 4 3lB4 1 4BX3 4
+curv= -600 + 440 + 30 + 118 = -12 
+
+#2 vertices of degree 1
+
+#du8=3
++XYXYXazzyllB[10(12),2]
+XY 10 YX 10 XY 10 YX 10 Xa 2 az 6 zz 6 zy 7 yl 3 ll 6 0lB3 0 3BX0 0
+curv= -600 + 400 + 60 + 140 = 0 
+
+#du2,du4=3
++XYXYXazzyllB[10(5|6|8),2]{bmm}
+XY 10 YX 10 XY 10 0YX3 10 3Xa3 0 3az0 6 0zz3 6 3zy0 0 yl 3 ll 3 lB 7 BX 4
+curv= -600 + 400 + 60 + 138 = -2 
+
+#du8,du2>=4
++XYXYXazzyllB[10,2(12|6)]
+3XY3 10 3YX3 10 3XY3 10 3YX3 10 3Xa4 2 4az3 2 3zz3 4 3zy3 0 3yl3 0 3ll3 4 3lB4 1 4BX3 4
+curv= -600 + 400 + 60 + 114 = -26 
++XYXYXazzyllB[10,2(12|8)]
+3XY3 10 3YX3 10 3XY3 10 3YX3 10 3Xa3 0 3az3 6 3zz4 4 4zy3 7 3yl3 0 3ll3 4 3lB4 1 4BX3 4
+curv= -600 + 400 + 60 + 132 = -8 
+
+############
+
+#7 XYX mayxylB (vertex disp = +2)
+
+############
+
+#3 vertices of degree >= 3
++XYX*mayxylB[7,3]{amX|bmY}
+XY 10 YX 10 Xm 3 ma 7 ay 2 yx 6 xy 6 yl 0 lB 7 BX 4
+curv= -480 + 280 + 90 + 110 = 0 
+
+#0 vertices of degree >=3
++XYX*mayxylB[10]
+3XY3 10 3YX3 10 3Xm3 0 3ma3 6 3ay3 0 3yx3 6 3xy3 6 3yl3 0 3lB3 0 3BX3 0
+curv= -480 + 400 + 76 = -4 
+
+#1 vertex of degree >=4
+
+#du2,du8=3
++XYX*mayxylB[9(4|10),1]
+XY 10 YX 10 0Xm3 0 3ma0 6 ay 2 yx 6 xy 6 yl 3 0lB3 0 3BX0 0
+curv= -480 + 360 + 30 + 86 = -4 
+
+#du2>=4,du8>=4
++XYX*mayxylB[9,1(4)]
+3XY3 10 3YX3 10 3Xm4 7 4ma3 0 3ay3 0 3yx3 6 3xy3 6 3yl3 0 3lB3 0 3BX3 0
+curv= -480 + 360 + 30 + 78 = -12 
++XYX*mayxylB[9,1(10)]
+3XY3 10 3YX3 10 3Xm3 0 3ma3 6 3ay3 0 3yx3 6 3xy3 6 3yl3 0 3lB4 1 4BX3 4
+curv= -480 + 360 + 30 + 86 = -4 
+
+#2 vertices of degree 1
+
+#du8=3
++XYX*mayxylB[8(10),2]
+XY 10 YX 10 Xm 7 ma 6 ay 2 yx 6 xy 6 yl 3 0lB3 0 3BX0 0
+curv= -480 + 320 + 60 + 100 = 0 
+
+#du2,du7=3
++XYX*mayxylB[8(4|9),2]
+XY 10 YX 10 0Xm3 0 3ma0 6 ay 2 yx 6 xy 6 0yl3 3 3lB0 1 BX 4
+curv= -480 + 320 + 60 + 96 = -4 
+
+#du8,du2>=4 and du8,du7>=4
++XYX*mayxylB[8,2(10|4)]
+3XY3 10 3YX3 10 3Xm4 7 4ma3 0 3ay3 0 3yx3 6 3xy3 6 3yl3 0 3lB4 1 4BX3 4
+curv= -480 + 320 + 60 + 88 = -12 
++XYX*mayxylB[8,2(10|9)]{bmY}
+3XY3 10 3YX3 10 3Xm3 0 3ma3 6 3ay3 0 3yx3 6 3xy3 6 3yl4 0 4lB4 7 4BX3 4
+curv= -480 + 320 + 60 + 98 = -2 
+
+############
+
+#8 YXY Alxyxbm(vertex disp = +2)
+
+############
+
+#3 vertices of degree >= 4
++YXY*Alxyxbm[7,3]{amX|bmY}
+YX 10 XY 10 YA 2 Al 7 lx 3 xy 6 yx 6 xb 4 bm 7 mY 0
+curv= -480 + 280 + 90 + 110 = 0 
+
+#0 vertices of degree >=3
++YXY*Alxyxbm[10]
+3YX3 10 3XY3 10 3YA3 0 3Al3 6 3lx3 0 3xy3 6 3yx3 6 3xb3 0 3bm3 0 3mY3 0
+curv= -480 + 400 + 76 = -4 
+
+#1 vertex of degree >=4
+
+#du3,du7=3
++YXY*Alxyxbm[9(5|9),1]
+YX 10 XY 10 YA 2 0Al3 6 3lx0 0 xy 6 yx 6 0xb3 0 3bm0 0 mY 3
+curv= -480 + 360 + 30 + 86 = -4 
+
+#du3>=4,du7>=4
++YXY*Alxyxbm[9,1(5)]
+3YX3 10 3XY3 10 3YA3 0 3Al4 0 4lx3 7 3xy3 6 3yx3 6 3xb3 0 3bm3 0 3mY3 0
+curv= -480 + 360 + 30 + 78 = -12 
++YXY*Alxyxbm[9,1(9)]
+3YX3 10 3XY3 10 3YA3 0 3Al3 6 3lx3 0 3xy3 6 3yx3 6 3xb4 4 4bm3 1 3mY3 0
+curv= -480 + 360 + 30 + 86 = -4 
+
+#2 vertices of degree 1
+
+#du7=3
++YXY*Alxyxbm[8(9),2]{amX}
+YX 10 XY 10 YA 2 Al 7 lx 3 xy 6 yx 6 0xb3 0 3bm0 0 mY 3
+curv= -480 + 320 + 60 + 94 = -6 
+
+#du2,du3=3
++YXY*Alxyxbm[8(3|4|5),2]{bmY}
+YX 10 0XY3 10 3YA3 0 3Al3 6 3lx0 0 xy 6 yx 6 xb 4 bm 7 mY 0
+curv= -480 + 320 + 60 + 98 = -2 
+
+#du7,du2>=4d and du7,dy3>=4
++YXY*Alxyxbm[8,2(9|4)]
+3YX3 10 3XY3 10 3YA4 2 4Al3 2 3lx3 0 3xy3 6 3yx3 6 3xb4 4 4bm3 1 3mY3 0
+curv= -480 + 320 + 60 + 82 = -18 
++YXY*Alxyxbm[8,2(9|5)]
+3YX3 10 3XY3 10 3YA3 0 3Al4 0 4lx3 7 3xy3 6 3yx3 6 3xb4 4 4bm3 1 3mY3 0
+curv= -480 + 320 + 60 + 88 = -12 
+
+############
+
+#9 xyx babYZZA (vertex disp = +2)
+
+############
+
+#4 vertices of degree >= 3
++xyxbabYZZA[6,4]{abx|abY|yzz}
+xy 10 yx 10 xb 4 ba 7 ab 7 bY 4 YZ 7 ZZ 3 ZA 6 Ax 2
+curv= -480 + 240 + 120 + 120 = 0 
+
+#0 vertices of degree >=3
++xyxbabYZZA[10]
+3xy3 10 3yx3 10 3xb3 0 3ba3 2 3ab3 2 3bY3 0 3YZ3 0 3ZZ3 4 3ZA3 6 3Ax3 0
+curv= -480 + 400 + 68 = -12 
+
+#1 vertex of degree >=4
+
+#du2,du4=3
++xyxbabYZZA[9(4|6),1]
+xy 10 yx 10 0xb3 0 3ba0 2 0ab3 2 3bY0 0 YZ 7 ZZ 6 ZA 6 Ax 2
+curv= -480 + 360 + 30 + 90 = 0 
+
+#du2>=4,du3>=4
++xyxbabYZZA[9,1(4)]
+3xy3 10 3yx3 10 3xb4 4 4ba3 9 3ab3 2 3bY3 0 3YZ3 0 3ZZ3 4 3ZA3 6 3Ax3 0
+curv= -480 + 360 + 30 + 90 = 0 
++xyxbabYZZA[9,1(6)]
+3xy3 10 3yx3 10 3xb3 0 3ba3 2 3ab4 9 4bY3 4 3YZ3 0 3ZZ3 4 3ZA3 6 3Ax3 0
+curv= -480 + 360 + 30 + 90 = 0 
+
+#2 vertices of degree >=4
+
+#du2=3 and du4=3
++xyxbabYZZA[8(4|6),2]
+xy 10 yx 10 0xb3 0 3ba0 2 0ab3 2 3bY0 0 YZ 7 ZZ 6 ZA 6 Ax 2
+curv= -480 + 320 + 60 + 90 = -10 
+
+#du2=3 and du8=3
++xyxbabYZZA[8(1|3|4|10),2]{yzz|abY}
+3xy0 10 0yx3 10 3xb3 0 3ba0 2 ab 7 bY 4 YZ 7 ZZ 3 0ZA3 6 3Ax3 0
+curv= -480 + 320 + 60 + 98 = -2 
+
+#du2,du4>=4, du2,du8>=4 or du4,du8>=4
++xyxbabYZZA[8,2(4|6)]{abx|abY|u4F}
+3xy3 4 3yx3 10 3xb4 4 4ba3 7 3ab4 7 4bY3 4 3YZ3 0 3ZZ3 4 3ZA3 6 3Ax3 0
+curv= -480 + 320 + 60 + 92 = -8 
++xyxbabYZZA[8,2(4|10)]
+3xy3 10 3yx3 10 3xb4 4 4ba3 9 3ab3 2 3bY3 0 3YZ3 0 3ZZ3 4 3ZA4 2 4Ax3 2
+curv= -480 + 320 + 60 + 86 = -14 
++xyxbabYZZA[8,2(6|10)]
+3xy3 10 3yx3 10 3xb3 0 3ba3 2 3ab4 9 4bY3 4 3YZ3 0 3ZZ3 4 3ZA4 2 4Ax3 2
+curv= -480 + 320 + 60 + 86 = -14 
+
+#3 vertices of degree >=4
+
+#du2=3 or du4=3
++xyxbabYZZA[7(1|3|4),3]{abY}
+3xy0 10 0yx3 10 3xb3 0 3ba0 2 ab 7 bY 4 YZ 7 ZZ 6 ZA 6 0Ax3 2
+curv= -480 + 280 + 90 + 108 = -2 
++xyxbabYZZA[7(1|3|6),3]{yzz}
+3xy0 10 0yx3 10 3xb0 4 ba 9 0ab3 2 3bY0 0 YZ 7 ZZ 3 ZA 6 0Ax3 2
+curv= -480 + 280 + 90 + 106 = -4 
+
+#du6 =3 and du8=3
++xyxbabYZZA[7(1|3|8|10),3]{abx}
+3xy0 10 0yx3 10 3xb0 4 ba 7 ab 9 bY 4 0YZ3 0 3ZZ0 4 0ZA3 6 3Ax3 0
+curv= -480 + 280 + 90 + 108 = -2 
+
+#du2,du4 and du6>=4 or du2,du4 and du8>=4
++xyxbabYZZA[7,3(4|6|8)]{abx|abY|azz}
+3xy3 10 3yx3 10 3xb4 4 4ba3 7 3ab4 7 4bY3 4 3YZ4 7 4ZZ3 0 3ZA3 6 3Ax3 0
+curv= -480 + 280 + 90 + 110 = 0 
++xyxbabYZZA[7,3(4|6|10)]
+3xy3 10 3yx3 10 3xb4 4 4ba3 9 3ab4 9 4bY3 4 3YZ3 0 3ZZ3 4 3ZA4 2 4Ax3 2
+curv= -480 + 280 + 90 + 108 = -2 
+
+############
+
+#10 xyx zbmYZZA(vertex disp = +2)
+
+############
+
+#3 vertices of degree >= 4
++xyxzbmYZZA[7,3]{bzx|bmY|yzz}
+xy 10 yx 10 xz 0 zb 7 bm 7 mY 0 YZ 7 ZZ 3 ZA 6 Ax 2
+curv= -480 + 280 + 90 + 104 = -6 
+
+# 0 vertices >=4
++xyxzbmYZZA[10]
+3xy3 10 3yx3 10 3xz3 0 3zb3 0 3bm3 0 3mY3 0 3YZ3 0 3ZZ3 4 3ZA3 6 3Ax3 0
+curv= -480 + 400 + 60 = -20 
+
+#1 vertex >=4
++xyxzbmYZZA[9(5|8),1]
+xy 10 yx 10 xz 3 0zb3 0 3bm0 0 mY 3 0YZ3 0 3ZZ0 4 ZA 6 Ax 2
+curv= -480 + 360 + 30 + 76 = -14 
++xyxzbmYZZA[9,1(5)]
+3xy3 10 3yx3 10 3xz3 0 3zb4 1 4bm3 1 3mY3 0 3YZ3 0 3ZZ3 4 3ZA3 6 3Ax3 0
+curv= -480 + 360 + 30 + 64 = -26 
++xyxzbmYZZA[9,1(8)]
+3xy3 10 3yx3 10 3xz3 0 3zb3 0 3bm3 0 3mY3 0 3YZ4 7 4ZZ3 6 3ZA3 6 3Ax3 0
+curv= -480 + 360 + 30 + 78 = -12 
++xyxzbmYZZA[8(5|8),2]
+xy 10 yx 10 xz 3 0zb3 0 3bm0 0 mY 3 0YZ3 0 3ZZ0 4 ZA 6 Ax 2
+curv= -480 + 320 + 60 + 76 = -24 
++xyxzbmYZZA[8,2(5|3)]
+3xy3 10 3yx4 2 4xz3 3 3zb4 1 4bm3 1 3mY3 0 3YZ3 0 3ZZ3 4 3ZA3 6 3Ax3 0
+curv= -480 + 320 + 60 + 54 = -46 
++xyxzbmYZZA[8,2(5|4)]
+3xy3 10 3yx3 10 3xz4 2 4zb4 7 4bm3 1 3mY3 0 3YZ3 0 3ZZ3 4 3ZA3 6 3Ax3 0
+curv= -480 + 320 + 60 + 80 = -20 
++xyxzbmYZZA[8,2(5|6)]
+3xy3 10 3yx3 10 3xz3 0 3zb4 1 4bm4 7 4mY3 2 3YZ3 0 3ZZ3 4 3ZA3 6 3Ax3 0
+curv= -480 + 320 + 60 + 80 = -20 
++xyxzbmYZZA[8,2(5|7)]
+3xy3 10 3yx3 10 3xz3 0 3zb4 1 4bm3 1 3mY4 3 4YZ3 0 3ZZ3 4 3ZA3 6 3Ax3 0
+curv= -480 + 320 + 60 + 70 = -30 
++xyxzbmYZZA[8,2(5|8)]
+3xy3 10 3yx3 10 3xz3 0 3zb4 1 4bm3 1 3mY3 0 3YZ4 7 4ZZ3 6 3ZA3 6 3Ax3 0
+curv= -480 + 320 + 60 + 82 = -18 
++xyxzbmYZZA[8,2(5|9)]
+3xy3 10 3yx3 10 3xz3 0 3zb4 1 4bm3 1 3mY3 0 3YZ3 0 3ZZ4 4 4ZA3 1 3Ax3 0
+curv= -480 + 320 + 60 + 54 = -46 
++xyxzbmYZZA[8,2(5|10)]
+3xy3 10 3yx3 10 3xz3 0 3zb4 1 4bm3 1 3mY3 0 3YZ3 0 3ZZ3 4 3ZA4 2 4Ax3 2
+curv= -480 + 320 + 60 + 60 = -40 
++xyxzbmYZZA[8,2(8|3)]
+3xy3 10 3yx4 2 4xz3 3 3zb3 0 3bm3 0 3mY3 0 3YZ4 7 4ZZ3 6 3ZA3 6 3Ax3 0
+curv= -480 + 320 + 60 + 68 = -32 
++xyxzbmYZZA[8,2(8|4)]
+3xy3 10 3yx3 10 3xz4 2 4zb3 0 3bm3 0 3mY3 0 3YZ4 7 4ZZ3 6 3ZA3 6 3Ax3 0
+curv= -480 + 320 + 60 + 82 = -18 
++xyxzbmYZZA[8,2(8|6)]
+3xy3 10 3yx3 10 3xz3 0 3zb3 0 3bm4 0 4mY3 2 3YZ4 7 4ZZ3 6 3ZA3 6 3Ax3 0
+curv= -480 + 320 + 60 + 82 = -18 
++xyxzbmYZZA[8,2(8|7)]
+3xy3 10 3yx3 10 3xz3 0 3zb3 0 3bm3 0 3mY4 3 4YZ4 4 4ZZ3 6 3ZA3 6 3Ax3 0
+curv= -480 + 320 + 60 + 78 = -22 
++xyxzbmYZZA[8,2(8|9)]
+3xy3 10 3yx3 10 3xz3 0 3zb3 0 3bm3 0 3mY3 0 3YZ4 7 4ZZ4 4 4ZA3 1 3Ax3 0
+curv= -480 + 320 + 60 + 64 = -36 
++xyxzbmYZZA[8,2(8|10)]
+3xy3 10 3yx3 10 3xz3 0 3zb3 0 3bm3 0 3mY3 0 3YZ4 7 4ZZ3 6 3ZA4 2 4Ax3 2
+curv= -480 + 320 + 60 + 74 = -26 
+
+#3 vertices of degree >= 4
++xyxzbmYZZA[7,3]{bzx|bmY|yzz}
+xy 10 yx 10 xz 0 zb 7 bm 7 mY 0 YZ 7 ZZ 3 ZA 6 Ax 2
+curv= -480 + 280 + 90 + 104 = -6 
+
+############
+
+#11 YXY ZAlxzzb (vertex disp = +2)
+
+############
+
+#4 vertices of degree >= 3
++YXYZAlxzzb[6,4]{azy|amX|bzz}
+YX 10 XY 10 YZ 3 ZA 7 Al 7 lx 3 xz 3 zz 3 zb 7 bY 4
+curv= -480 + 240 + 120 + 114 = -6 
+
+#0 vertices of degree >=3
++YXYZAlxzzb[10]
+3YX3 10 3XY3 10 3YZ3 0 3ZA3 6 3Al3 6 3lx3 0 3xz3 0 3zz3 4 3zb3 0 3bY3 0
+curv= -480 + 400 + 72 = -8 
+
+#1 vertex of degree >=4
+
+#du2,du4 and du8=3
++YXYZAlxzzb[9(1|2|3|4|6|10),1]
+3YX3 10 3XY3 10 3YZ3 0 3ZA0 6 0Al3 6 3lx0 0 xz 3 zz 6 0zb3 0 3bY3 0
+curv= -480 + 360 + 30 + 82 = -8 
+
+#du2,du4 or du8 >= 4
++YXYZAlxzzb[9,1(4)]
+3YX3 10 3XY3 10 3YZ4 7 4ZA3 1 3Al3 6 3lx3 0 3xz3 0 3zz3 4 3zb3 0 3bY3 0
+curv= -480 + 360 + 30 + 76 = -14 
++YXYZAlxzzb[9,1(6)]
+3YX3 10 3XY3 10 3YZ3 0 3ZA3 6 3Al4 0 4lx3 7 3xz3 0 3zz3 4 3zb3 0 3bY3 0
+curv= -480 + 360 + 30 + 74 = -16 
++YXYZAlxzzb[9,1(10)]
+3YX3 10 3XY3 10 3YZ3 0 3ZA3 6 3Al3 6 3lx3 0 3xz3 0 3zz3 4 3zb4 1 4bY3 4
+curv= -480 + 360 + 30 + 82 = -8 
+
+#2 vertices of degree >= 4
+
+#du2 and du4 = 3
++YXYZAlxzzb[8(1|2|3|4|6),2]{bzz}
+3YX3 10 3XY3 10 3YZ3 0 3ZA0 6 0Al3 6 3lx0 0 xz 3 zz 3 zb 7 0bY3 4
+curv= -480 + 320 + 60 + 98 = -2 
+
+#du2 and du8 = 3
++YXYZAlxzzb[8(1|2|3|4|10),2]
+3YX3 10 3XY3 10 3YZ3 0 3ZA0 6 Al 6 lx 7 xz 3 zz 6 0zb3 0 3bY3 0
+curv= -480 + 320 + 60 + 96 = -4 
+
+#du2,du4>=4,du2,du8>=4 or du4,du8>=4
++YXYZAlxzzb[8,2(4|6)]
+3YX3 10 3XY3 10 3YZ4 7 4ZA3 1 3Al4 0 4lx3 7 3xz3 0 3zz3 4 3zb3 0 3bY3 0
+curv= -480 + 320 + 60 + 78 = -22 
++YXYZAlxzzb[8,2(4|10)]
+3YX3 10 3XY3 10 3YZ4 7 4ZA3 1 3Al3 6 3lx3 0 3xz3 0 3zz3 4 3zb4 1 4bY3 4
+curv= -480 + 320 + 60 + 86 = -14 
++YXYZAlxzzb[8,2(6|10)]
+3YX3 10 3XY3 10 3YZ3 0 3ZA3 6 3Al4 0 4lx3 7 3xz3 0 3zz3 4 3zb4 1 4bY3 4
+curv= -480 + 320 + 60 + 84 = -16 
+
+# 3 vertices of degree >=4
+
+#du2,du4,du7 or du8=3
++YXYZAlxzzb[7(1|2|3|4),3]{amX|bzz}
+3YX3 10 3XY3 10 3YZ3 0 3ZA0 6 Al 7 lx 3 xz 3 zz 3 zb 7 0bY3 4
+curv= -480 + 280 + 90 + 106 = -4 
++YXYZAlxzzb[7(1|2|3|6),3]{azy|bzz}
+3YX3 10 3XY3 10 3YZ0 3 ZA 7 0Al3 6 3lx0 0 xz 3 zz 3 zb 7 0bY3 4
+curv= -480 + 280 + 90 + 106 = -4 
++YXYZAlxzzb[7(1|2|3|9),3]{azy|amX}
+3YX3 10 3XY3 10 3YZ0 3 ZA 7 Al 7 lx 3 xz 3 0zz3 6 3zb0 1 0bY3 4
+curv= -480 + 280 + 90 + 108 = -2 
++YXYZAlxzzb[7(1|2|3|10),3]{azy|amX}
+3YX3 10 3XY3 10 3YZ0 3 ZA 7 Al 7 lx 3 xz 3 zz 6 0zb3 0 3bY3 0
+curv= -480 + 280 + 90 + 98 = -12 
+
+############
+
+#12 YXY ABAxzzb(vertex disp = +2)
+
+############
+
+#4 vertices of degree >= 4
++YXYABAxzzb[6,4]{bay|baX|bzz}
+YX 10 XY 10 YA 3 AB 7 BA 7 Ax 3 xz 3 zz 3 zb 7 bY 4
+curv= -480 + 240 + 120 + 114 = -6 
+
+#0 vertices of degree >=3
++YXYABAxzzb[10]
+3YX3 10 3XY3 10 3YA3 0 3AB3 2 3BA3 2 3Ax3 0 3xz3 0 3zz3 4 3zb3 0 3bY3 0
+curv= -480 + 400 + 56 = -24 
+
+#1 vertex of degree >=4
+
+#du3=3
++YXYABAxzzb[9(1|2|3|5|10),1]
+3YX3 10 3XY3 10 3YA0 2 0AB3 2 3BA0 2 Ax 2 xz 3 zz 6 0zb3 0 3bY3 0
+curv= -480 + 360 + 30 + 74 = -16 
+
+#du3 >= 4
++YXYABAxzzb[9,1(5)]
+3YX3 10 3XY3 10 3YA3 0 3AB4 9 4BA3 9 3Ax3 0 3xz3 0 3zz3 4 3zb3 0 3bY3 0
+curv= -480 + 360 + 30 + 84 = -6 
+
+#2 vertices of degree >= 4
+
+#du7 and du8 = 3
++YXYABAxzzb[8(1|2|3|9|10),2]{bay|baX}
+3YX3 10 3XY3 10 3YA0 3 AB 7 BA 7 Ax 3 xz 3 0zz3 6 3zb3 0 3bY3 0
+curv= -480 + 320 + 60 + 98 = -2 
+
+#du3,du7>=4 or du3,du8>=4
++YXYABAxzzb[8,2(5|9)]
+3YX3 10 3XY3 10 3YA3 0 3AB4 9 4BA3 9 3Ax3 0 3xz3 0 3zz4 4 4zb3 0 3bY3 0
+curv= -480 + 320 + 60 + 84 = -16 
++YXYABAxzzb[8,2(5|10)]
+3YX3 10 3XY3 10 3YA3 0 3AB4 9 4BA3 9 3Ax3 0 3xz3 0 3zz3 4 3zb4 1 4bY3 4
+curv= -480 + 320 + 60 + 94 = -6 
+
+# 3 vertices of degree >=4
+
+#du5 and du6=3 or du8=3
++YXYABAxzzb[7(1|2|3|7|8),3]{bay|baX}
+3YX3 10 3XY3 10 3YA0 3 AB 7 BA 7 0Ax3 3 3xz3 0 3zz0 4 zb 7 0bY3 4
+curv= -480 + 280 + 90 + 110 = 0 
++YXYABAxzzb[7(1|2|3|10),3]{bay|baX}
+3YX3 10 3XY3 10 3YA0 3 AB 7 BA 7 Ax 3 xz 3 zz 6 0zb3 0 3bY3 0
+curv= -480 + 280 + 90 + 98 = -12 
+
+#du3,du8 and du5>=4  or du3,du8 and du6>=4
++YXYABAxzzb[7,3(5|10|7)]
+3YX3 10 3XY3 10 3YA3 0 3AB4 9 4BA3 9 3Ax4 2 4xz3 3 3zz3 4 3zb4 1 4bY3 4
+curv= -480 + 280 + 90 + 104 = -6 
++YXYABAxzzb[7,3(5|10|8)]
+3YX3 10 3XY3 10 3YA3 0 3AB4 9 4BA3 9 3Ax3 0 3xz4 2 4zz3 6 3zb4 1 4bY3 4
+curv= -480 + 280 + 90 + 102 = -8 
+
+############
+
+#13 xyx zbYXYZA (vertex disp = +2)
+
+############
+
+#3 vertices of degree >= 3
++xyx*zbYXYZA[7,3]{bzx|azy}
+xy 10 yx 10 xz 0 zb 7 bY 4 YX 6 XY 6 YZ 3 ZA 7 Ax 2
+curv= -480 + 280 + 90 + 110 = 0 
+
+#0 vertices of degree >=3
++xyx*zbYXYZA[10]
+3xy3 10 3yx3 10 3xz3 0 3zb3 0 3bY3 0 3YX3 6 3XY3 6 3YZ3 0 3ZA3 6 3Ax3 0
+curv= -480 + 400 + 76 = -4 
+
+#1 vertex of degree >=4
+
+#du2,du3 and du8=3
++xyx*zbYXYZA[9(1|2|3|4|5|10),1]
+3xy3 10 3yx3 10 3xz3 0 3zb3 0 3bY0 0 YX 6 XY 6 YZ 7 0ZA3 6 3Ax3 0
+curv= -480 + 360 + 30 + 90 = 0 
+
+#du2,du3 or du8 >= 4
++xyx*zbYXYZA[9,1(4)]
+3xy3 10 3yx3 10 3xz4 2 4zb3 0 3bY3 0 3YX3 6 3XY3 6 3YZ3 0 3ZA3 6 3Ax3 0
+curv= -480 + 360 + 30 + 80 = -10 
++xyx*zbYXYZA[9,1(5)]
+3xy3 10 3yx3 10 3xz3 0 3zb4 1 4bY3 4 3YX3 6 3XY3 6 3YZ3 0 3ZA3 6 3Ax3 0
+curv= -480 + 360 + 30 + 86 = -4 
++xyx*zbYXYZA[9,1(10)]
+3xy3 10 3yx3 10 3xz3 0 3zb3 0 3bY3 0 3YX3 6 3XY3 6 3YZ3 0 3ZA4 2 4Ax3 2
+curv= -480 + 360 + 30 + 72 = -18 
+
+#2 vertices of degree >= 4
+
+#du2 = 3 or du3 = 3
++xyx*zbYXYZA[8(1|2|3|4),2]{azy}
+3xy3 10 3yx3 10 3xz3 0 3zb0 1 bY 4 YX 6 XY 6 YZ 3 ZA 7 0Ax3 2
+curv= -480 + 320 + 60 + 98 = -2 
++xyx*zbYXYZA[8(1|2|3|5),2]{azy}
+3xy3 10 3yx3 10 3xz0 2 0zb3 0 3bY0 0 YX 6 XY 6 YZ 3 ZA 7 0Ax3 2
+curv= -480 + 320 + 60 + 92 = -8 
+
+#du2 and du3>=4
++xyx*zbYXYZA[8,2(4|5)]{bzx}
+3xy3 10 3yx3 10 3xz4 0 4zb4 7 4bY3 4 3YX3 6 3XY3 6 3YZ3 0 3ZA3 6 3Ax3 0
+curv= -480 + 320 + 60 + 98 = -2 
+
+############
+
+#14 YXY ZAxyxzb(vertex disp = +2)
+
+############
+
+#3 vertices of degree >= 4
++YXY*ZAxyxzb[7,3]{azy|bzx}
+YX 10 XY 10 YZ 3 ZA 7 Ax 2 xy 6 yx 6 xz 0 zb 7 bY 4
+curv= -480 + 280 + 90 + 110 = 0 
+
+#0 vertices of degree >=3
++YXY*ZAxyxzb[10]
+3YX3 10 3XY3 10 3YZ3 0 3ZA3 6 3Ax3 0 3xy3 6 3yx3 6 3xz3 0 3zb3 0 3bY3 0
+curv= -480 + 400 + 76 = -4 
+
+#1 vertex of degree >=4
+
+#du2 and du8=3
++YXY*ZAxyxzb[9(1|2|3|4|10),1]
+3YX3 10 3XY3 10 3YZ3 0 3ZA0 6 Ax 2 xy 6 yx 6 xz 3 0zb3 0 3bY3 0
+curv= -480 + 360 + 30 + 86 = -4 
+
+#du2 or du8 >= 4
++YXY*ZAxyxzb[9,1(4)]
+3YX3 10 3XY3 10 3YZ4 7 4ZA3 1 3Ax3 0 3xy3 6 3yx3 6 3xz3 0 3zb3 0 3bY3 0
+curv= -480 + 360 + 30 + 80 = -10 
++YXY*ZAxyxzb[9,1(10)]
+3YX3 10 3XY3 10 3YZ3 0 3ZA3 6 3Ax3 0 3xy3 6 3yx3 6 3xz3 0 3zb4 1 4bY3 4
+curv= -480 + 360 + 30 + 86 = -4 
+
+#2 vertices of degree >= 4
+
+#du8 = 3 or du6 = 3 and du6 and du7=3
++YXY*ZAxyxzb[8(1|2|3|10),2]{azy}
+3YX3 10 3XY3 10 3YZ0 3 ZA 7 Ax 2 xy 6 yx 6 xz 3 0zb3 0 3bY3 0
+curv= -480 + 320 + 60 + 94 = -6 
++YXY*ZAxyxzb[8(1|2|3|8|9),2]{azy}
+3YX3 10 3XY3 10 3YZ0 3 ZA 7 Ax 2 xy 6 0yx3 6 3xz3 0 3zb0 1 0bY3 4
+curv= -480 + 320 + 60 + 98 = -2 
+
+#du8 and du6>=4 or du8 and du7>=4
++YXY*ZAxyxzb[8,2(10|8)]
+3YX3 10 3XY3 10 3YZ3 0 3ZA3 6 3Ax3 0 3xy3 6 3yx4 2 4xz3 3 3zb4 1 4bY3 4
+curv= -480 + 320 + 60 + 84 = -16 
++YXY*ZAxyxzb[8,2(10|9)]{bzx}
+3YX3 10 3XY3 10 3YZ3 0 3ZA3 6 3Ax3 0 3xy3 6 3yx3 6 3xz4 0 4zb4 7 4bY3 4
+curv= -480 + 320 + 60 + 98 = -2 
+
+############
+
+#15 xyx bmmYZAl (vertex disp = +2)
+
+############
+
+#4 vertices of degree >= 4
++xyxbmmYZAl[6,4]{bmm|azy}
+xy 10 yx 10 xb 4 bm 7 mm 3 mY 3 YZ 3 ZA 7 Al 6 lx 7
+curv= -480 + 240 + 120 + 120 = 0 
+
+#0 vertices of degree >=3
++xyxbmmYZAl[10]
+3xy3 10 3yx3 10 3xb3 0 3bm3 0 3mm3 4 3mY3 0 3YZ3 0 3ZA3 6 3Al3 6 3lx3 0
+curv= -480 + 400 + 72 = -8 
+
+#1 vertex of degree >=4
+
+#du2 and du6=3
++xyxbmmYZAl[9(1|2|3|4|8),1]{amX}
+3xy3 10 3yx3 10 3xb3 0 3bm0 0 mm 6 mY 3 0YZ3 0 3ZA0 6 Al 7 0lx3 3
+curv= -480 + 360 + 30 + 90 = 0 
+
+#du2 or du6 >= 4
++xyxbmmYZAl[9,1(4)]
+3xy3 10 3yx3 10 3xb4 4 4bm3 1 3mm3 4 3mY3 0 3YZ3 0 3ZA3 6 3Al3 6 3lx3 0
+curv= -480 + 360 + 30 + 82 = -8 
++xyxbmmYZAl[9,1(8)]
+3xy3 10 3yx3 10 3xb3 0 3bm3 0 3mm3 4 3mY3 0 3YZ4 7 4ZA3 1 3Al3 6 3lx3 0
+curv= -480 + 360 + 30 + 76 = -14 
+
+#2 vertices of degree >= 4
+
+#du2 = 3 or  du6 and du8=3
++xyxbmmYZAl[8(1|2|3|4),2]{azy|amX}
+3xy3 10 3yx3 10 3xb3 0 3bm0 0 mm 6 mY 3 YZ 3 ZA 7 Al 7 0lx3 3
+curv= -480 + 320 + 60 + 98 = -2 
++xyxbmmYZAl[8(1|2|3|8|10),2]{bmm}
+3xy3 10 3yx3 10 3xb0 4 bm 7 mm 3 mY 3 0YZ3 0 3ZA0 6 0Al3 6 3lx3 0
+curv= -480 + 320 + 60 + 98 = -2 
+
+#du2 and du6>=4 or du2 and du8>=4
++xyxbmmYZAl[8,2(4|8)]
+3xy3 10 3yx3 10 3xb4 4 4bm3 1 3mm3 4 3mY3 0 3YZ4 7 4ZA3 1 3Al3 6 3lx3 0
+curv= -480 + 320 + 60 + 86 = -14 
++xyxbmmYZAl[8,2(4|10)]
+3xy3 10 3yx3 10 3xb4 4 4bm3 1 3mm3 4 3mY3 0 3YZ3 0 3ZA3 6 3Al4 0 4lx3 7
+curv= -480 + 320 + 60 + 84 = -16 
+
+# 3 vertices of degree >=4
+
+#du2 or du6=3 or du8=3
++xyxbmmYZAl[7(1|2|3|4),3]
+3xy3 10 3yx3 10 3xb3 0 3bm0 0 mm 6 mY 3 YZ 7 ZA 6 Al 6 0lx3 7
+curv= -480 + 280 + 90 + 110 = 0 
++xyxbmmYZAl[7(1|2|3|8),3]{bmm|amX}
+3xy3 10 3yx3 10 3xb0 4 bm 7 mm 3 mY 3 0YZ3 0 3ZA0 6 Al 7 0lx3 3
+curv= -480 + 280 + 90 + 106 = -4 
++xyxbmmYZAl[7(1|2|3|10),3]{bmm|azy}
+3xy3 10 3yx3 10 3xb0 4 bm 7 mm 3 mY 3 YZ 3 ZA 7 0Al3 6 3lx3 0
+curv= -480 + 280 + 90 + 106 = -4 
+
+#du2,du6 and du8>=4
++xyxbmmYZAl[7,3(4|8|10)]
+3xy3 10 3yx3 10 3xb4 4 4bm3 1 3mm3 4 3mY3 0 3YZ4 7 4ZA3 1 3Al4 0 4lx3 7
+curv= -480 + 280 + 90 + 88 = -22 
+
+############
+
+#16 YXY Allxzbm(vertex disp = +2)
+
+############
+
+#3 vertices of degree >= 4
++YXYAllxzbm[7,3]{llx|bzx|bmY}
+YX 10 XY 10 YA 2 Al 6 ll 7 lx 3 xz 0 zb 7 bm 7 mY 0
+curv= -480 + 280 + 90 + 104 = -6 
+
+#0 vertices of degree >=3
++YXYAllxzbm[10]
+3YX3 10 3XY3 10 3YA3 0 3Al3 6 3ll3 4 3lx3 0 3xz3 0 3zb3 0 3bm3 0 3mY3 0
+curv= -480 + 400 + 60 = -20 
+
+#1 vertex of degree >=4
+
+#du4 and du8=3
++YXYAllxzbm[9(1|2|3|6|10),1]
+3YX3 10 3XY3 10 3YA0 2 Al 6 0ll3 4 3lx0 0 xz 3 zb 7 0bm3 1 3mY3 0
+curv= -480 + 360 + 30 + 86 = -4 
+
+#du4 or du8 >= 4
++YXYAllxzbm[9,1(6)]
+3YX3 10 3XY3 10 3YA3 0 3Al3 6 3ll4 6 4lx3 7 3xz3 0 3zb3 0 3bm3 0 3mY3 0
+curv= -480 + 360 + 30 + 78 = -12 
++YXYAllxzbm[9,1(10)]
+3YX3 10 3XY3 10 3YA3 0 3Al3 6 3ll3 4 3lx3 0 3xz3 0 3zb3 0 3bm4 0 4mY3 2
+curv= -480 + 360 + 30 + 64 = -26 
+
+#2 vertices of degree >= 4
+
+#du8 = 3 or du6 = 3 or du4 = 3
++YXYAllxzbm[8(1|2|3|10),2]{llx|bzx}
+3YX3 10 3XY3 10 3YA0 2 Al 6 ll 7 lx 3 xz 0 zb 7 0bm3 1 3mY3 0
+curv= -480 + 320 + 60 + 92 = -8 
++YXYAllxzbm[8(1|2|3|8),2]{llx|bmY}
+3YX3 10 3XY3 10 3YA0 2 Al 6 ll 7 lx 3 0xz3 3 3zb0 1 bm 7 0mY3 0
+curv= -480 + 320 + 60 + 98 = -2 
++YXYAllxzbm[8(1|2|3|6),2]{bmY}
+3YX3 10 3XY3 10 3YA0 2 Al 6 0ll3 4 3lx0 0 xz 3 zb 7 bm 7 0mY3 0
+curv= -480 + 320 + 60 + 98 = -2 
+charge_script5.txt
+
+#Proposition 7.4
+
+# 7.8 cases
+
+#
+
+############
+
+#1 YX mabmmmab (vertex disp = +1)
+
+############
+
+#4 vertices of degree >= 4
++YXmabmmmab[6,4]{amX|abmm1|abmm2|abY}
+YX 10 Xm 3 ma 7 ab 5 bm 5 mm 5 mm 6 ma 6 ab 7 bY 4
+curv= -480 + 240 + 120 + 116 = -4 
+
+#0 vertices of degree >=3
++YXmabmmmab[10]
+3YX3 10 3Xm3 0 3ma3 6 3ab3 2 3bm3 0 3mm3 4 3mm3 4 3ma3 6 3ab3 2 3bY3 0
+curv= -480 + 400 + 68 = -12 
+
+# 1 vertex of degree >=4
+
+#du4 and du9=3
++YXmabmmmab[9(1|2|5|10),1]
+3YX3 10 3Xm0 7 ma 6 0ab3 2 3bm0 0 mm 6 mm 6 ma 6 0ab3 2 3bY3 0
+curv= -480 + 360 + 30 + 90 = 0 
+
+#du4>=4 or du9>=4
++YXmabmmmab[9,1(5)]
+3YX3 10 3Xm3 0 3ma3 6 3ab4 9 4bm3 1 3mm3 4 3mm3 4 3ma3 6 3ab3 2 3bY3 0
+curv= -480 + 360 + 30 + 84 = -6 
++YXmabmmmab[9,1(10)]
+3YX3 10 3Xm3 0 3ma3 6 3ab3 2 3bm3 0 3mm3 4 3mm3 4 3ma3 6 3ab4 9 4bY3 4
+curv= -480 + 360 + 30 + 90 = 0 
+
+# 2 vertices of degree >= 4
+
+#du2 and du4=3
++YXmabmmmab[8(1|2|3|5),2]
+3YX3 10 3Xm3 0 3ma0 6 0ab3 2 3bm0 0 mm 6 mm 6 ma 6 ab 9 0bY3 4
+curv= -480 + 320 + 60 + 98 = -2 
+
+#du2 and du9=3
++YXmabmmmab[8(1|2|3|10),2]{abmm1|abmm2}
+3YX3 10 3Xm3 0 3ma0 6 ab 5 bm 5 mm 5 mm 6 ma 6 0ab3 2 3bY3 0
+curv= -480 + 320 + 60 + 90 = -10 
+
+#du2 and du4 or du2 and du9 or du4 and du9 >=4
++YXmabmmmab[8,2(3|5)]
+3YX3 10 3Xm4 7 4ma3 0 3ab4 9 4bm3 1 3mm3 4 3mm3 4 3ma3 6 3ab3 2 3bY3 0
+curv= -480 + 320 + 60 + 86 = -14 
++YXmabmmmab[8,2(3|10)]
+3YX3 10 3Xm4 7 4ma3 0 3ab3 2 3bm3 0 3mm3 4 3mm3 4 3ma3 6 3ab4 9 4bY3 4
+curv= -480 + 320 + 60 + 92 = -8 
++YXmabmmmab[8,2(5|10)]{abm|abY}
+3YX3 10 3Xm3 0 3ma3 6 3ab4 8 4bm3 1 3mm3 4 3mm3 4 3ma3 6 3ab4 7 4bY3 4
+curv= -480 + 320 + 60 + 100 = 0 
+
+# 3 vertices of degree >=4
+
+#du4 or du9=3 or du2 and du7=3
++YXmabmmmab[7(1|2|5),3]{abY}
+3YX3 10 3Xm0 7 ma 6 0ab3 2 3bm0 0 mm 6 mm 6 ma 6 ab 7 0bY3 4
+curv= -480 + 280 + 90 + 108 = -2 
++YXmabmmmab[7(1|2|10),3]{abmm1|abmm2}
+3YX3 10 3Xm0 7 ma 6 ab 5 bm 5 mm 5 mm 6 ma 6 0ab3 2 3bY3 0
+curv= -480 + 280 + 90 + 104 = -6 
++YXmabmmmab[7(1|2|3|8),3]{abmm1|abmm2}
+3YX3 10 3Xm3 0 3ma0 6 ab 5 bm 5 mm 5 0mm3 4 3ma0 6 ab 9 0bY3 4
+curv= -480 + 280 + 90 + 108 = -2 
+
+#du4,du9 and du2 >=4 or du4,du9 and du7 >=4
++YXmabmmmab[7,3(5|10|3)]
+3YX3 10 3Xm4 7 4ma3 0 3ab4 9 4bm3 1 3mm3 4 3mm3 4 3ma3 6 3ab4 9 4bY3 4
+curv= -480 + 280 + 90 + 108 = -2 
++YXmabmmmab[7,3(5|10|8)]
+3YX3 10 3Xm3 0 3ma3 6 3ab4 9 4bm3 1 3mm3 4 3mm4 6 4ma3 0 3ab4 9 4bY3 4
+curv= -480 + 280 + 90 + 98 = -12 
+
+############
+
+#2 xyxy BAllBZAl (vertex disp = +3)
+
+############
+
+#4 vertices of degree >= 4
++xyxyBAllBZAl[8,4]{abY|bmm|azb|amX}
+xy 10 yx 10 xy 10 yB 4 BA 7 Al 6 ll 3 lB 7 BZ 3 ZA 7 Al 7 lx 3
+curv= -600 + 320 + 120 + 154 = -6 
+
+#0 vertices of degree >=3
++xyxyBAllBZAl[12]
+3xy3 10 3yx3 10 3xy3 10 3yB3 0 3BA3 2 3Al3 6 3ll3 4 3lB3 0 3BZ3 0 3ZA3 6 3Al3 6 3lx3 0
+curv= -600 + 480 + 108 = -12 
+
+# 1 vertex of degree >=4
+
+#du2 and du9=3
++xyxyBAllBZAl[11(1|4|5|10),1]{bmm|amX}
+3xy0 10 yx 10 0xy3 10 3yB3 0 3BA0 2 Al 6 ll 3 lB 7 0BZ3 1 3ZA0 6 Al 7 0lx3 3
+curv= -600 + 440 + 30 + 130 = 0 
+
+#du2>=4 or du9>=4
++xyxyBAllBZAl[11,1(5)]
+3xy3 10 3yx3 10 3xy3 10 3yB4 4 4BA3 9 3Al3 6 3ll3 4 3lB3 0 3BZ3 0 3ZA3 6 3Al3 6 3lx3 0
+curv= -600 + 440 + 30 + 130 = 0 
++xyxyBAllBZAl[11,1(12)]
+3xy3 10 3yx3 10 3xy3 10 3yB3 0 3BA3 2 3Al3 6 3ll3 4 3lB3 0 3BZ3 0 3ZA3 6 3Al4 0 4lx3 7
+curv= -600 + 440 + 30 + 110 = -20 
+
+# 2 vertices of degree >= 4
+
+#du2=3 or du6=3
++xyxyBAllBZAl[10(1|4|6|9),2]{abY|amX}
+3xy0 10 yx 10 0xy3 10 3yB0 4 0BA3 7 3Al0 6 ll 6 0lB3 0 3BZ0 0 ZA 6 Al 7 0lx3 3
+curv= -600 + 400 + 60 + 138 = -2 
+
+#du2 and du6=3
++xyxyBAllBZAl[10(1|4|5|9),2]
+3xy0 10 yx 10 0xy3 10 3yB3 0 3BA0 2 Al 6 ll 6 0lB3 0 3BZ0 0 ZA 6 Al 6 0lx3 7
+curv= -600 + 400 + 60 + 126 = -14 
+
+#du2 and du6  >=4
++xyxyBAllBZAl[10,2(5|9)]
+3xy3 10 3yx3 10 3xy3 10 3yB4 4 4BA3 9 3Al3 6 3ll3 4 3lB4 1 4BZ3 1 3ZA3 6 3Al3 6 3lx3 0
+curv= -600 + 400 + 60 + 134 = -6 
+
+# 3 vertices of degree >=4
+
+#du2 or du6=3 or du9
++xyxyBAllBZAl[9(1|4|5),3]{bmm}
+3xy0 10 yx 10 0xy3 10 3yB3 0 3BA0 2 Al 6 ll 3 lB 7 BZ 7 ZA 6 Al 6 0lx3 7
+curv= -600 + 360 + 90 + 148 = -2 
++xyxyBAllBZAl[9(1|4|9),3]
+3xy0 10 yx 10 0xy3 10 3yB0 4 BA 9 Al 6 ll 6 0lB3 0 3BZ0 0 ZA 6 Al 6 0lx3 7
+curv= -600 + 360 + 90 + 148 = -2 
++xyxyBAllBZAl[9(1|4|12),3]{abY|bmm|azb}
+3xy0 10 yx 10 0xy3 10 3yB0 4 BA 7 Al 6 ll 3 lB 7 BZ 3 ZA 7 0Al3 6 3lx3 0
+curv= -600 + 360 + 90 + 146 = -4 
+
+#du2,du6 and du9 >=4
++xyxyBAllBZAl[9,3(5|9|12)]
+3xy3 10 3yx3 10 3xy3 10 3yB4 4 4BA3 9 3Al3 6 3ll3 4 3lB4 1 4BZ3 1 3ZA3 6 3Al4 0 4lx3 7
+curv= -600 + 360 + 90 + 136 = -14 
+
+############
+
+#3 YXYX mabmabab (vertex disp = +3)
+
+############
+
+#4 vertices of degree >= 4
++YXYXmabmabab[8,4]{amX|abma1|abma2|aba|abY}
+YX 10 XY 10 YX 10 Xm 3 ma 7 ab 5 bm 5 ma 5 ab 7 ba 5 ab 7 bY 4
+curv= -600 + 320 + 120 + 156 = -4 
+
+#0 vertices of degree >=3
++YXYXmabmabab[12]
+3YX3 10 3XY3 10 3YX3 10 3Xm3 0 3ma3 6 3ab3 2 3bm3 0 3ma3 6 3ab3 2 3ba3 2 3ab3 2 3bY3 0
+curv= -600 + 480 + 100 = -20 
+
+# 1 vertex of degree >=4
+
+#du7 and du9=3
++YXYXmabmabab[11(1|4|10|12),1]{amX|abma1|abma2}
+3YX0 10 XY 10 0YX3 10 3Xm0 3 ma 7 ab 5 bm 5 ma 5 0ab3 2 3ba0 2 0ab3 2 3bY3 0
+curv= -600 + 440 + 30 + 122 = -8 
+
+#du7>=4 or du9>=4
++YXYXmabmabab[11,1(10)]
+3YX3 10 3XY3 10 3YX3 10 3Xm3 0 3ma3 6 3ab3 2 3bm3 0 3ma3 6 3ab4 9 4ba3 9 3ab3 2 3bY3 0
+curv= -600 + 440 + 30 + 128 = -2 
++YXYXmabmabab[11,1(12)]
+3YX3 10 3XY3 10 3YX3 10 3Xm3 0 3ma3 6 3ab3 2 3bm3 0 3ma3 6 3ab3 2 3ba3 2 3ab4 9 4bY3 4
+curv= -600 + 440 + 30 + 122 = -8 
+
+# 2 vertices of degree >= 4
+
+#du2 and du7=3
++YXYXmabmabab[10(1|4|5|10),2]{abma1|abma2}}
+3YX0 10 XY 10 0YX3 10 3Xm3 0 3ma0 6 ab 5 bm 5 ma 5 0ab3 2 3ba0 2 ab 9 0bY3 4
+curv= -600 + 400 + 60 + 136 = -4 
+
+# du9=3
++YXYXmabmabab[10(1|4|12),2]{amX|abma1|abma2|aba}
+3YX0 10 XY 10 0YX3 10 3Xm0 3 ma 7 ab 5 bm 5 ma 5 ab 7 ba 5 0ab3 2 3bY3 0
+curv= -600 + 400 + 60 + 138 = -2 
+
+#du2 and du9 or du7 and du9
++YXYXmabmabab[10,2(5|12)]
+3YX3 10 3XY3 10 3YX3 10 3Xm4 7 4ma3 0 3ab3 2 3bm3 0 3ma3 6 3ab3 2 3ba3 2 3ab4 9 4bY3 4
+curv= -600 + 400 + 60 + 124 = -16 
++YXYXmabmabab[10,2(10|12)]{aba|abY}
+3YX3 10 3XY3 10 3YX3 10 3Xm3 0 3ma3 6 3ab3 2 3bm3 0 3ma3 6 3ab4 7 4ba3 5 3ab4 7 4bY3 4
+curv= -600 + 400 + 60 + 134 = -6 
+
+# 3 vertices of degree >=4
+
+#du2 or du7=3 or du9
++YXYXmabmabab[9(1|4|5),3]{abma1|abma2|aba|abY}
+3YX0 10 XY 10 0YX3 10 3Xm3 0 3ma0 6 ab 5 bm 5 ma 5 ab 7 ba 5 ab 7 0bY3 4
+curv= -600 + 360 + 90 + 148 = -2 
++YXYXmabmabab[9(1|4|10),3]{amX|abma1|abma2}
+3YX0 10 XY 10 0YX3 10 3Xm0 3 ma 7 ab 5 bm 5 ma 5 0ab3 2 3ba0 2 ab 9 0bY3 4
+curv= -600 + 360 + 90 + 144 = -6 
++YXYXmabmabab[9(1|4|12),3]{amX|abma1|abma2|aba}
+3YX0 10 XY 10 0YX3 10 3Xm0 3 ma 7 ab 5 bm 5 ma 5 ab 7 ba 5 0ab3 2 3bY3 0
+curv= -600 + 360 + 90 + 138 = -12 
+
+#du2,du7 and du9 >=4
++YXYXmabmabab[9,3(5|10|12)]{aba}
+3YX3 10 3XY3 10 3YX3 10 3Xm4 7 4ma3 0 3ab3 2 3bm3 0 3ma3 6 3ab4 7 4ba3 5 3ab4 9 4bY3 4
+curv= -600 + 360 + 90 + 140 = -10 
+
+############
+
+#4 YXYX mabmabab (vertex disp = +3)
+
+############
+
+#4 vertices of degree >= 4
++YXYXmababmab[8,4]{amX|aba|abma1|abma2|abY}
+YX 10 XY 10 YX 10 Xm 3 ma 7 ab 7 ba 5 ab 5 bm 5 ma 5 ab 7 bY 4
+curv= -600 + 320 + 120 + 156 = -4 
+
+#0 vertices of degree >=3
++YXYXmababmab[12]
+3YX3 10 3XY3 10 3YX3 10 3Xm3 0 3ma3 6 3ab3 2 3ba3 2 3ab3 2 3bm3 0 3ma3 6 3ab3 2 3bY3 0
+curv= -600 + 480 + 100 = -20 
+
+# 1 vertex of degree >=4
+
+#du4 and du9=3
++YXYXmababmab[11(1|4|7|12),1]{amX|abma1|abma2}
+3YX0 10 XY 10 0YX3 10 3Xm0 3 ma 7 0ab3 2 3ba0 2 ab 5 bm 5 ma 5 0ab3 2 3bY3 0
+curv= -600 + 440 + 30 + 122 = -8 
+
+#du4>=4 or du9>=4
++YXYXmababmab[11,1(7)]
+3YX3 10 3XY3 10 3YX3 10 3Xm3 0 3ma3 6 3ab4 9 4ba3 9 3ab3 2 3bm3 0 3ma3 6 3ab3 2 3bY3 0
+curv= -600 + 440 + 30 + 128 = -2 
++YXYXmababmab[11,1(12)]
+3YX3 10 3XY3 10 3YX3 10 3Xm3 0 3ma3 6 3ab3 2 3ba3 2 3ab3 2 3bm3 0 3ma3 6 3ab4 9 4bY3 4
+curv= -600 + 440 + 30 + 122 = -8 
+
+# 2 vertices of degree >= 4
+
+#du2 and du4=3
++YXYXmababmab[10(1|4|5|7),2]{abma1|abma2|abY}
+3YX0 10 XY 10 0YX3 10 3Xm3 0 3ma0 6 0ab3 2 3ba0 2 ab 5 bm 5 ma 5 ab 7 0bY3 4
+curv= -600 + 400 + 60 + 132 = -8 
+
+# du9=3
++YXYXmababmab[10(1|4|12),2]{amX|aba|abma1|abma2}
+3YX0 10 XY 10 0YX3 10 3Xm0 3 ma 7 ab 7 ba 5 ab 5 bm 5 ma 5 0ab3 2 3bY3 0
+curv= -600 + 400 + 60 + 138 = -2 
+
+#du2 and du9 or du4 and du9
++YXYXmababmab[10,2(5|12)]
+3YX3 10 3XY3 10 3YX3 10 3Xm4 7 4ma3 0 3ab3 2 3ba3 2 3ab3 2 3bm3 0 3ma3 6 3ab4 9 4bY3 4
+curv= -600 + 400 + 60 + 124 = -16 
++YXYXmababmab[10,2(7|12)]{aba|abY}
+3YX3 10 3XY3 10 3YX3 10 3Xm3 0 3ma3 6 3ab4 7 4ba3 5 3ab3 2 3bm3 0 3ma3 6 3ab4 7 4bY3 4
+curv= -600 + 400 + 60 + 134 = -6 
+
+# 3 vertices of degree >=4
+
+#du2 or du4 or du9 = 3
++YXYXmababmab[9(1|4|5),3]{aba|abma1|abma2|abY}
+3YX0 10 XY 10 0YX3 10 3Xm3 0 3ma0 6 ab 7 ba 5 ab 5 bm 5 ma 5 ab 7 0bY3 4
+curv= -600 + 360 + 90 + 148 = -2 
++YXYXmababmab[9(1|4|7),3]{abma1|abma2|abY}
+3YX0 10 XY 10 0YX3 10 3Xm0 7 ma 6 0ab3 2 3ba0 2 ab 5 bm 5 ma 5 ab 7 0bY3 4
+curv= -600 + 360 + 90 + 146 = -4 
++YXYXmababmab[9(1|4|12),3]{amX|aba|abma1|abma2}
+3YX0 10 XY 10 0YX3 10 3Xm0 3 ma 7 ab 7 ba 5 ab 5 bm 5 ma 5 0ab3 2 3bY3 0
+curv= -600 + 360 + 90 + 138 = -12 
+
+#du2,du4 and du9 >=4
++YXYXmababmab[9,3(5|7|12)]{abY}
+3YX3 10 3XY3 10 3YX3 10 3Xm4 7 4ma3 0 3ab4 9 4ba3 9 3ab3 2 3bm3 0 3ma3 6 3ab4 7 4bY3 4
+curv= -600 + 360 + 90 + 148 = -2 
+
+############
+
+#5 YXYXYX mabazbab (vertex disp = +5)
+
+############
+
+#4 vertices of degree >= 4
++YXYXYXmabazbab[10,4]{amX|aba|abza1|abza2|abY}
+YX 10 XY 10 YX 10 XY 10 YX 10 Xm 3 ma 7 ab 7 ba 5 az 5 zb 5 ba 5 ab 7 bY 4
+curv= -720 + 400 + 120 + 196 = -4 
+
+#0 vertices of degree >=3
++YXYXYXmabazbab[14]
+3YX3 10 3XY3 10 3YX3 10 3XY3 10 3YX3 10 3Xm3 0 3ma3 6 3ab3 2 3ba3 2 3az3 6 3zb3 0 3ba3 2 3ab3 2 3bY3 0
+curv= -720 + 560 + 140 = -20 
+
+# 1 vertex of degree >=4
+
+#du4 and du9=3
++YXYXYXmabazbab[13(1|6|9|14),1]{amX|abza1|abza2}
+3YX0 10 XY 10 YX 10 XY 10 0YX3 10 3Xm0 3 ma 7 0ab3 2 3ba0 2 az 5 zb 5 ba 5 0ab3 2 3bY3 0
+curv= -720 + 520 + 30 + 162 = -8 
+
+#du4>=4 or du9>=4
++YXYXYXmabazbab[13,1(9)]
+3YX3 10 3XY3 10 3YX3 10 3XY3 10 3YX3 10 3Xm3 0 3ma3 6 3ab4 9 4ba3 9 3az3 6 3zb3 0 3ba3 2 3ab3 2 3bY3 0
+curv= -720 + 520 + 30 + 168 = -2 
++YXYXYXmabazbab[13,1(14)]
+3YX3 10 3XY3 10 3YX3 10 3XY3 10 3YX3 10 3Xm3 0 3ma3 6 3ab3 2 3ba3 2 3az3 6 3zb3 0 3ba3 2 3ab4 9 4bY3 4
+curv= -720 + 520 + 30 + 162 = -8 
+
+# 2 vertices of degree >= 4
+
+#du2 and du4=3
++YXYXYXmabazbab[12(1|6|7|9),2]{abza1|abza2|abY}
+3YX0 10 XY 10 YX 10 XY 10 0YX3 10 3Xm3 0 3ma0 6 0ab3 2 3ba0 2 az 5 zb 5 ba 5 ab 7 0bY3 4
+curv= -720 + 480 + 60 + 172 = -8 
+
+# du9=3
++YXYXYXmabazbab[12(1|6|14),2]{amX|aba|abza1|abza2}
+3YX0 10 XY 10 YX 10 XY 10 0YX3 10 3Xm0 3 ma 7 ab 7 ba 5 az 5 zb 5 ba 5 0ab3 2 3bY3 0
+curv= -720 + 480 + 60 + 178 = -2 
+
+#du2 and du9 or du4 and du9
++YXYXYXmabazbab[12,2(7|14)]
+3YX3 10 3XY3 10 3YX3 10 3XY3 10 3YX3 10 3Xm4 7 4ma3 0 3ab3 2 3ba3 2 3az3 6 3zb3 0 3ba3 2 3ab4 9 4bY3 4
+curv= -720 + 480 + 60 + 164 = -16 
++YXYXYXmabazbab[12,2(9|14)]{aba|abY}
+3YX3 10 3XY3 10 3YX3 10 3XY3 10 3YX3 10 3Xm3 0 3ma3 6 3ab4 7 4ba3 5 3az3 6 3zb3 0 3ba3 2 3ab4 7 4bY3 4
+curv= -720 + 480 + 60 + 174 = -6 
+
+# 3 vertices of degree >=4
+
+#du2 or du4 or du9 = 3
++YXYXYXmabazbab[11(1|6|7),3]{aba|abza1|abza2|abY}
+3YX0 10 XY 10 YX 10 XY 10 0YX3 10 3Xm3 0 3ma0 6 ab 7 ba 5 az 5 zb 5 ba 5 ab 7 0bY3 4
+curv= -720 + 440 + 90 + 188 = -2 
++YXYXYXmabazbab[11(1|6|9),3]{amX|abza1|abza2|abY}
+3YX0 10 XY 10 YX 10 XY 10 0YX3 10 3Xm0 3 ma 7 0ab3 2 3ba0 2 az 5 zb 5 ba 5 ab 7 0bY3 4
+curv= -720 + 440 + 90 + 180 = -10 
++YXYXYXmabazbab[11(1|6|14),3]{amX|aba|abza1|abza2}
+3YX0 10 XY 10 YX 10 XY 10 0YX3 10 3Xm0 3 ma 7 ab 7 ba 5 az 5 zb 5 ba 5 0ab3 2 3bY3 0
+curv= -720 + 440 + 90 + 178 = -12 
+
+#du2,du4 and du9 >=4
++YXYXYXmabazbab[11,3(7|9|14)]{abY}
+3YX3 10 3XY3 10 3YX3 10 3XY3 10 3YX3 10 3Xm4 7 4ma3 0 3ab4 9 4ba3 9 3az3 6 3zb3 0 3ba3 2 3ab4 7 4bY3 4
+curv= -720 + 440 + 90 + 188 = -2 
+
+############
+
+#6 xyxyxy BAlBZZAl (vertex disp = +5)
+
+############
+
+#4 vertices of degree >= 4
++xyxyxyBAlBZZAl[10,4]{abY|amb|bzz|amX}
+xy 10 yx 10 xy 10 yx 10 xy 10 yB 4 BA 7 Al 7 lB 3 BZ 7 ZZ 3 ZA 6 Al 7 lx 3
+curv= -720 + 400 + 120 + 194 = -6 
+
+#0 vertices of degree >=3
++xyxyxyBAlBZZAl[14]
+3xy3 10 3yx3 10 3xy3 10 3yx3 10 3xy3 10 3yB3 0 3BA3 2 3Al3 6 3lB3 0 3BZ3 0 3ZZ3 4 3ZA3 6 3Al3 6 3lx3 0
+curv= -720 + 560 + 148 = -12 
+
+# 1 vertex of degree >=4
+
+#du2 and du9=3
++xyxyxyBAlBZZAl[13(1|6|7|14),1]{amb|bzz}
+3xy0 10 yx 10 xy 10 yx 10 0xy3 10 3yB3 0 3BA0 2 Al 7 lB 3 BZ 7 ZZ 3 ZA 6 0Al3 6 3lx3 0
+curv= -720 + 520 + 30 + 168 = -2 
+
+#du2>=4 or du9>=4
++xyxyxyBAlBZZAl[13,1(7)]
+3xy3 10 3yx3 10 3xy3 10 3yx3 10 3xy3 10 3yB4 4 4BA3 9 3Al3 6 3lB3 0 3BZ3 0 3ZZ3 4 3ZA3 6 3Al3 6 3lx3 0
+curv= -720 + 520 + 30 + 170 = 0 
++xyxyxyBAlBZZAl[13,1(14)]
+3xy3 10 3yx3 10 3xy3 10 3yx3 10 3xy3 10 3yB3 0 3BA3 2 3Al3 6 3lB3 0 3BZ3 0 3ZZ3 4 3ZA3 6 3Al4 0 4lx3 7
+curv= -720 + 520 + 30 + 150 = -20 
+
+# 2 vertices of degree >= 4
+
+#du2 or du5=3
++xyxyxyBAlBZZAl[12(1|6|7),2]{amb|bzz|amX}
+3xy0 10 yx 10 xy 10 yx 10 0xy3 10 3yB3 0 3BA0 2 Al 7 lB 3 BZ 7 ZZ 3 ZA 6 Al 7 0lx3 3
+curv= -720 + 480 + 60 + 176 = -4 
++xyxyxyBAlBZZAl[12(1|6|10),2]{abY|amX}
+3xy0 10 yx 10 xy 10 yx 10 0xy3 10 3yB0 4 BA 7 Al 6 0lB3 0 3BZ0 0 ZZ 6 ZA 6 Al 7 0lx3 3
+curv= -720 + 480 + 60 + 178 = -2 
+
+#du2 and du5
++xyxyxyBAlBZZAl[12,2(7|10)]
+3xy3 10 3yx3 10 3xy3 10 3yx3 10 3xy3 10 3yB4 4 4BA3 9 3Al3 6 3lB4 1 4BZ3 1 3ZZ3 4 3ZA3 6 3Al3 6 3lx3 0
+curv= -720 + 480 + 60 + 174 = -6 
+
+# 3 vertices of degree >=4
+
+#du2 or du5 or du9 = 3
++xyxyxyBAlBZZAl[11(1|6|7),3]{amb}
+3xy0 10 yx 10 xy 10 yx 10 0xy3 10 3yB3 0 3BA0 2 Al 7 lB 3 BZ 7 ZZ 6 ZA 6 Al 6 0lx3 7
+curv= -720 + 440 + 90 + 188 = -2 
++xyxyxyBAlBZZAl[11(1|6|10),3]
+3xy0 10 yx 10 xy 10 yx 10 0xy3 10 3yB0 4 BA 9 Al 6 0lB3 0 3BZ0 0 ZZ 6 ZA 6 Al 6 0lx3 7
+curv= -720 + 440 + 90 + 188 = -2 
++xyxyxyBAlBZZAl[11(1|6|14),3]{abY|amb|bzz}
+3xy0 10 yx 10 xy 10 yx 10 0xy3 10 3yB0 4 BA 7 Al 7 lB 3 BZ 7 ZZ 3 ZA 6 0Al3 6 3lx3 0
+curv= -720 + 440 + 90 + 186 = -4 
+
+#du2,du5 and du9 >=4
++xyxyxyBAlBZZAl[11,3(7|10|14)]
+3xy3 10 3yx3 10 3xy3 10 3yx3 10 3xy3 10 3yB4 4 4BA3 9 3Al3 6 3lB4 1 4BZ3 1 3ZZ3 4 3ZA3 6 3Al4 0 4lx3 7
+curv= -720 + 440 + 90 + 176 = -14 
+
+############
+
+#7 YXYXYX mazbabab (vertex disp = +5)
+
+############
+
+#4 vertices of degree >= 4
++YXYXYXmazbabab[10,4]{amX|abza1|abza2|aba|abY}
+YX 10 XY 10 YX 10 XY 10 YX 10 Xm 3 ma 7 az 5 zb 5 ba 5 ab 7 ba 5 ab 7 bY 4
+curv= -720 + 400 + 120 + 196 = -4 
+
+#0 vertices of degree >=3
++YXYXYXmazbabab[14]
+3YX3 10 3XY3 10 3YX3 10 3XY3 10 3YX3 10 3Xm3 0 3ma3 6 3az3 6 3zb3 0 3ba3 2 3ab3 2 3ba3 2 3ab3 2 3bY3 0
+curv= -720 + 560 + 140 = -20 
+
+# 1 vertex of degree >=4
+
+#du7 and du9=3
++YXYXYXmazbabab[13(1|6|12|14),1]{amX|abza1|abza2}
+3YX0 10 XY 10 YX 10 XY 10 0YX3 10 3Xm0 3 ma 7 az 5 zb 5 ba 5 0ab3 2 3ba0 2 0ab3 2 3bY3 0
+curv= -720 + 520 + 30 + 162 = -8 
+
+#du7>=4 or du9>=4
++YXYXYXmazbabab[13,1(12)]
+3YX3 10 3XY3 10 3YX3 10 3XY3 10 3YX3 10 3Xm3 0 3ma3 6 3az3 6 3zb3 0 3ba3 2 3ab4 9 4ba3 9 3ab3 2 3bY3 0
+curv= -720 + 520 + 30 + 168 = -2 
++YXYXYXmazbabab[13,1(14)]
+3YX3 10 3XY3 10 3YX3 10 3XY3 10 3YX3 10 3Xm3 0 3ma3 6 3az3 6 3zb3 0 3ba3 2 3ab3 2 3ba3 2 3ab4 9 4bY3 4
+curv= -720 + 520 + 30 + 162 = -8 
+
+# 2 vertices of degree >= 4
+
+#du9=3
++YXYXYXmazbabab[12(1|6|14),2]{amX|abza1|abza2|aba}
+3YX0 10 XY 10 YX 10 XY 10 0YX3 10 3Xm0 3 ma 7 az 5 zb 5 ba 5 ab 7 ba 5 0ab3 2 3bY3 0
+curv= -720 + 480 + 60 + 178 = -2 
+
+#du2 and du7=3
++YXYXYXmazbabab[12(1|6|7|12),2]{abza1|abza2}
+3YX0 10 XY 10 YX 10 XY 10 0YX3 10 3Xm3 0 3ma0 6 az 5 zb 5 ba 5 0ab3 2 3ba0 2 ab 9 0bY3 4
+curv= -720 + 480 + 60 + 176 = -4 
+
+#du9 and du2>=4 or du9 and du7>=4
++YXYXYXmazbabab[12,2(14|7)]
+3YX3 10 3XY3 10 3YX3 10 3XY3 10 3YX3 10 3Xm4 7 4ma3 0 3az3 6 3zb3 0 3ba3 2 3ab3 2 3ba3 2 3ab4 9 4bY3 4
+curv= -720 + 480 + 60 + 164 = -16 
++YXYXYXmazbabab[12,2(14|12)]{aba|abY}
+3YX3 10 3XY3 10 3YX3 10 3XY3 10 3YX3 10 3Xm3 0 3ma3 6 3az3 6 3zb3 0 3ba3 2 3ab4 7 4ba3 5 3ab4 7 4bY3 4
+curv= -720 + 480 + 60 + 174 = -6 
+
+# 3 vertices of degree >=4
+
+#du2 or  du9 = 3
++YXYXYXmazbabab[11(1|6|7),3]{abza1|abza2|aba|abY}
+3YX0 10 XY 10 YX 10 XY 10 0YX3 10 3Xm3 0 3ma0 6 az 5 zb 5 ba 5 ab 7 ba 5 ab 7 0bY3 4
+curv= -720 + 440 + 90 + 188 = -2 
++YXYXYXmazbabab[11(1|6|14),3]{amX|abza1|abza2}
+3YX0 10 XY 10 YX 10 XY 10 0YX3 10 3Xm0 3 ma 7 az 5 zb 5 ba 5 ab 9 ba 9 0ab3 2 3bY3 0
+curv= -720 + 440 + 90 + 190 = 0 
+
+#du2,dun and du9 >=4 (n=3,4,5,6,7,8)
++YXYXYXmazbabab[11,3(7|8|14)]
+3YX3 10 3XY3 10 3YX3 10 3XY3 10 3YX3 10 3Xm4 7 4ma4 1 4az3 2 3zb3 0 3ba3 2 3ab3 2 3ba3 2 3ab4 9 4bY3 4
+curv= -720 + 440 + 90 + 158 = -32 
++YXYXYXmazbabab[11,3(7|9|14)]
+3YX3 10 3XY3 10 3YX3 10 3XY3 10 3YX3 10 3Xm4 7 4ma3 0 3az4 1 4zb3 0 3ba3 2 3ab3 2 3ba3 2 3ab4 9 4bY3 4
+curv= -720 + 440 + 90 + 154 = -36 
++YXYXYXmazbabab[11,3(7|10|14)]
+3YX3 10 3XY3 10 3YX3 10 3XY3 10 3YX3 10 3Xm4 7 4ma3 0 3az3 6 3zb4 1 4ba3 9 3ab3 2 3ba3 2 3ab4 9 4bY3 4
+curv= -720 + 440 + 90 + 180 = -10 
++YXYXYXmazbabab[11,3(7|11|14)]
+3YX3 10 3XY3 10 3YX3 10 3XY3 10 3YX3 10 3Xm4 7 4ma3 0 3az3 6 3zb3 0 3ba4 0 4ab3 0 3ba3 2 3ab4 9 4bY3 4
+curv= -720 + 440 + 90 + 156 = -34 
++YXYXYXmazbabab[11,3(7|12|14)]{abY}
+3YX3 10 3XY3 10 3YX3 10 3XY3 10 3YX3 10 3Xm4 7 4ma3 0 3az3 6 3zb3 0 3ba3 2 3ab4 9 4ba3 9 3ab4 7 4bY3 4
+curv= -720 + 440 + 90 + 188 = -2 
++YXYXYXmazbabab[11,3(7|13|14)]
+3YX3 10 3XY3 10 3YX3 10 3XY3 10 3YX3 10 3Xm4 7 4ma3 0 3az3 6 3zb3 0 3ba3 2 3ab3 2 3ba4 0 4ab4 5 4bY3 4
+curv= -720 + 440 + 90 + 152 = -38 
+
+############
+
+#8 YXYXYXYX mazzzbab (vertex disp = +7)
+
+############
+
+#4 vertices of degree >= 4
++YXYXYXYXmazzzbab[12,4]{amX|abzz1|abzz2|abY}
+YX 10 XY 10 YX 10 XY 10 YX 10 XY 10 YX 10 Xm 3 ma 7 az 6 zz 6 zz 5 zb 5 ba 5 ab 7 bY 4
+curv= -840 + 480 + 120 + 236 = -4 
+
+#0 vertices of degree >=3
++YXYXYXYXmazzzbab[16]
+3YX3 10 3XY3 10 3YX3 10 3XY3 10 3YX3 10 3XY3 10 3YX3 10 3Xm3 0 3ma3 6 3az3 6 3zz3 4 3zz3 4 3zb3 0 3ba3 2 3ab3 2 3bY3 0
+curv= -840 + 640 + 188 = -12 
+
+# 1 vertex of degree >=4
+
+#du7 and du9=3
++YXYXYXYXmazzzbab[15(1|8|14|16),1]
+3YX0 10 XY 10 YX 10 XY 10 YX 10 XY 10 0YX3 10 3Xm0 7 ma 6 az 6 zz 6 zz 6 0zb3 0 3ba0 2 0ab3 2 3bY3 0
+curv= -840 + 600 + 30 + 210 = 0 
+
+#du7>=4 or du9>=4
++YXYXYXYXmazzzbab[15,1(14)]
+3YX3 10 3XY3 10 3YX3 10 3XY3 10 3YX3 10 3XY3 10 3YX3 10 3Xm3 0 3ma3 6 3az3 6 3zz3 4 3zz3 4 3zb4 1 4ba3 9 3ab3 2 3bY3 0
+curv= -840 + 600 + 30 + 204 = -6 
++YXYXYXYXmazzzbab[15,1(16)]
+3YX3 10 3XY3 10 3YX3 10 3XY3 10 3YX3 10 3XY3 10 3YX3 10 3Xm3 0 3ma3 6 3az3 6 3zz3 4 3zz3 4 3zb3 0 3ba3 2 3ab4 9 4bY3 4
+curv= -840 + 600 + 30 + 210 = 0 
+
+# 2 vertices of degree >= 4
+
+#du2 and du7=3
++YXYXYXYXmazzzbab[14(1|8|9|14),2]
+3YX0 10 XY 10 YX 10 XY 10 YX 10 XY 10 0YX3 10 3Xm3 0 3ma0 6 az 6 zz 6 zz 6 0zb3 0 3ba0 2 ab 9 0bY3 4
+curv= -840 + 560 + 60 + 218 = -2 
+
+#du2 and du9=3
++YXYXYXYXmazzzbab[14(1|8|9|16),2]{abzz1|abzz2}
+3YX0 10 XY 10 YX 10 XY 10 YX 10 XY 10 0YX3 10 3Xm3 0 3ma0 6 az 6 zz 6 zz 5 zb 5 ba 5 0ab3 2 3bY3 0
+curv= -840 + 560 + 60 + 210 = -10 
+
+#du2 and du7 or du2 and du9 or du7 and du9 >=4
++YXYXYXYXmazzzbab[14,2(9|14)]
+3YX3 10 3XY3 10 3YX3 10 3XY3 10 3YX3 10 3XY3 10 3YX3 10 3Xm4 7 4ma3 0 3az3 6 3zz3 4 3zz3 4 3zb4 1 4ba3 9 3ab3 2 3bY3 0
+curv= -840 + 560 + 60 + 206 = -14 
++YXYXYXYXmazzzbab[14,2(9|16)]
+3YX3 10 3XY3 10 3YX3 10 3XY3 10 3YX3 10 3XY3 10 3YX3 10 3Xm4 7 4ma3 0 3az3 6 3zz3 4 3zz3 4 3zb3 0 3ba3 2 3ab4 9 4bY3 4
+curv= -840 + 560 + 60 + 212 = -8 
++YXYXYXYXmazzzbab[14,2(14|16)]{abY|abz}
+3YX3 10 3XY3 10 3YX3 10 3XY3 10 3YX3 10 3XY3 10 3YX3 10 3Xm3 0 3ma3 6 3az3 6 3zz3 4 3zz3 4 3zb4 1 4ba3 8 3ab4 7 4bY3 4
+curv= -840 + 560 + 60 + 220 = 0 
+
+# 3 vertices of degree >=4
+
+#du7 or  du9 = 3
++YXYXYXYXmazzzbab[13(1|8|14),3]{abY}
+3YX0 10 XY 10 YX 10 XY 10 YX 10 XY 10 0YX3 10 3Xm0 7 ma 6 az 6 zz 6 zz 6 0zb3 0 3ba0 2 ab 7 0bY3 4
+curv= -840 + 520 + 90 + 228 = -2 
++YXYXYXYXmazzzbab[13(1|8|16),3]{abzz1|abzz2}
+3YX0 10 XY 10 YX 10 XY 10 YX 10 XY 10 0YX3 10 3Xm0 7 ma 6 az 6 zz 6 zz 5 zb 5 ba 5 0ab3 2 3bY3 0
+curv= -840 + 520 + 90 + 224 = -6 
+
+#du2 and du4 = 3
++YXYXYXYXmazzzbab[13(1|8|9|11),3]{abzz1|abzz2}
+3YX0 10 XY 10 YX 10 XY 10 YX 10 XY 10 0YX3 10 3Xm3 0 3ma0 6 0az3 6 3zz0 4 zz 5 zb 5 ba 5 ab 9 0bY3 4
+curv= -840 + 520 + 90 + 228 = -2 
+
+#du7, du9  and du2>=4 or du7,du9 and du4>=4
++YXYXYXYXmazzzbab[13,3(14|16|9)]
+3YX3 10 3XY3 10 3YX3 10 3XY3 10 3YX3 10 3XY3 10 3YX3 10 3Xm4 7 4ma3 0 3az3 6 3zz3 4 3zz3 4 3zb4 1 4ba3 9 3ab4 9 4bY3 4
+curv= -840 + 520 + 90 + 228 = -2 
++YXYXYXYXmazzzbab[13,3(14|16|11)]
+3YX3 10 3XY3 10 3YX3 10 3XY3 10 3YX3 10 3XY3 10 3YX3 10 3Xm3 0 3ma3 6 3az4 1 4zz3 6 3zz3 4 3zb4 1 4ba3 9 3ab4 9 4bY3 4
+curv= -840 + 520 + 90 + 220 = -10 
