@@ -70,8 +70,7 @@ c=adbecad
 
 d=becadbe
 
-e=cadbeca
->
+e=cadbeca>
 
 where, the geometry of the van Kampen diagram 
 is determined solely by the number of so called 
