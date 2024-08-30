@@ -93,11 +93,11 @@ minimal as regards number of faces and maximal as
 regards number of vertices of degree 2.
 
 Then, using a complex averaging out of local 
-curvature of faces which results in a non-postive
+curvature of faces which results in a non-positive
 value being obtained,  a contradiction to 
 Eulers V-E+F=2 formula is arrived at if we suppose
-that a spherical picture or diagram satisfying these minimal and maximal 
-constraints exists.
+that a spherical picture or diagram satisfying these 
+minimal and maximal constraints exists.
 
 Demonstrating that the average local curvature of 
 faces is non-positive is equivalent to showing that 
