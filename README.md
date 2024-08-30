@@ -44,7 +44,7 @@ paper itself.
 The 'proof' is deemed correct if the program finishes
 without any error message being displayed.
 
-#Quick technical summary of proof.
+# Quick technical summary of proof.
 
 The Fibonacci groups F(7,5) and F(8,5) have the 
 same split extension with relative presentation  
