@@ -39,7 +39,12 @@ and then press 'enter'.
 
 The output refers to various sections of the paper
 and so can only be properly understood by reference to the 
-paper itself.
+paper itself. 
+
+However, I wrote this program based on a prepublished 
+version of the paper and the labelling of figures in
+the code no longer correspond to the figures in the
+published paper!! How annoying - sorry!
 
 The 'proof' is deemed correct if the program finishes
 without any error message being displayed.
