@@ -8,6 +8,8 @@ Trans. London Math. Soc. (2017) 4(1) 148–218,
 accessible online at
 
 https://londmathsoc.onlinelibrary.wiley.com/doi/pdf/10.1112/tlm3.12007
+or
+https://arxiv.org/abs/1708.01194
 
 Martin Edjvet and Arye Juhász determine various enumerations of 
 possible cases and curvature calculations to show that presentations of the 
